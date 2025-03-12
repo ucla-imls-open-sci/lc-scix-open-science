@@ -21,7 +21,7 @@ carpentry_description: 'Lesson Description'
 title: 'Science Explorer (SciX): Open Science Discovery Engine' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ 2025-03-12
+created: 2025-03-12
 
 # Comma-separated list of keywords for the lesson
 keywords: 'open science, SciX, FAIR, ORCID, lesson, The Carpentries' # FIXME
