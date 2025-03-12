@@ -8,7 +8,7 @@ Learners will evaluate whether they have accomplished each learning objective th
 
 This module developed using the Carpentries Workbench complements the commitment of SciX to developing open source software and resources. Other SciX materials are available through GitHub, Hugging Face, and our website. 
 
-::::::::::::::
+::::::::::::::prereq 
 
 ## Prerequisites
 
@@ -20,5 +20,4 @@ Learners should have the following skills/knowledge before starting this lesson:
 - General knowledge of scientific literature
 - Basic knowledge of astronomy, earth science, heliophysics, planetary science, and/or physics
 - Assess audience knowledge of ORCiD to determine if/where Episode 0 is necessary (see Set Up Instructions)
-
 ::::::::::::
