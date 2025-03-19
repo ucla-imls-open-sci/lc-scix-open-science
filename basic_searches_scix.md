@@ -62,8 +62,14 @@ SciX offers a help carousel on the main search page. Click the left/right arrows
 
 ![](fig/scix-author-search.png){alt="Screenshot of author search with 'shoemaker' entered"}
 
-**Challenge:**  
+
+:::: challenge 
+
+## Search by Author 
+
 Try searching for Gene Shoemaker on your own. How many results do you get? Discuss with your neighbor.
+
+::: 
 
 #### Keyword Search
 
@@ -72,8 +78,12 @@ Try searching for Gene Shoemaker on your own. How many results do you get? Discu
 
 ![](fig/scix-keyword-search.png){alt="Screenshot comparing keyword search with synonym expansion vs. exact search"}
 
-**Challenge:**  
+:::: challenge
+
+## Keyword Search
+
 Experiment with a keyword search both with and without the equal sign. What differences do you observe?
+::::
 
 ### Viewing and Refining Search Results
 
@@ -86,8 +96,13 @@ The results view shows:
 
 ![](fig/scix-results-view.png){alt="Screenshot of SciX results view with bibliometric details and icons"}
 
-**Callout:**  
+:::: challenge
+
+## Explore the Interface 
+
 Take a moment to identify the various icons. Which icon shows you the availability of open access versions?
+
+::::
 
 #### Refining Your Search
 
@@ -99,8 +114,12 @@ Use the facets on the left side to narrow down your results:
 
 ![](fig/scix-facets.png){alt="Screenshot of facet filters, showing author variants and date slider"}
 
-**Challenge:**  
+:::: challenge
+
+## Refine Author Search
+
 Refine your author search by selecting a specific variant and adjust the date range. What effect do these changes have on your results?
+:::: 
 
 ### Exploring the Abstract View
 
@@ -111,9 +130,13 @@ Click an article title to open the abstract view. Here, you can find:
 
 ![](fig/scix-abstract-view.png){alt="Screenshot of the abstract view in SciX showing additional resource links"}
 
+::: challenge
+
 **Challenge:**  
 Select an article and review its abstract view. What extra details can you find that weren't in the results view?
+::: 
 
+::: discussion
 ### Reflection and Discussion
 
 Take a few minutes to perform a search on a topic relevant to your work using both author and keyword searches. Then, discuss with a partner:
@@ -121,19 +144,17 @@ Take a few minutes to perform a search on a topic relevant to your work using bo
 - What did you search for?
 - Did you find relevant materials?
 - What aspects of the process were straightforward or challenging?
+:::
 
+:::: Challenge 
 **Bonus Challenge:**  
 Try exporting a citation from one of your articles. Explore the export options and compare different formats.
-
-
-
-
+::::: 
 
 
 ::: keypoints
-
-    SciX enables effective author and keyword searches with powerful synonym expansion.
-    Facet filters help narrow down results by author variants, institutional affiliation, and publication date.
-    The abstract view provides in-depth details and links to additional resources. 
+- SciX enables effective author and keyword searches with powerful synonym expansion.
+- Facet filters help narrow down results by author variants, institutional affiliation, and publication date.
+- The abstract view provides in-depth details and links to additional resources. 
 :::
 
