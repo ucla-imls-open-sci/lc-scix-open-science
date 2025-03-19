@@ -76,10 +76,13 @@ Try searching for Gene Shoemaker on your own. How many results do you get? Discu
 
 ::: 
 
+:::::: checklist
 #### Keyword Search
 
 1. Type a keyword (e.g., `crater`) into the search box. Notice that SciX expands your search with synonyms automatically.
 2. To search for an exact term, type `=crater` instead.
+
+:::::
 
 ![](fig/scix-keyword-search.png){alt="Screenshot comparing keyword search with synonym expansion vs. exact search"}
 
@@ -137,7 +140,8 @@ Click an article title to open the abstract view. Here, you can find:
 
 ::: challenge
 
-**Challenge:**  
+### Challenge
+
 Select an article and review its abstract view. What extra details can you find that weren't in the results view?
 ::: 
 
@@ -151,9 +155,11 @@ Take a few minutes to perform a search on a topic relevant to your work using bo
 - What aspects of the process were straightforward or challenging?
 :::
 
-:::: Challenge 
-**Bonus Challenge:**  
+:::: challenge 
+
+### Bonus Challenge
 Try exporting a citation from one of your articles. Explore the export options and compare different formats.
+
 ::::: 
 
 
