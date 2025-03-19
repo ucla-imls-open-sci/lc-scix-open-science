@@ -55,10 +55,15 @@ SciX offers a help carousel on the main search page. Click the left/right arrows
 
 ### Starting a Search
 
+:::: checklist
+
+
 #### Author Search
 
 1. In the search field, select **author** from the quick fields or dropdown.
 2. Type `"shoemaker"` (for example, for Gene Shoemaker) and click the blue magnifying glass.
+
+::::::
 
 ![](fig/scix-author-search.png){alt="Screenshot of author search with 'shoemaker' entered"}
 
