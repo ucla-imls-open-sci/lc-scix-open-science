@@ -82,8 +82,8 @@ Encourage a discussion on how open science can benefit your community or institu
 
 For the final 5 minutes, display prompts on the screen:
 
-    - How does SciX make research data more discoverable?
-    - In what ways does open access to metadata support open science?
+- How does SciX make research data more discoverable?
+- In what ways does open access to metadata support open science?
 
 Please share your thoughts with the class.
 
