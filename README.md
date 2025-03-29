@@ -4,7 +4,7 @@ This lesson provides a hands-on, interactive module for librarians covering FAIR
 
 ## Rendered Lesson
 
-You can view the rendered version of this lesson at: [https://your-lesson-rendered-url.org](https://your-lesson-rendered-url.org)
+You can view the rendered version of this lesson at: <http://ucla-imls-open-sci.info/lc-scix-open-science/>
 
 ## Contact Information
 
