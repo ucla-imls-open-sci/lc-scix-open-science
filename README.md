@@ -6,11 +6,10 @@ This lesson provides a hands-on, interactive module for librarians covering FAIR
 
 You can view the rendered version of this lesson at: <http://ucla-imls-open-sci.info/lc-scix-open-science/>
 
-## Contact Information
+## Maintainers: 
 
-For questions or feedback, please contact:
-- **Lesson Maintainer:** Your Name – [your-email@example.com]
-- **Community Mailing List:** [Link or instructions]
+- [Katie Frey](https://github.com/katieefrey)
+- [Jennifer Lynn Bartlett](https://github.com/BartlettAstro)
 
 ## Contributing
 
