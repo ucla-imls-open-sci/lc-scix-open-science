@@ -110,13 +110,13 @@ Break into small groups and spend 2-3 minutes individually with second order ope
 ### Connections & Collaborations
 Now, let's turn to examining SciX visualizations, and we are going to focus on the paper network and the author network because these two visualizations offer new ways to explore search results.
 
-![](fig/scix-volcanoes-search.png){alt="Screenshot of SciX search results on Volcanoes."}
+![](fig/scix-explore-menu2.png){alt="Screenshot of SciX search results on Volcanoes."}
 
 #### Paper Network
 
 This visualization creates groups of papers by looking at the references from each paper and grouping them based on how many are shared.  Since the papers in these groups cite a similar set of other papers, we can expect the papers in the group to be about the same topics.
 
-![](fig/scix-volcanoes-search.png){alt="Screenshot of SciX paper network visualization, showing the main topic groups for papers in the results set."}
+![](fig/scix-paper-network.png){alt="Screenshot of SciX paper network visualization, showing the main topic groups for papers in the results set."}
 
 Each group is named by extracting shared, unique words from the titles of the set of articles in the group.  This can help provide a general overview of the main topics of your original search results.  Clicking on any specific group will display a list of the most cited papers from that group.
 
@@ -124,7 +124,7 @@ Each group is named by extracting shared, unique words from the titles of the se
 
 This visualization is created by looking at authors that frequently appear together and creating groups based on the frequencies of those collaborations.  Each of these groups contain authors that often work with each other, though not every other in each group will have worked with every other author in their group.
 
-![](fig/scix-volcanoes-search.png){alt="Screenshot of SciX author network visualization, showing the main groups of authors for papers in the results set."}
+![](fig/scix-author-network.png){alt="Screenshot of SciX author network visualization, showing the main groups of authors for papers in the results set."}
 
 Clicking into the section group, the inside edge of the donut, will bring up the list of papers in that group.  Clicking on a specific name, or their specific section of the donut, will instead show all papers by that particular author.
 
