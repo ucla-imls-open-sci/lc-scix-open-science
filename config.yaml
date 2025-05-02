@@ -68,6 +68,7 @@ contact: 'team@carpentries.org' # FIXME
 episodes: 
 - scix-fair.md
 - basic_searches_scix.md
+- lit_explore_scix.md
 
 # Information for Learners
 learners: 
