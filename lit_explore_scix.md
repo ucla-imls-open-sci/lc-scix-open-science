@@ -43,17 +43,17 @@ Start by entering your terms into the main search bar and executing the search.
 
 ![](fig/scix-volcanoes-search.png){alt="Screenshot of SciX search results on Volcanoes."}
 
-Next, click on the Explore button menu to see all of the options, which are categorized under two headings: Visualizations and Operations. The options under “operations” are the second order operators.
+Next, click on the Explore button menu to see all of the options, which are categorized under two headings: Visualizations and Operations. The options under "operations" are the second order operators.
 
 ![](fig/scix-explore-menu.png){alt="Screenshot of the Explore menu from SciX search results."}
 
 #### Similar
 
-First let's look at the “Similar” operator.
+First let's look at the "Similar" operator.
 
-Results from this second operator query excludes the results from the original query, so it is best to focus on creating a narrow set of results, or even a single relevant paper, to build off in the “similar” search, so look through the results and select one to three papers most relevant for your topic.  I’ll select just the first article using the checkbox and click on “Similar” under the Explore menu.
+Results from this second operator query excludes the results from the original query, so it is best to focus on creating a narrow set of results, or even a single relevant paper, to build off in the "similar" search, so look through the results and select one to three papers most relevant for your topic.  I'll select just the first article using the checkbox and click on "Similar" under the Explore menu.
 
-It may take a little while for the results from the second order operator to load up.  In the background NASA’s Science Explorer is combining the abstracts from articles in the original selection and then ranking all abstracts in SciX based on their textual similarity to the combined abstracts.  The articles returned are the most similar to those from the original selection as determined by text analysis.
+It may take a little while for the results from the second order operator to load up.  In the background NASA's Science Explorer is combining the abstracts from articles in the original selection and then ranking all abstracts in SciX based on their textual similarity to the combined abstracts.  The articles returned are the most similar to those from the original selection as determined by text analysis.
 
 ![](fig/scix-similar.png){alt="Screenshot results that are similar to one of the results from the original Volcanoes search results."}
 
@@ -63,11 +63,11 @@ The SciX documentation about the Similar second order query shows just how power
 similar("weak lensing" -entdate:[NOW-7DAYS TO *]) entdate:[NOW-7DAYS TO *] bibstem:"arXiv"
 ```
 
-returns a list of arXiv papers made available during the last week that are textually similar to papers published before 7 days ago about “weak lensing”. Since the Similar operator excludes results returned by the original query, they used separate date ranges in the first-order query and the outer query in order to force the queries to be different.
+returns a list of arXiv papers made available during the last week that are textually similar to papers published before 7 days ago about "weak lensing". Since the Similar operator excludes results returned by the original query, they used separate date ranges in the first-order query and the outer query in order to force the queries to be different.
 
 #### Trending
 
-The next second-order operator we’re going to discuss is called “trending,” and it returns a list of papers currently popular among people who read the topic of the initial query, and this list is sorted by which papers were read the most.  You can select a specific paper, or set of papers, to seed your trend analysis via the Explore menu, or directly query trending for a specific topic in the main search bar.  For example:
+The next second-order operator we're going to discuss is called "trending," and it returns a list of papers currently popular among people who read the topic of the initial query, and this list is sorted by which papers were read the most.  You can select a specific paper, or set of papers, to seed your trend analysis via the Explore menu, or directly query trending for a specific topic in the main search bar.  For example:
 
 ```
 trending(volcanoes)
@@ -79,13 +79,13 @@ returns the most popular papers among people who have read the large number of p
 
 #### Useful
 
-The second order operator “useful” examines the references included in papers the original query, and combines them into a list sorted by how often a given paper is referenced in the original set.  The documents returned are the one found most useful, the one cited the most often, by the authors of relevant papers on the topic.  This can be useful for exposing papers in different, but related fields, such as papers that describe software papers that researchers found useful when exploring their topic.
+The second order operator "useful" examines the references included in papers the original query, and combines them into a list sorted by how often a given paper is referenced in the original set.  The documents returned are the one found most useful, the one cited the most often, by the authors of relevant papers on the topic.  This can be useful for exposing papers in different, but related fields, such as papers that describe software papers that researchers found useful when exploring their topic.
 
 ![](fig/scix-useful.png){alt="Screenshot of SciX results about volcanoes that are useful."}
 
 #### Reviews
 
-The last second order operator offered by SciX is “Reviews.”  This operator collects the list of papers that cite the papers in the original query and sorts them by how frequently each paper appears.  You can think of these papers as being the most relevant papers on the topic originally being researched, they contain the most extensive reviews of the field.
+The last second order operator offered by SciX is "Reviews."  This operator collects the list of papers that cite the papers in the original query and sorts them by how frequently each paper appears.  You can think of these papers as being the most relevant papers on the topic originally being researched, they contain the most extensive reviews of the field.
 
 ![](fig/scix-reviews.png){alt="Screenshot of SciX results that are reviews on literature about volcanoes."}
 
