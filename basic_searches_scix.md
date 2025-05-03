@@ -44,16 +44,20 @@ On your first visit, select your preferred discipline from the dropdown menu in 
 
 **Note:** This step customizes your search tools but does not limit your overall search.
 
-![](fig/scix-discipline-dropdown.png){alt="Screenshot of discipline selection on SciX (e.g., Planetary Science)"}
+![](fig/scix-select-discipline.png){alt="Screenshot of discipline selection on SciX (e.g., Planetary Science)"}
 
 
 ### Quick Help & Navigation
 
-SciX offers a help carousel on the main search page. Click the left/right arrows to view introductory resources, including a quick start guide and search examples. For more detailed assistance, click the "Help" button in the upper right.
+SciX offers a help carousel on the main search page. Click the left/right arrows to view introductory resources, 
+including a quick start guide and search examples. For more detailed assistance, click the "Help" button in 
+the upper right.
 
-![](fig/scix-help-carousel.png){alt="Screenshot of SciX help carousel and Help button"}
+![](fig/scix-help.png){alt="Screenshot of SciX help carousel and Help button"}
 
 ### Starting a Search
+
+![](fig/starting-search.png)
 
 :::: checklist
 
@@ -65,7 +69,7 @@ SciX offers a help carousel on the main search page. Click the left/right arrows
 
 ::::::
 
-![](fig/scix-author-search.png){alt="Screenshot of author search with 'shoemaker' entered"}
+![](fig/starting-author-search.png){alt="Screenshot of author search with 'shoemaker' entered"}
 
 
 :::: challenge 
