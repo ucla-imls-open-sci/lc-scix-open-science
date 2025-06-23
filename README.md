@@ -22,7 +22,12 @@ For more details on how to contribute, please see our [CONTRIBUTING.md](CONTRIBU
 
 ## Credits and Acknowledgements
 
-This lesson was developed by Your Name and is maintained by the Library Carpentry community. Special thanks to all contributors and reviewers who have helped shape this lesson. For a full list of contributors, please see [AUTHORS.md](AUTHORS.md).
+This lesson was developed by  
+- [Katie Frey](https://github.com/katieefrey)
+- [Jennifer Lynn Bartlett](https://github.com/BartlettAstro)
+- [Tim Dennis](https://github.com/jt14den)
+
+Your Name and is maintained by the Library Carpentry community. Special thanks to all contributors and reviewers who have helped shape this lesson. For a full list of contributors, please see [AUTHORS.md](AUTHORS.md).
 
 ## Citation
 
