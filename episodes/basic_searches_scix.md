@@ -130,7 +130,7 @@ or citations, and data.
 As an open science digital library, SciX is also concerned with ensuring
 you can access the papers, data, and software that you want.
 
-![Article results view in SciX with annotation of paper, data and software](fig/article-results-view2.png){alt='Annotated results view showing icons for open access papers, data links, and related software'}
+![Article results view in SciX with callouts showing resources available if paper, references or citations, or data icons are clicked](fig/article-results-view2.png){alt='Results view with callouts showing what is available when paper, references or citations, or data icons are clicked'}
 
 Looking at the list of results as a whole, I see some interesting
 articles with an author named “Shoemaker” but perhaps not immediately,
@@ -151,7 +151,7 @@ This helps narrow your results to the specific individual you're interested in.
 
 ### Refine by Institutional Affiliation
 
-You can further narrow your search results using the **Institutional Affiliation** facet.
+You can further narrow your search results using the **Institutions** facet.
 
 For example, if your target author worked at Lowell Observatory, you can:
 
@@ -160,7 +160,7 @@ For example, if your target author worked at Lowell Observatory, you can:
 
 This is especially useful when multiple authors share similar names but work at different institutions.
 
-![Institutional Affiliation facet in SciX](fig/refine-by-institution.png){alt='SciX sidebar facet showing a list of institutions such as Lowell Observatory with checkboxes to include or exclude them from results'}
+![Institutions facet in SciX](fig/refine-by-institution.png){alt='SciX sidebar facet showing a list of institutions such as Lowell Observatory with checkboxes to include or exclude them from results'}
 
 ### Refine by Date
 
