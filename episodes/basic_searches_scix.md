@@ -25,17 +25,20 @@ editor_options:
 
 ## Basic Searches in SciX
 
-Once you've logged into SciX, you're ready to explore its search
+Once you've accessed the SciX main page, you're ready to explore its search
 capabilities. In this episode, we'll cover both author and keyword
 searches, then show you how to refine your results.
 
 ::: instructor
 You might mention the kinds of searches you commonly perform in SciX (e.g., finding articles for your domain or checking citation metrics).
+The guided examples will be more meaningful if you modify them for your discpline or facility.
+- Who is an author your learners would know?
+- What is a topic in which your learners would be interested?
 :::
 
 ## Setting Up Your Environment
 
-When you open SciX, ensure you can see the homepage.
+When you navigate to SciX, ensure you can see the homepage.  The SciX address is [scixplorer.org](https://scixplorer.org/)
 
 ![Screenshot of the SciX homepage](fig/scix-homepage.png){alt='Screenshot of the SciX homepage showing the main search bar and navigation options'}
 
