@@ -10,12 +10,14 @@ You will evaluate whether you have accomplished each learning objective through 
 
 ## Prerequisites
 
-Learners should have the following skills/knowledge before starting this lesson:
+You should have the following skills/knowledge before starting this lesson:
 
 - Comfortable with keyboard and mouse, general computer usage
 - General internet/website usage
 - Comfortable with basic internet search techniques
 - General knowledge of scientific literature
 - Basic knowledge of astronomy, earth science, heliophysics, planetary science, and/or physics
-- Assess audience knowledge of ORCiD to determine if/where Episode 0 is necessary (see Set Up Instructions)
+
+If you do not have an ORCiD, you should consider (obtaining one)[https://orcid.org/] before beginning (SciX and ORCiD)[https://ucla-imls-open-sci.info/lc-scix-open-science/orcid_scix.html]. However, doing so is optional.
+
 ::::::::::::
