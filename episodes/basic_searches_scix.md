@@ -9,7 +9,7 @@ editor_options:
 
 ::: questions
 - How do you find an article by a specific author?
-- How do you find articles about a topic like craters?
+- How do you find articles about a specific topic?
 - What other types of resources can you discover besides articles?
 :::
 
@@ -21,7 +21,6 @@ editor_options:
 - Follow links from the abstract page to access resources such as the
   open access version of the article, related software, and associated
   datasets
-- Apply consistent naming conventions to project documents
 :::
 
 ## Basic Searches in SciX
