@@ -76,13 +76,13 @@ ensuring that literature, data, and software are findable or
 discoverable. So, let’s find some relevant papers. Author searches are
 among the most common performed in SciX.
 
-![Main search field highlighted on the SciX homepage](fig/starting-search.png){alt='Highlighted search bar on the SciX homepage for entering search terms'}
+![Main search bar highlighted on the SciX homepage](fig/starting-search.png){alt='Highlighted search bar on the SciX homepage for entering search terms'}
 
 ::: challenge
 If you select author from either the quick fields or the dropdown menu,
 SciX will add the field to the search bar.
 
-![Starting an author](fig/starting-author-search.png){alt='Author field selected in the SciX search bar'}
+![Starting an author search](fig/starting-author-search.png){alt='Author field selected in the SciX search bar'}
 
 ## Author Search
 
@@ -90,6 +90,10 @@ SciX will add the field to the search bar.
    dropdown.
 2. Type `"shoemaker"` (for example, for Gene Shoemaker) and click the
    blue magnifying glass.
+:::
+
+::: instructor
+Learners can just type names and phrases into the search bar. However, they will have greater control over structured searches using fields like shown here than unfielded searches.
 :::
 
 ::: solution
@@ -105,8 +109,10 @@ get? Discuss with your neighbor.
 ::: solution
 ![Results for Gene Shoemaker](fig/results-view-shoemaker.png){alt='Search results view showing 2,560 items for "Shoemaker"'}
 
-Author:”shoemaker” returns 2,560 results as you can see in the upper
-left. The results are sorted by relevance and are in descending order.
+Author:”shoemaker” returned 2,560 results when this example was run as you can see in the upper
+left; because SciX adds new material on daily and weekly cycles you may see a different count. 
+
+The results are sorted by relevance and are in descending order.
 You can change the sorting criterion by using the dropdown menu to
 select: date, author count, citation count, entry date, first author,
 normalized citation count, or read count. Click the button next to the
