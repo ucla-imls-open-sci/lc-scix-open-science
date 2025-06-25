@@ -238,53 +238,32 @@ What differences do you observe? Discuss your experiences with a partner
 As time allows, encourage learners to share their expectations and experiences with expanded and exact searches.
 :::
 
-### Using Field-Specific Searches
-
-You can target your search to specific parts of an article by using field
-prefixes. These are especially useful when you're looking for a term in just
-one section (e.g., the title) or want to exclude it from another (e.g., the body).
-
-Common field-specific prefixes in SciX include:
-
-- `keyword:` — author- or publisher-provided keywords
-- `abs:` — title, abstract, and keywords
-- `abstract:` — abstract text only
-- `title:` — title only
-- `body:` — article body only
-- `ack:` — acknowledgments only
-- `full:` — full text of the article
-
-You can also use Boolean operators (`AND`, `OR`, `NOT`) to combine or exclude terms.
-
-For example:
-
-```text
-abs:(crater AND mars) NOT body:jezero
-```
-
-This finds articles that mention crater and Mars in the title, abstract, or keywords,
-but **exclude** any that mention Jezero in the body text.
-
-![Field-specific keyword search syntax](fig/scix-field-specific-search.png){alt='SciX search bar showing field-specific search using abs:(crater AND mars) NOT body:jezero'}
-
-### Narrowing Results Using Keyword Facets
+### Narrowing Results Using Keyword Facet
 
 After running a keyword search, you can refine your results using the
-**Provided Keywords** facet in the sidebar. These keywords come from
-authors or publishers and are listed in order of frequency.
+**Keywords** facet in the sidebar. Authors or publisheres provided these keywords, 
+which are listed in order of frequency with in your results.
 
 You can:
 
-- Click a keyword to include it in your search
-- Use the three-dot icon (`...`) to browse the full list of keywords
+- Choose to **limit to preferred keywords** or **exclude undesired ones**
+- Click the upward arrow in the lower right corner of the facet to browse the full list of keywords
+
+![SciX Keywords facet for search refinement](fig/scix-keyword-facet){alt='SciX results view with Keywords facet open and arrow to access enhanced search panel highlighted'}
+
 - Sort keywords by frequency or alphabetically
 - Search for a specific keyword or partial match
-- Choose to **limit to preferred keywords** or **exclude undesired ones**
+- Download keywords for use outside of SciX
+
+![SciX Keywords facet search panel showing search for terms begining with 'sh'](fig/scix-keyword-facet-search.png){alt='SciX Keywords facet search panel with results of search for keywords begining with 'sh' sorted by frequency'}
 
 This is especially useful when you're trying to focus on a specific subtopic
 or filter out irrelevant results.
 
-![Keyword facet panel in SciX showing provided keywords](fig/scix-keyword-facet.png){alt='Sidebar view in SciX showing list of provided keywords with sort and filter options'}
+::: instructor
+Keyword searches are complicated because publishers use different keyword systems, which can also change over time. The keyword_schema field identifies the system where known. 
+Authors who want their papers to be discovered (and cited) might want to give some additional attention to the keywords they suggest for their papers.
+:::
 
 ### Filtering by Refereed Status
 
@@ -323,6 +302,37 @@ This is particularly helpful when your search returns a mix of source types
 and you're only interested in peer-reviewed articles or long-form research.
 
 ![Publication type facet filter in SciX](fig/scix-publication-type.png){alt='Sidebar in SciX showing checkboxes for filtering by publication type such as journal, dissertation, or report'}
+
+
+### Using Field-Specific Searches
+
+You can target your search to specific parts of an article by using field
+prefixes. These are especially useful when you're looking for a term in just
+one section (e.g., the title) or want to exclude it from another (e.g., the body).
+
+Common field-specific prefixes in SciX include:
+
+- `keyword:` — author- or publisher-provided keywords
+- `abs:` — title, abstract, and keywords
+- `abstract:` — abstract text only
+- `title:` — title only
+- `body:` — article body only
+- `ack:` — acknowledgments only
+- `full:` — full text of the article
+
+You can also use Boolean operators (`AND`, `OR`, `NOT`) to combine or exclude terms.
+
+For example:
+
+```text
+abs:(crater AND mars) NOT body:jezero
+```
+
+This finds articles that mention crater and Mars in the title, abstract, or keywords,
+but **exclude** any that mention Jezero in the body text.
+
+![Field-specific keyword search syntax](fig/scix-field-specific-search.png){alt='SciX search bar showing field-specific search using abs:(crater AND mars) NOT body:jezero'}
+
 
 
 ## Exploring the Abstract View
