@@ -211,7 +211,32 @@ sign: `=crater`.
 This exact-match feature is helpful when you're targeting highly specific
 terms or avoiding irrelevant results.
 
-![Keyword search with synonym expansion enabled and disabled](fig/scix-crater-synonyms.png){alt='Screenshot showing difference between a keyword search for crater and an exact match search using =crater'}
+::: challenge
+## Keyword Search
+
+Return to the SciX main search page. Execute an exact keyword search for 'crater'. 
+
+::: solution
+
+![Exact keyword search for crater (synonym expansion disabled](fig/scix-keyword-crater-exact.png){alt='SciX results view of search for exact match keyword crater'}
+
+=keyword:”crater” returned 2,329 results when this example was run as you can see in the upper
+left; because SciX adds new material on daily and weekly cycles you may see a different count. 
+
+With exnonym expansaion disabled, fewer results are returned. However, those precise results may be just what you need.
+:::
+:::
+
+::: challenge
+## Keyword Search
+
+Experiment with an author or keyword search, both with and without the equal sign.
+What differences do you observe? Discuss your experiences with a partner
+:::
+
+::: instructor
+As time allows, encourage learners to share their expectations and experiences with expanded and exact searches.
+:::
 
 ### Using Field-Specific Searches
 
