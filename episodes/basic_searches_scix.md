@@ -353,21 +353,24 @@ and you're only interested in peer-reviewed articles or long-form research. It c
 Publication Type refers to the type of document.  SciX has a separate field and facet to search and filter by journal or publisher.  By now, learners should be comfortable using the main search page 'all search terms' dropdown menu to locate the 'Publication Full Name' search or used the Publications facet. 
 :::
 
-### Using Field-Specific Searches
+### Searching Text 
 
-You can target your search to specific parts of an article by using field
-prefixes. These are especially useful when you're looking for a term in just
+You can target your search to specific parts of an article by using the corresponding field
+search. These are especially useful when you're looking for a term in just
 one section (e.g., the title) or want to exclude it from another (e.g., the body).
 
-Common field-specific prefixes in SciX include:
+Common text field searches in SciX include:
 
-- `keyword:` — author- or publisher-provided keywords
-- `abs:` — title, abstract, and keywords
 - `abstract:` — abstract text only
 - `title:` — title only
 - `body:` — article body only
 - `ack:` — acknowledgments only
 - `full:` — full text of the article
+
+in addition, to our old friends 
+
+- `keyword:` — author- or publisher-provided keywords
+- `abs:` — title, abstract, and keywords
 
 You can also use Boolean operators (`AND`, `OR`, `NOT`) to combine or exclude terms.
 
@@ -380,13 +383,20 @@ abs:(crater AND mars) NOT body:jezero
 This finds articles that mention crater and Mars in the title, abstract, or keywords,
 but **exclude** any that mention Jezero in the body text.
 
-![Field-specific keyword search syntax](fig/scix-field-specific-search.png){alt='SciX search bar showing field-specific search using abs:(crater AND mars) NOT body:jezero'}
+![SciX results view for complex search of article text](fig/scix-field-specific-search.png){alt='SciX results from complex search shwon in bar as 'abs:(crater AND mars) NOT body:jezero'}
 
+::: challenge
+Return to the SciX main search page. Construct a query that either includes or excludes text from the acknowledgements section.
+Share your results with a neighbor.
+:::
 
+::: instructor
+If time permits, encourage the learners to share their searches with the class. Ask why they might search other text fields.
+:::
 
 ## Exploring the Abstract View
 
-Click an article title to open the abstract view. Here, you can find:
+From any list of results, click an article title of interest to open the abstract view. Here, you can find:
 
 - Detailed bibliographic information (title, authors, publication
   details)
