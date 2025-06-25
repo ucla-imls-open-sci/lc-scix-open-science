@@ -162,6 +162,10 @@ This is especially useful when multiple authors share similar names but work at 
 
 ![Institutions facet in SciX](fig/refine-by-institution.png){alt='SciX sidebar facet showing a list of institutions such as Lowell Observatory with checkboxes to include or exclude them from results'}
 
+::: instructor
+SciX also has an affiliation (aff:) field search that searches the exact affiliation text provided by the author or publisher.  The Institution facet uses a SciX standardized abbreviation and is similar to the institution (inst) field search. Some institutions listed in the facet can be opened to identify authors with individual departments. Learners asking detailed questions about this feature should be encouraged to read the SciX [blog post about it](https://scixplorer.org/scixblog/affils-update). 
+:::
+
 ### Refine by Date
 
 You can also adjust the **date range** of your results using the slider in the left sidebar.
