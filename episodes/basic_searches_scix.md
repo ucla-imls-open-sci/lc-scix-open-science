@@ -295,19 +295,23 @@ By searching more fields, an abs search will produce more results than just sear
 ### Filtering by Refereed Status
 
 SciX allows you to filter your search results based on whether a paper is
-**refereed** (peer-reviewed) or **non-refereed**.
+**refereed** (peer-reviewed) or **non-refereed** (everything else).
 
 You can find this option in the **Refereed** facet in the sidebar. It's useful
-if you're looking only for peer-reviewed journal articles or want to include
-other materials like conference proceedings or dissertations.
+if you're looking only for peer-reviewed journal articles or want to ensure you see 
+other materials like conference proceedings or technical reports.
 
-**Note:** SciX considers dissertations to be refereed. Most conference
+**Note:** SciX considers dissertations to be refereed. Most, but not all, conference
 abstracts and proceedings are categorized as non-refereed.
 
-- Select "Refereed" to limit results to peer-reviewed works
-- Select "Not Refereed" to explore grey literature, preprints, or early drafts
+- "Refereed" includes only peer-reviewed works
+- "Not Refereed" includes the grey literature, preprints, or white papers
 
-![Refereed filter option in SciX sidebar](fig/scix-refereed-filter.png){alt='Facet panel in SciX showing checkbox filters for refereed and non-refereed papers'}
+If you want only "Refereed" papers, you can either
+- **Limit** to "Refereed" papers
+- **Exclude** "Not Refereed" items
+
+![SciX Refereed facet in results sidebar](fig/scix-refereed-filter.png){alt='SciX results view including Refereed facet panel with checkboxes refereed and non-refereed papers'}
 
 ### Filtering by Publication Type
 
