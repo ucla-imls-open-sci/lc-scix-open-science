@@ -313,6 +313,12 @@ If you want only "Refereed" papers, you can either
 
 ![SciX Refereed facet in results sidebar](fig/scix-refereed-filter.png){alt='SciX results view including Refereed facet panel with checkboxes refereed and non-refereed papers'}
 
+::: instructor
+SciX welcomes submission of missing gray literature and disserations.  Learners can use the Missing/Incorrect option on the Feedback dropdown menu to submit articles.
+SciX considers the dissertation defense a reviewing process. Not everyone would agree on this characterization.
+SciX evaluates conferences individually to determine whether their abstracts and proceedings should be considered refereed or non-refereed.
+:::
+
 ### Filtering by Publication Type
 
 You can also filter your results by **Publication Type**, helping you
