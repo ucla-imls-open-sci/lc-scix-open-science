@@ -223,7 +223,7 @@ Return to the SciX main search page. Execute an exact keyword search for 'crater
 =keyword:”crater” returned 2,329 results when this example was run as you can see in the upper
 left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 
-With exnonym expansaion disabled, fewer results are returned. However, those precise results may be just what you need.
+With synonym expansaion disabled, fewer results are returned. However, those precise results may be just what you need.
 :::
 :::
 
@@ -263,6 +263,33 @@ or filter out irrelevant results.
 ::: instructor
 Keyword searches are complicated because publishers use different keyword systems, which can also change over time. The keyword_schema field identifies the system where known. 
 Authors who want their papers to be discovered (and cited) might want to give some additional attention to the keywords they suggest for their papers.
+:::
+
+### Powering Up Your Keyword Search
+
+You can expand the places SciX looks for your keyword by using an abs search. Using the abs prefix will search
+
+- title
+- keywords, provided by author or publisher
+- abstract
+
+The presence of your keyword in the abstract is a better indicator of its significance within the paper as a whole than a passing mention in the full text. This "balanced" search is the most common topical search in SciX.
+
+::: instructor
+'abs' is short for "abstract' but an 'abstract' only is also possible as is a full-text search. Both of these are mentioned briefly later in the module. 
+:::
+
+::: challenge
+Return to the main menu. Use the 'all search terms' dropdown menu to start an 'abs' search for 'crater'.
+
+:::: solution
+![SciX Results view showing search panel for abs:crater](fig/scix-abs-crater.png){alt='SciX results view from abs:crater search'} 
+
+abs:”crater” returned 53,647 results when this example was run as you can see in the upper
+left; because SciX adds new material on daily and weekly cycles you may see a different count. 
+
+By searching more fields, an abs search will produce more results than just searching the keywords field alone. 
+::::
 :::
 
 ### Filtering by Refereed Status
