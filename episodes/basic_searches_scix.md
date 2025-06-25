@@ -329,17 +329,29 @@ focus on specific formats such as:
 - Dissertations
 - Conference papers
 - Technical reports
+- Dataset
+- Software
 
 Use the **Publication Type** facet in the sidebar to:
 
-- Limit results to your preferred document types
-- Exclude formats that aren't relevant to your research
+- **Limit** results to your preferred document types
+- **Exclude** formats that aren't relevant to your research
+
+![SciX Publication Type facet grouped by article and non-article](fig/scix-publication-type.png){alt='SciX Results View with Publication Type facet open displaying article and non-article types available'}
+
+Within the facet, Publication Types are grouped by article (journal article, proceedings article, book chapter ....) or non-article (PhD thesis, editorial, book...)
+
+Like the Keywords facet, clicking the upper arrow at the lower right of a long list in the Publication Type facet opens window where you can
+
+- Sort keywords by types by frequency or alphabetically
+- Search for a specific type or partial match
 
 This is particularly helpful when your search returns a mix of source types
-and you're only interested in peer-reviewed articles or long-form research.
+and you're only interested in peer-reviewed articles or long-form research. It can also help you identify specialized resources like data and software.
 
-![Publication type facet filter in SciX](fig/scix-publication-type.png){alt='Sidebar in SciX showing checkboxes for filtering by publication type such as journal, dissertation, or report'}
-
+::: instructor
+Publication Type refers to the type of document.  SciX has a separate field and facet to search and filter by journal or publisher.  By now, learners should be comfortable using the main search page 'all search terms' dropdown menu to locate the 'Publication Full Name' search or used the Publications facet. 
+:::
 
 ### Using Field-Specific Searches
 
