@@ -412,19 +412,19 @@ Along the left side, you will see
 
 SciX matches preprints to the publisher's version of record and provides a single consolidated view of these versions.
 
-![SciX main abstract view annotated to show bibliographic information plus links to open access versions and datasets](fig/scix-abstract-view-1.png){alt='SciX main abstract page showing detailed metadata and icons for open access versions and datasets; image is annotated to highlight features'}
+![SciX main abstract view annotated to show bibliographic information plus links to open access versions and datasets](fig/scix-abstract-view-1.PNG){alt='SciX main abstract page showing detailed metadata and icons for open access versions and datasets; image is annotated to highlight features'}
 
 Clicking the links on the left side for citations, references, or similar, produces the list of corresponding papers with all of their details.  Those lists can be converted to search results for further investigation.
 
-![Citation list available in SciX abstract view](fig/scix-abstract-view-2.png){alt='List of papers cited by main paper shown from within SciX abstract view with basic metadata plus annotatons highlighting features of this view'}
+![Citation list available in SciX abstract view](fig/scix-abstract-view-2.PNG){alt='List of papers cited by main paper shown from within SciX abstract view with basic metadata plus annotatons highlighting features of this view'}
 
 Clicking the links on the left side for metrics produces a graphical display of the citations to the paper over time. The citataion data can be downloaded.
 
-![Metric data visualized within SciX abstract view](fig/scix-abstract-view-3.png){alt='Bar graph and numerical citation data for the paper shown from within SciX abstract view plus annotatons highlighting features of this view'}
+![Metric data visualized within SciX abstract view](fig/scix-abstract-view-3.PNG){alt='Bar graph and numerical citation data for the paper shown from within SciX abstract view plus annotatons highlighting features of this view'}
 
 Clicking the links on the left side for export citation provides access to a variety of citation formats that can be downloaded to a file or copied to the clipboard.
 
-![Export citation tools available within SciX abstract view](fig/scix-abstract-view-4.png){alt='Export citation tools showcasing BibteX option available from within SciX abstract view plus annotatons highlighting features of this view'}
+![Export citation tools available within SciX abstract view](fig/scix-abstract-view-4.PNG){alt='Export citation tools showcasing BibteX option available from within SciX abstract view plus annotatons highlighting features of this view'}
 
 ::: instructor
 Most publisher formats for SciX supported disciplines are supported. If we are missing one, custom formats are possible. However, SciX encourages learners to recommend missing formats for inclusion.
