@@ -21,7 +21,7 @@ editor_options:
 - Follow links from the abstract page to access resources such as the
   open access version of the article, related software, and associated
   datasets
-:::
+
 
 ## Basic Searches in SciX
 
@@ -90,7 +90,7 @@ SciX will add the field to the search bar.
    dropdown.
 2. Type `"shoemaker"` (for example, for Gene Shoemaker) and click the
    blue magnifying glass.
-:::
+
 
 ::: instructor
 Learners can just type names and phrases into the search bar. However, they will have greater control over structured searches using fields like shown here than unfielded searches.
@@ -98,6 +98,7 @@ Learners can just type names and phrases into the search bar. However, they will
 
 ::: solution
 ![Searching on author name Shoemaker](fig/add-author-name-search.png){alt='Search results initiated for author name "Shoemaker"'}
+:::
 :::
 
 :::: challenge
@@ -182,7 +183,7 @@ Use this if you're researching a specific publication window or want to filter o
 
 Return to the SciX main search page. Use the "all search terms" dropdown menu to start a keyword search for 'crater.' 
 ![SciX main search page showing hover over search term help](fig/scix-allsearchterms.png){alt='SciX main search terms with "all search terms" menu extended; abs search is highlighted and explained'}
-:::
+
 
 ::: solution
 ![Results for Keyword crater](fig/scix-keyword-crater.png){alt='SciX results view showing 8,901 items for "Crater"'}
@@ -190,6 +191,7 @@ Return to the SciX main search page. Use the "all search terms" dropdown menu to
 keyword:”crater” returned 8,901 results when this example was run as you can see in the upper
 left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 ::::
+:::
 
 ### Understanding SciX Synonym Expansion
 
@@ -290,7 +292,7 @@ left; because SciX adds new material on daily and weekly cycles you may see a di
 
 By searching more fields, an abs search will produce more results than just searching the keywords field alone. 
 ::::
-:::
+::::
 
 ### Filtering by Refereed Status
 
