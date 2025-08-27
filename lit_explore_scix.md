@@ -21,11 +21,11 @@ exercises: 20
 
 ## Literature Exploration in SciX
 
-In this lesson we will be focusing on different ways to explore the search results in SciX.
+In this lesson, we will be focusing on different ways to explore your search results in SciX.
 
 ### Setting Up Your Environment
 
-When you open SciX, ensure you can see the homepage.  
+When you to to [SciX](https://scixplorer.org/), ensure you can see the homepage.  
 
 ![](fig/scix-homepage.png){alt="Screenshot of the SciX homepage"}
 
@@ -35,7 +35,7 @@ Ask learners: "Can everyone see the SciX homepage on their browser?"
 
 ### Research Trends
 
-First we will focus on second order operators, which are search operators that are performed on the results of a previous query.  The second order operators available in SciX are: **similar**, **trending**, **useful**, and **reviews**. Each of these second order operators benefit from taking different things into consideration for the initial query, so we will discuss them all individually in this lesson.
+First we will focus on second order operators, which are search operations that are performed on the results of a previous query.  The second order operators available in SciX are: **similar**, **trending**, **useful**, and **reviews**. Each of these second order operators benefit from taking different things into consideration for the initial query, so we will discuss them all individually in this lesson.
 
 To get started, let's run an example search query on SciX.  You can search for any topic you are interested in, but for my demonstration, I am going to look for papers about volcanoes.
 
@@ -51,9 +51,9 @@ Next, click on the Explore button menu to see all of the options, which are cate
 
 First let's look at the "Similar" operator.
 
-Results from this second operator query excludes the results from the original query, so it is best to focus on creating a narrow set of results, or even a single relevant paper, to build off in the "similar" search, so look through the results and select one to three papers most relevant for your topic.  I'll select just the first article using the checkbox and click on "Similar" under the Explore menu.
+Results from this second operator query exclude the results from the original query, so it is best to focus on creating a narrow set of results, or even a single relevant paper, to build off in the "similar" search, so look through the results and select the one to three papers most relevant for your topic.  I'll select just the first article using the checkbox and click on "Similar" under the Explore menu.
 
-It may take a little while for the results from the second order operator to load up.  In the background NASA's Science Explorer is combining the abstracts from articles in the original selection and then ranking all abstracts in SciX based on their textual similarity to the combined abstracts.  The articles returned are the most similar to those from the original selection as determined by text analysis.
+It may take a little while for the results from the second order operator to load.  In the background, cience Explorer is combining the abstracts from articles in the original selection and then ranking all abstracts in SciX based on their textual similarity to the combined abstracts.  The articles returned are the most similar to those from the original selection as determined by text analysis.
 
 ![](fig/scix-similar.png){alt="Screenshot results that are similar to one of the results from the original Volcanoes search results."}
 
@@ -67,7 +67,7 @@ returns a list of arXiv papers made available during the last week that are text
 
 #### Trending
 
-The next second-order operator we're going to discuss is called "trending," and it returns a list of papers currently popular among people who read the topic of the initial query, and this list is sorted by which papers were read the most.  You can select a specific paper, or set of papers, to seed your trend analysis via the Explore menu, or directly query trending for a specific topic in the main search bar.  For example:
+The next second-order operator we're going to discuss is called "trending." It returns a list of papers currently popular among people who read the topic of the initial query. The results are sorted by which papers were read the most.  You can select a specific paper, or set of papers, to seed your trend analysis via the Explore menu, or directly query trending for a specific topic in the main search bar.  For example:
 
 ```
 trending(volcanoes)
@@ -79,13 +79,13 @@ returns the most popular papers among people who have read the large number of p
 
 #### Useful
 
-The second order operator "useful" examines the references included in papers the original query, and combines them into a list sorted by how often a given paper is referenced in the original set.  The documents returned are the one found most useful, the one cited the most often, by the authors of relevant papers on the topic.  This can be useful for exposing papers in different, but related fields, such as papers that describe software papers that researchers found useful when exploring their topic.
+The second order operator "useful" examines the references included in papers identified by the original query. It combines them into a list sorted by how often a given paper is referenced in the original set.  The documents returned are the ones found most useful, the ones cited the most often, by the authors of relevant papers on the topic.  This can be useful for exposing papers in different, but related fields, such as papers that describe software that other researchers found useful when exploring their topic.
 
 ![](fig/scix-useful.png){alt="Screenshot of SciX results about volcanoes that are useful."}
 
 #### Reviews
 
-The last second order operator offered by SciX is "Reviews."  This operator collects the list of papers that cite the papers in the original query and sorts them by how frequently each paper appears.  You can think of these papers as being the most relevant papers on the topic originally being researched, they contain the most extensive reviews of the field.
+The last second order operator offered by SciX is "Reviews."  This operator collects the list of papers that cite the papers in the original query and sorts them by how frequently each paper appears.  You can think of these papers as being the most relevant papers on the topic originally being researched; they contain the most extensive reviews of the field.
 
 ![](fig/scix-reviews.png){alt="Screenshot of SciX results that are reviews on literature about volcanoes."}
 
@@ -104,6 +104,8 @@ https://ui.adsabs.harvard.edu/help/search/second-order
 
 Break into small groups and spend 2-3 minutes individually with second order operators looking for research trends in a topic of your choice.  Then discuss what you did and what you learned with your group.
 
+Which operator are you most likely to use:  similar, trending, useful, reviews?
+
 :::
 
 
@@ -120,9 +122,11 @@ This visualization creates groups of papers by looking at the references from ea
 
 Each group is named by extracting shared, unique words from the titles of the set of articles in the group.  This can help provide a general overview of the main topics of your original search results.  Clicking on any specific group will display a list of the most cited papers from that group.
 
+Reviewing a paper network can help you drill down into a topic or help you expand your literature search by identifying papers you may have otherwise missed.
+
 #### Author Network
 
-This visualization is created by looking at authors that frequently appear together and creating groups based on the frequencies of those collaborations.  Each of these groups contain authors that often work with each other, though not every other in each group will have worked with every other author in their group.
+This visualization is created by looking at authors that frequently appear together and creating groups based on the frequencies of those collaborations.  Each of these groups contain authors that often work with each other, though not every author in each group will have worked with every other author in their group.  You may find it helpful when looking for new opportunities or when trying to eliminate possible conflicts of interest.
 
 ![](fig/scix-author-network.png){alt="Screenshot of SciX author network visualization, showing the main groups of authors for papers in the results set."}
 
@@ -130,7 +134,7 @@ Clicking into the section group, the inside edge of the donut, will bring up the
 
 ### Summary
 
-By default, both visualizations only use data from the first 400 papers of the search result, but can be expanded up to the first 1000 papers.  Also, both of these visualization graphs have an option to download a csv of the data that underlies the graphic.  The cvs will provide identifiers for each paper and indicate which other papers are in its same group, along with some other metadata such as citation counts and downloads.
+By default, both visualizations only use data from the first 400 papers of the search result, but can be expanded up to the first 1000 papers.  Also, both of these visualization graphs have an option to download a text file in comma-separated-value format (csv) of the data that underly the graphic.  The cvs file will provide identifiers for each paper and indicate which other papers are in its same group, along with some other metadata such as citation counts and downloads.
 
 For more details about these two graphs and information about the other graphics provided by SciX, we recommend you review their help page on Visualizations.
 https://scixplorer.org/help/actions/visualize
@@ -140,5 +144,7 @@ https://scixplorer.org/help/actions/visualize
 ### Reflection and Discussion
 
 Break into small groups and spend 2-3 minutes individually looking at these visualizations for a topic of your choice.  Then discuss what you did and what you learned with your group.
+
+How could you use either the paper network or author network in your own work?
 
 :::
