@@ -19,12 +19,12 @@ exercises: 10
 
 ## SciX and ORCiD
 
-In this lesson we are going to be talking about how SciX integrates ORCiD. Hopefully you already have an ORCiD for yourself, and an understanding of ORCiD or have reviewed the Library Carpentries Lesson "Open Research and Contributor IDs (ORCID) for Librarians."
+In this lesson we are going to be talking about how SciX integrates ORCiD. Hopefully, you already have an ORCiD for yourself, and an understanding of ORCiD. If not, please review the Library Carpentries Lesson "Open Research and Contributor IDs (ORCID) for Librarians" before beginning this module.
 https://firbolg.github.io/LC_ORCID/
 
 ### Setting Up Your Environment
 
-When you open SciX, ensure you can see the homepage.  
+When you navigate to [SciX](https://scixplorer.org/), ensure you can see the homepage.  
 
 ![](fig/scix-homepage.png){alt="Screenshot of the SciX homepage"}
 
@@ -34,7 +34,7 @@ Ask learners: "Can everyone see the SciX homepage on their browser?"
 
 ### ADS & SciX
 
-Before we get too far, I want to remind everyone that NASA's Science Explorer is an expanded and updated indexing and abstracting service that is being developed by the same team that created the NASA Astrophysics Data System.  A lot of SciX's functionality is borrowed from ADS, so you will sometimes see ADS branding even though we are looking at SciX, for the purposes of this lesson you can consider SciX and ADS to be interchangeable.
+Before we get too far, I want to remind everyone that the Science Explorer is an expanded and updated indexing and abstracting service that is being developed by the same team that created the [Astrophysics Data System](https://ui.adsabs.harvard.edu/).  A lot of SciX's functionality is borrowed from ADS, so you will sometimes see ADS branding even though we are looking at SciX, for the purposes of this lesson you can consider SciX and ADS to be interchangeable.
 
 ### ORCiD & SciX
 
@@ -46,7 +46,7 @@ orcid:0000-0002-6949-0090
 
 The ORCiD identifiers attached to a paper can come from the publisher, if that information is provided by the authors when submitting the paper.
 
-However SciX also lets you claim papers for your ORCiD, which is especially useful if the papers pre-date the ORCiD system or if you know that the publisher did not have a way to collect that information when you originally submitted the paper.  SciX shares these claimed papers back to ORCiD so that they can show up on your profile there.
+However SciX also lets you claim papers for your ORCiD, which is especially useful if the papers pre-date the ORCiD system or if you know that the publisher did not collect that information when you originally submitted the paper.  SciX shares these claimed papers back to ORCiD so that they can show up on your profile there.
 
 In order to claim a paper for your ORCiD in SciX, you need to first log into SciX, or create an account if you do not have one yet.  Once logged in, use the ORCiD menu option at the top of the screen to log into ORCiD and claim papers in ADS.
 
@@ -70,5 +70,7 @@ Visiting "My ORCiD Page" will bring you to a dashboard of all of your claimed ar
 In small groups, review ORCiD mode and SciX's "My ORCiD Page," jot down any questions for the larger group.
 If you have publications in SciX, check to see if they are already claimed in ORCiD, and if not, claim them and work with group mates to walk through the process.
 Report back any discussion/questions to the class.
+
+How do researchers at your institution use ORiDs? 
 
 :::
