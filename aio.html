@@ -665,7 +665,7 @@ click the blue magnifying glass.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <figure><img src="fig/add-author-name-search.png" alt='Search results initiated for author name "Shoemaker"' class="figure mx-auto d-block"><div class="figcaption">Searching on author name Shoemaker</div>
 </figure>
@@ -691,7 +691,7 @@ get? Discuss with your neighbor.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <figure><img src="fig/results-view-shoemaker.png" alt='Search results view showing 2,560 items for "Shoemaker"' class="figure mx-auto d-block"><div class="figcaption">Results for Gene Shoemaker</div>
 </figure><p>author:”shoemaker” returned 2,560 results when this example was run
@@ -779,7 +779,7 @@ dropdown menu to start a keyword search for ‘crater.’ <img src="fig/scix-all
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater.png" alt='SciX results view showing 8,901 items for "Crater"' class="figure mx-auto d-block"><div class="figcaption">Results for Keyword crater</div>
 </figure><p>keyword:”crater” returned 8,901 results when this example was run as
@@ -823,7 +823,7 @@ for ‘crater’.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater-exact.png" alt="SciX results view of search for exact match keyword crater" class="figure mx-auto d-block"><div class="figcaption">Exact keyword search for crater (synonym
 expansion disabled</div>
@@ -905,7 +905,7 @@ start an ‘abs’ search for ‘crater’.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5"> Show me the solution </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <figure><img src="fig/scix-abs-crater.png" alt="SciX results view from abs:crater search" class="figure mx-auto d-block"><div class="figcaption">SciX Results view showing search panel for
 abs:crater</div>
@@ -1121,7 +1121,7 @@ resources.</li>
 </div>
 </div></section><section id="aio-lit_explore_scix"><p>Content from <a href="lit_explore_scix.html">Literature Exploration in SciX</a></p>
 <hr>
-<p>Last updated on 2025-05-03 |
+<p>Last updated on 2025-08-27 |
 
         <a href="https://github.com/ucla-imls-open-sci/lc-scix-open-science/edit/main/episodes/lit_explore_scix.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1159,19 +1159,20 @@ visualizations</li>
 <section><h2 class="section-heading" id="literature-exploration-in-scix">Literature Exploration in SciX<a class="anchor" aria-label="anchor" href="#literature-exploration-in-scix"></a>
 </h2>
 <hr class="half-width">
-<p>In this lesson we will be focusing on different ways to explore the
+<p>In this lesson, we will be focusing on different ways to explore your
 search results in SciX.</p>
 <div class="section level3">
 <h3 id="setting-up-your-environment">Setting Up Your Environment<a class="anchor" aria-label="anchor" href="#setting-up-your-environment"></a>
 </h3>
-<p>When you open SciX, ensure you can see the homepage.</p>
+<p>When you to to <a href="https://scixplorer.org/" class="external-link">SciX</a>, ensure you
+can see the homepage.</p>
 <figure><img src="fig/scix-homepage.png" alt="Screenshot of the SciX homepage" class="figure mx-auto d-block"></figure>
 </div>
 <div class="section level3">
 <h3 id="research-trends">Research Trends<a class="anchor" aria-label="anchor" href="#research-trends"></a>
 </h3>
 <p>First we will focus on second order operators, which are search
-operators that are performed on the results of a previous query. The
+operations that are performed on the results of a previous query. The
 second order operators available in SciX are: <strong>similar</strong>,
 <strong>trending</strong>, <strong>useful</strong>, and
 <strong>reviews</strong>. Each of these second order operators benefit
@@ -1189,18 +1190,18 @@ The options under “operations” are the second order operators.</p>
 <h4 id="similar">Similar<a class="anchor" aria-label="anchor" href="#similar"></a>
 </h4>
 <p>First let’s look at the “Similar” operator.</p>
-<p>Results from this second operator query excludes the results from the
+<p>Results from this second operator query exclude the results from the
 original query, so it is best to focus on creating a narrow set of
 results, or even a single relevant paper, to build off in the “similar”
-search, so look through the results and select one to three papers most
-relevant for your topic. I’ll select just the first article using the
-checkbox and click on “Similar” under the Explore menu.</p>
+search, so look through the results and select the one to three papers
+most relevant for your topic. I’ll select just the first article using
+the checkbox and click on “Similar” under the Explore menu.</p>
 <p>It may take a little while for the results from the second order
-operator to load up. In the background NASA’s Science Explorer is
-combining the abstracts from articles in the original selection and then
-ranking all abstracts in SciX based on their textual similarity to the
-combined abstracts. The articles returned are the most similar to those
-from the original selection as determined by text analysis.</p>
+operator to load. In the background, cience Explorer is combining the
+abstracts from articles in the original selection and then ranking all
+abstracts in SciX based on their textual similarity to the combined
+abstracts. The articles returned are the most similar to those from the
+original selection as determined by text analysis.</p>
 <figure><img src="fig/scix-similar.png" alt="Screenshot results that are similar to one of the results from the original Volcanoes search results." class="figure mx-auto d-block"></figure><p>The SciX documentation about the Similar second order query shows
 just how powerful this option can be. For example, this query:</p>
 <pre><code>similar("weak lensing" -entdate:[NOW-7DAYS TO *]) entdate:[NOW-7DAYS TO *] bibstem:"arXiv"</code></pre>
@@ -1215,11 +1216,11 @@ different.</p>
 <h4 id="trending">Trending<a class="anchor" aria-label="anchor" href="#trending"></a>
 </h4>
 <p>The next second-order operator we’re going to discuss is called
-“trending,” and it returns a list of papers currently popular among
-people who read the topic of the initial query, and this list is sorted
-by which papers were read the most. You can select a specific paper, or
-set of papers, to seed your trend analysis via the Explore menu, or
-directly query trending for a specific topic in the main search bar. For
+“trending.” It returns a list of papers currently popular among people
+who read the topic of the initial query. The results are sorted by which
+papers were read the most. You can select a specific paper, or set of
+papers, to seed your trend analysis via the Explore menu, or directly
+query trending for a specific topic in the main search bar. For
 example:</p>
 <pre><code><span><span class="fu">trending</span><span class="op">(</span><span class="va">volcanoes</span><span class="op">)</span></span></code></pre>
 <p>returns the most popular papers among people who have read the large
@@ -1230,13 +1231,13 @@ number of papers about volcanoes.</p>
 <h4 id="useful">Useful<a class="anchor" aria-label="anchor" href="#useful"></a>
 </h4>
 <p>The second order operator “useful” examines the references included
-in papers the original query, and combines them into a list sorted by
-how often a given paper is referenced in the original set. The documents
-returned are the one found most useful, the one cited the most often, by
-the authors of relevant papers on the topic. This can be useful for
-exposing papers in different, but related fields, such as papers that
-describe software papers that researchers found useful when exploring
-their topic.</p>
+in papers identified by the original query. It combines them into a list
+sorted by how often a given paper is referenced in the original set. The
+documents returned are the ones found most useful, the ones cited the
+most often, by the authors of relevant papers on the topic. This can be
+useful for exposing papers in different, but related fields, such as
+papers that describe software that other researchers found useful when
+exploring their topic.</p>
 <figure><img src="fig/scix-useful.png" alt="Screenshot of SciX results about volcanoes that are useful." class="figure mx-auto d-block"></figure>
 </div>
 <div class="section level4">
@@ -1246,7 +1247,7 @@ their topic.</p>
 operator collects the list of papers that cite the papers in the
 original query and sorts them by how frequently each paper appears. You
 can think of these papers as being the most relevant papers on the topic
-originally being researched, they contain the most extensive reviews of
+originally being researched; they contain the most extensive reviews of
 the field.</p>
 <figure><img src="fig/scix-reviews.png" alt="Screenshot of SciX results that are reviews on literature about volcanoes." class="figure mx-auto d-block"></figure>
 </div>
@@ -1272,6 +1273,8 @@ second order queries. <a href="https://ui.adsabs.harvard.edu/help/search/second-
 second order operators looking for research trends in a topic of your
 choice. Then discuss what you did and what you learned with your
 group.</p>
+<p>Which operator are you most likely to use: similar, trending, useful,
+reviews?</p>
 </div>
 </div>
 </div>
@@ -1296,6 +1299,9 @@ titles of the set of articles in the group. This can help provide a
 general overview of the main topics of your original search results.
 Clicking on any specific group will display a list of the most cited
 papers from that group.</p>
+<p>Reviewing a paper network can help you drill down into a topic or
+help you expand your literature search by identifying papers you may
+have otherwise missed.</p>
 </div>
 <div class="section level4">
 <h4 id="author-network">Author Network<a class="anchor" aria-label="anchor" href="#author-network"></a>
@@ -1303,8 +1309,10 @@ papers from that group.</p>
 <p>This visualization is created by looking at authors that frequently
 appear together and creating groups based on the frequencies of those
 collaborations. Each of these groups contain authors that often work
-with each other, though not every other in each group will have worked
-with every other author in their group.</p>
+with each other, though not every author in each group will have worked
+with every other author in their group. You may find it helpful when
+looking for new opportunities or when trying to eliminate possible
+conflicts of interest.</p>
 <figure><img src="fig/scix-author-network.png" alt="Screenshot of SciX author network visualization, showing the main groups of authors for papers in the results set." class="figure mx-auto d-block"></figure><p>Clicking into the section group, the inside edge of the donut, will
 bring up the list of papers in that group. Clicking on a specific name,
 or their specific section of the donut, will instead show all papers by
@@ -1317,10 +1325,10 @@ that particular author.</p>
 <p>By default, both visualizations only use data from the first 400
 papers of the search result, but can be expanded up to the first 1000
 papers. Also, both of these visualization graphs have an option to
-download a csv of the data that underlies the graphic. The cvs will
-provide identifiers for each paper and indicate which other papers are
-in its same group, along with some other metadata such as citation
-counts and downloads.</p>
+download a text file in comma-separated-value format (csv) of the data
+that underly the graphic. The cvs file will provide identifiers for each
+paper and indicate which other papers are in its same group, along with
+some other metadata such as citation counts and downloads.</p>
 <p>For more details about these two graphs and information about the
 other graphics provided by SciX, we recommend you review their help page
 on Visualizations. <a href="https://scixplorer.org/help/actions/visualize" class="external-link uri">https://scixplorer.org/help/actions/visualize</a></p>
@@ -1335,6 +1343,8 @@ on Visualizations. <a href="https://scixplorer.org/help/actions/visualize" class
 <p>Break into small groups and spend 2-3 minutes individually looking at
 these visualizations for a topic of your choice. Then discuss what you
 did and what you learned with your group.</p>
+<p>How could you use either the paper network or author network in your
+own work?</p>
 </div>
 </div>
 </div>
