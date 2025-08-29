@@ -58,7 +58,7 @@ For your information:  Learners transitioning from ADS or who have had some prev
 
 You will first see "My ORCiD Page" listing all of the papers is SciX currently associated with your ORCiD. 
 
-![](fig/scix-orcid-dashboard.png){alt="Screenshot of a "My ORCiD Page" that shows the status of SciX papers associated with an ORCiD along with information about the user."}
+![](fig/scix-orcid-dashboard.png){alt="Screenshot of a 'My ORCiD Page' that shows the status of SciX papers associated with an ORCiD along with information about the user."}
 
 To search for additional papers, click the SciX logo in the upper left of the menu bar to return to the main search page. Once there, click on the ORCiD menu item to verify that ORCiD mode is "On".
 
