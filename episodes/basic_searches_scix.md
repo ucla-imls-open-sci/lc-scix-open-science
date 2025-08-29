@@ -2,9 +2,6 @@
 title: 'Basic Searches in SciX'
 teaching: 15
 exercises: 10
-editor_options: 
-  markdown: 
-    wrap: 72
 ---
 
 ::: questions
@@ -21,7 +18,7 @@ editor_options:
 - Follow links from the abstract page to access resources such as the
   open access version of the article, related software, and associated
   datasets
-
+:::
 
 ## Basic Searches in SciX
 
@@ -78,7 +75,7 @@ among the most common performed in SciX.
 
 ![Main search bar highlighted on the SciX homepage](fig/starting-search.png){alt='Highlighted search bar on the SciX homepage for entering search terms'}
 
-::: challenge
+:::: challenge
 If you select author from either the quick fields or the dropdown menu,
 SciX will add the field to the search bar.
 
@@ -99,7 +96,7 @@ Learners can just type names and phrases into the search bar. However, they will
 ::: solution
 ![Searching on author name Shoemaker](fig/add-author-name-search.png){alt='Search results initiated for author name "Shoemaker"'}
 :::
-:::
+::::
 
 :::: challenge
 ## Search by Author
@@ -178,7 +175,7 @@ Use this if you're researching a specific publication window or want to filter o
 
 ![Date range slider controls in SciX](fig/date-slider-expanded.png){alt='Date range slider with adjustable endpoints and expand icon in SciX facet panel'}
 
-::: challenge
+:::: challenge
 ### Keyword Search
 
 Return to the SciX main search page. Use the "all search terms" dropdown menu to start a keyword search for 'crater.' 
@@ -190,8 +187,8 @@ Return to the SciX main search page. Use the "all search terms" dropdown menu to
 
 keyword:”crater” returned 8,901 results when this example was run as you can see in the upper
 left; because SciX adds new material on daily and weekly cycles you may see a different count. 
-::::
 :::
+::::
 
 ### Understanding SciX Synonym Expansion
 
@@ -213,7 +210,7 @@ sign: `=crater`.
 This exact-match feature is helpful when you're targeting highly specific
 terms or avoiding irrelevant results.
 
-::: challenge
+:::: challenge
 ## Keyword Search
 
 Return to the SciX main search page. Execute an exact keyword search for 'crater'. 
@@ -227,7 +224,7 @@ left; because SciX adds new material on daily and weekly cycles you may see a di
 
 With synonym expansaion disabled, fewer results are returned. However, those precise results may be just what you need.
 :::
-:::
+::::
 
 ::: challenge
 ## Keyword Search
@@ -281,17 +278,17 @@ The presence of your keyword in the abstract is a better indicator of its signif
 'abs' is short for "abstract' but an 'abstract' only is also possible as is a full-text search. Both of these are mentioned briefly later in the module. 
 :::
 
-::: challenge
+:::: challenge
 Return to the main menu. Use the 'all search terms' dropdown menu to start an 'abs' search for 'crater'.
 
-:::: solution
+::: solution
 ![SciX Results view showing search panel for abs:crater](fig/scix-abs-crater.png){alt='SciX results view from abs:crater search'} 
 
 abs:”crater” returned 53,647 results when this example was run as you can see in the upper
 left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 
 By searching more fields, an abs search will produce more results than just searching the keywords field alone. 
-::::
+:::
 ::::
 
 ### Filtering by Refereed Status
@@ -455,7 +452,6 @@ using both author and keyword searches. Then, discuss with a partner:
 - What did you search for?
 - Did you find relevant materials?
 - What aspects of the process were straightforward or challenging?
-:::
 
 ::: challenge
 ## Bonus Challenge
