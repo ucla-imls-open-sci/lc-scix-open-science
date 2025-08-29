@@ -48,7 +48,7 @@ The ORCiD identifiers attached to a paper can come from the publisher, if that i
 
 However SciX also lets you claim papers for your ORCiD, which is especially useful if the papers pre-date the ORCiD system or if you know that the publisher did not collect that information when you originally submitted the paper.  SciX shares these claimed papers back to ORCiD so that they can show up on your profile there.
 
-In order to claim a paper for your ORCiD in SciX, you need to connect to your ORCiD account using the ORCiD menu option at the top of the screen. It will bring up the ORCiD logon screen. Then, you cab sign in with your usual ORCiD credentials. 
+In order to claim a paper for your ORCiD in SciX, you need to connect to your ORCiD account using the ORCiD menu option at the top of the screen. It will bring up the ORCiD logon screen. Then, you can sign in with your usual ORCiD credentials. 
 
 ::: instructor 
 For your information:  Learners transitioning from ADS or who have had some previous SciX experience may have ADS or SciX accounts; the two are interchangeable.  If so, they may have enterend ORCiD information into their ADS or SciX account. They may also have been encouraged to log into both their ADS or SciX account and their ORCiD account. While that procedure is not wrong, it is also not necessary. In the interest of simplicity, the module only demonstrates loging into the ORCiD account, which is sufficient for all ORCiD-related tasks. If a learner asks about ORCiD and SciX accounts, you can find out more about using them together on the SciX "Claiming papers in ORCID" Help page [https://scixplorer.org/scixhelp/orcid-scix/claiming-papers](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers). 
