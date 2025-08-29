@@ -58,7 +58,7 @@ For your information:  Learners transitioning from ADS or who have had some prev
 
 You will first see "My ORCiD Page" listing all of the papers is SciX currently associated with your ORCiD. 
 
-[Add screenshot]
+![](fig/scix-orcid-dashboard.png){alt="Screenshot of a "My ORCiD Page" that shows the status of SciX papers associated with an ORCiD along with information about the user."}
 
 To search for additional papers, click the SciX logo in the upper left of the menu bar to return to the main search page. Once there, click on the ORCiD menu item to verify that ORCiD mode is "On".
 
@@ -69,8 +69,6 @@ Then, search through SciX for your papers and click the "Claim" button to the ri
 ![](fig/scix-orcid-claim.png){alt="Screenshot show the buttons for claim and delete claim in SciX."}
 
 Visiting "My ORCiD Page" will bring back to the dashboard of all of your claimed articles, where you can push them to sync with ORCiD and make other edits.
-
-![](fig/scix-orcid-dashboard.png){alt="Screenshot of the "My ORCiD Page" that shows the status of claimed articles."}
 
 ### Summary
 
