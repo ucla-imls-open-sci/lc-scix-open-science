@@ -70,6 +70,8 @@ Then, search through SciX for your papers and click the "Claim" button to the ri
 
 Visiting "My ORCiD Page" will bring back to the dashboard of all of your claimed articles, where you can push them to sync with ORCiD and make other edits.
 
+![](fig/scix-orcid-dashboard.png){alt="Screenshot of the "My ORCiD Page" that shows the status of claimed articles."}
+
 ### Summary
 
 ORCiDs provide a prower tool for uniquely identifying individual authors, many of who may have similar names.  SciX provides tools to search for papers using ORCiDs, where those are known, as well as assistance to authors in ensuring all their papers are properly ORCiD tagged. For more information about ORCiD searches, please visit the SciX "Searching for papers in ORCID" help page [https://scixplorer.org/scixhelp/orcid-scix/orcid-search](https://scixplorer.org/scixhelp/orcid-scix/orcid-search).  For more information about claiming papers with your ORCiD, please visit the SciX "Claiming papers in ORCID" Help page [https://scixplorer.org/scixhelp/orcid-scix/claiming-papers](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers).  You may also find this [ORCiD in SciX](https://ads.harvard.edu/handouts/SciX_ORCiD_handout.pdf) handout helpful.
