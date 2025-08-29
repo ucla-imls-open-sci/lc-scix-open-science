@@ -10,5 +10,5 @@
 "episodes/orcid_scix.md" "1a39e131c9acb8f4f0bc1788104589d3" "site/built/orcid_scix.md" "2025-08-29"
 "instructors/instructor-notes.md" "cae72b6712578d74a49fea7513099f8c" "site/built/instructor-notes.md" "2023-03-16"
 "learners/reference.md" "1c7cc4e229304d9806a13f69ca1b8ba4" "site/built/reference.md" "2023-03-16"
-"learners/setup.md" "c0cd694062dcd17e58a2f00330d5504f" "site/built/setup.md" "2025-07-06"
+"learners/setup.md" "6ed873adfa8ac2587f02e06df38f249f" "site/built/setup.md" "2025-08-29"
 "profiles/learner-profiles.md" "60b93493cf1da06dfd63255d73854461" "site/built/learner-profiles.md" "2022-04-22"
