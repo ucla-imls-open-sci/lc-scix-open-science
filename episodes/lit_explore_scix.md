@@ -97,6 +97,7 @@ To review, there are four types of second order operators available in the SciX 
 
 For more information, we recommend you visit the SciX help page on second order queries.
 https://ui.adsabs.harvard.edu/help/search/second-order
+You may also find this [Second Order Operators in SciX](https://ads.harvard.edu/handouts/SciX_2ndorder_operators.pdf) handout helpful.
 
 
 ::: discussion
@@ -138,6 +139,7 @@ By default, both visualizations only use data from the first 400 papers of the s
 
 For more details about these two graphs and information about the other graphics provided by SciX, we recommend you review their help page on Visualizations.
 https://scixplorer.org/help/actions/visualize
+You may also find this [Exploring SciX Visualizations](https://ads.harvard.edu/handouts/SciX_visualizations_handout.pdf) handout helpful.
 
 
 ::: discussion
