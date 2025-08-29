@@ -21,7 +21,7 @@ editor_options:
 - Follow links from the abstract page to access resources such as the
   open access version of the article, related software, and associated
   datasets
-
+:::
 
 ## Basic Searches in SciX
 
