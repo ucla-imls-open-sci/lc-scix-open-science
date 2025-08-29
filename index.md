@@ -18,6 +18,6 @@ You should have the following skills/knowledge before starting this lesson:
 - General knowledge of scientific literature
 - Basic knowledge of astronomy, earth science, heliophysics, planetary science, and/or physics
 
-If you do not have an ORCiD, you should consider (obtaining one)[https://orcid.org/] before beginning (SciX and ORCiD)[https://ucla-imls-open-sci.info/lc-scix-open-science/orcid_scix.html]. However, doing so is optional.
+If you do not have an ORCiD, you should consider [obtaining one](https://orcid.org/) before beginning [SciX and ORCiD](https://ucla-imls-open-sci.info/lc-scix-open-science/orcid_scix.html). However, doing so is optional.
 
 ::::::::::::
