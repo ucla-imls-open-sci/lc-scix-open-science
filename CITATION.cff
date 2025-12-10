@@ -1,22 +1,97 @@
-# This template CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to replace its contents
-# with information about your lesson.
-# Remember to update this file periodically, 
-# ensuring that the author list and other fields remain accurate.
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: FIXME
+title: 'Science Explorer (SciX): Open Science Discovery Engine'
 message: >-
-  Please cite this lesson using the information in this file
-  when you refer to it in publications, and/or if you
-  re-use, adapt, or expand on the content in your own
-  training material.
+  If you use this lesson, please cite it using the metadata
+  from this file.
 type: dataset
 authors:
-  - given-names: FIXME
-    family-names: FIXME
+  - given-names: Jennifer Lynn
+    family-names: Bartlett
+    email: jennifer.bartlett@cfa.harvard.edu
+    affiliation: Center for Astrophysics | Harvard & Smithsonian
+    orcid: 'https://orcid.org/0000-0001-7394-4545'
+  - given-names: 'Tim '
+    family-names: Dennis
+    affiliation: UCLA Library Data Science Center
+    orcid: 'https://orcid.org/0000-0001-6632-3812'
+  - given-names: Katie
+    family-names: Frey
+    email: frey@stanford.edu
+    affiliation: Stanford University
+    orcid: 'https://orcid.org/0000-0001-9891-4465'
+  - given-names: 'Zikang Eric '
+    family-names: Huang
+    affiliation: New York University
+  - given-names: Stephanie
+    family-names: Jarmak
+    email: steph.jarmak@gmail.com
+    affiliation: 'Sourcegraph '
+    orcid: 'https://orcid.org/0000-0002-6982-7191'
+  - given-names: 'Madeline '
+    family-names: Kim
+    affiliation: Epic Systems
+  - given-names: 'Lawrence '
+    family-names: Lee
+    affiliation: Amazon Web Services
+    orcid: 'https://orcid.org/0009-0001-5263-4924'
+  - given-names: Manuel Pichardo
+    family-names: Marcano
+    email: manuelpichardom@gmail.com
+    affiliation: >-
+      Instituto de Astronomía-Universidad Nacional Autónoma
+      de México
+    orcid: 'https://orcid.org/0000-0003-4436-831X'
+  - given-names: Brit
+    family-names: Myers
+    email: britbmyers@gmail.com
+    affiliation: Arctic Research Consortium of the United States
+    orcid: 'https://orcid.org/0000-0002-0798-8029'
+  - given-names: 'Olivia Harper '
+    family-names: Wilkins
+    email: wilkins@dickinson.edu
+    affiliation: Dickinson College
+    orcid: 'https://orcid.org/0000-0001-7794-7639'
+repository-code: 'https://github.com/ucla-imls-open-sci/lc-scix-open-science'
+url: 'https://ucla-imls-open-sci.info/lc-scix-open-science/'
 abstract: >-
-  FIXME Replace this with a short abstract describing the
-  lesson, e.g. its target audience and main intended
-  learning objectives.
+  The module begins by describing how the Science Explorer
+  (SciX) fits as part of the open science ecosystem and
+  establishing how it supports the FAIR principles:
+  Findable, Accessible, Interoperable, Reusable. You will be
+  introduced to search features through examples
+  highlighting the strengths of SciX for discipline-specific
+  and interdisciplinary queries. You will also learn how to
+  use SciX’s suite of second order operators to explore
+  research trends and reviews, along with methods of finding
+  similar papers and papers others studying the same topic
+  have found useful. Lastly, you will learn how authors can
+  claim papers within SciX with their ORCiD. If you do not
+  have an ORCiD, you are encouraged to apply in advance.
+
+
+  You will evaluate whether you have accomplished each
+  learning objective through “check your understanding”
+  questions and through successfully completing related
+  tasks.
+keywords:
+  - Library Carpentry
+  - pre-alpha lesson
+  - library science
+  - professional development
+  - digital library
+  - Astrophysics Data System (ADS)
+  - Science Explorer (SciX)
+  - open science
+  - FAIR principles
+  - astrophysics
+  - astronomy
+  - heliophysics
+  - solar physics
+  - space science
+  - planetary science
+  - Earth science
+  - biological and physical science
 license: CC-BY-4.0
