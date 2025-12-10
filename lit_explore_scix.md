@@ -85,7 +85,7 @@ The second order operator "useful" examines the references included in papers id
 
 #### Reviews
 
-The last second order operator offered by SciX is "Reviews."  This operator collects the list of papers that cite the papers in the original query and sorts them by how frequently each paper appears.  You can think of these papers as being the most relevant papers on the topic originally being researched; they contain the most extensive reviews of the field.
+The last second order operator offered by SciX is “Reviews.” This operator collects the list of papers that cite the papers in the original query and sorts them by how frequently each paper appears. It does not necessarily return articles from review journals, such as _Annual Reviews of Astrophysics_. You can think of the results from a reviews() search as the most relevant papers on the topic originally being researched.
 
 ![](fig/scix-reviews.png){alt="Screenshot of SciX results that are reviews on literature about volcanoes."}
 
