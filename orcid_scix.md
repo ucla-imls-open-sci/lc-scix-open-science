@@ -32,10 +32,6 @@ When you navigate to [SciX](https://scixplorer.org/), ensure you can see the hom
 Ask learners: "Can everyone see the SciX homepage on their browser?"  
 :::
 
-### ADS & SciX
-
-Before we get too far, I want to remind everyone that the Science Explorer is an expanded and updated indexing and abstracting service that is being developed by the same team that created the [Astrophysics Data System](https://ui.adsabs.harvard.edu/).  A lot of SciX's functionality is borrowed from ADS, so you will sometimes see ADS branding even though we are looking at SciX, for the purposes of this lesson you can consider SciX and ADS to be interchangeable.
-
 ### ORCiD & SciX
 
 Many researchers and authors today are claiming [ORCiDs](https://orcid.org/) to help disambiguate themselves from others who share their name.  SciX lets you search for published content using an ORCiD, just write "orcid:" before the ID in the query field.  For example:
