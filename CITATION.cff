@@ -1,22 +1,23 @@
-# This template CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to replace its contents
-# with information about your lesson.
-# Remember to update this file periodically, 
-# ensuring that the author list and other fields remain accurate.
-
 cff-version: 1.2.0
-title: FIXME
-message: >-
-  Please cite this lesson using the information in this file
-  when you refer to it in publications, and/or if you
-  re-use, adapt, or expand on the content in your own
-  training material.
+message: "If you use this lesson, please cite it as below."
 type: dataset
+title: "Open Science Discovery Engines: Empowering Librarian Use Through a Case Study Exploration of the NASA Science Explorer"
 authors:
-  - given-names: FIXME
-    family-names: FIXME
-abstract: >-
-  FIXME Replace this with a short abstract describing the
-  lesson, e.g. its target audience and main intended
-  learning objectives.
+  - family-names: Frey
+    given-names: Katie
+  - family-names: Bartlett
+    given-names: Jennifer Lynn
+  - family-names: Jarmak
+    given-names: Stephanie
+abstract: "Describes how the Science Explorer (SciX) integrates into the open science ecosystem and supports the FAIR principles. Introduces search features for interdisciplinary queries and demonstrates how authors can claim papers using ORCID."
+keywords:
+  - discovery
+  - NASA
+  - SciX
+  - FAIR
+  - ORCID
 license: CC-BY-4.0
+version: 1.0.0
+date-released: 2026-01-06
+repository-code: "https://github.com/ucla-imls-open-sci/lc-scix-open-science"
+url: "http://ucla-imls-open-sci.info/lc-scix-open-science/"
