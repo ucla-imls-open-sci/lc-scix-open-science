@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18187546.svg)](https://doi.org/10.5281/zenodo.18187546)
+
 # Science Explorer (SciX): Open Science Discovery Engine
 
 This lesson provides a hands-on, interactive module for librarians covering FAIR principles, advanced search techniques, ORCiD integration, and bibliographic library management using NASA SciX. It is designed to help you explore how SciX supports open science by making research data Findable, Accessible, Interoperable, and Reusable.
