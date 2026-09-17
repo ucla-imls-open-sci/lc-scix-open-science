@@ -8,7 +8,7 @@ exercises: 20
 
 - What papers are useful to researchers working on (example topic)?
 - What are the top collaborations in (example topic)?
-- What could I narrow my topic appropriately?
+- How could I narrow (example topic) appropriately?
 
 :::
 
@@ -36,9 +36,14 @@ Ask learners: "Can everyone see the SciX homepage on their browser?"
 
 ### Research Trends
 
-First we will focus on second order operators, which are search operations that are performed on the results of a previous query. The second order operators available in SciX are: **similar**, **trending**, **useful**, and **reviews**. Each of these second order operators benefit from taking different things into consideration for the initial query, so we will discuss the three we highlight individually in this lesson.
+First we will focus on second order operators, which are search operations that are performed on the results of a previous query. The second order operators available in SciX are: **similar**, **trending**, **useful**, and **reviews**. Each of these second order operators benefit from taking different things into consideration for the initial query, so we will discuss individually the three we highlight in this lesson.
+
+::: instructor  
+You might mention the kinds of topical searches you commonly perform in SciX (e.g., finding articles for your domain or checking citation metrics). The guided examples will be more meaningful if you modify them for your discpline or facility.
+:::
 
 To get started, let's run an example search query on SciX.  You can search for any topic you are interested in, but for my demonstration, I am going to look for papers about volcanoes.
+
 
 Start by entering your terms into the main search bar and executing the search.
 
@@ -50,13 +55,21 @@ Next, click on the Explore button menu to see all of the options, which are cate
 
 #### Similar
 
-First let's look at the "Similar" operator.
+First let's look at the "Similar()" operator.
 
 Results from this second operator query exclude the results from the original query, so it is best to focus on creating a narrow set of results, or even a single relevant paper, to build off in the "similar" search, so look through the results and select the one to three papers most relevant for your topic.  I'll select just the first article using the checkbox and click on "Similar" under the Explore menu.
 
 It may take a little while for the results from the second order operator to load.  In the background, Science Explorer is combining the abstracts from articles in the original selection and then ranking all abstracts in SciX based on their textual similarity to the combined abstracts.  The articles returned are the most similar to those from the original selection as determined by text analysis.
 
 ![](fig/scix-similar.png){alt="Screenshot results that are similar to one of the results from the original Volcanoes search results."}
+
+In addition to lists of papers, ```Similar() ```accepts any text as input.  The format is
+
+```
+similar:("any text for comparison goes here",input)
+```
+
+For instance, I could take text from U.S. Geological Survey Volcano Notification Service Report 
 
 The SciX documentation about the Similar second order query shows just how powerful this option can be.  For example, this query:
 
