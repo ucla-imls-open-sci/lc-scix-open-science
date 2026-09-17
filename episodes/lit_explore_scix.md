@@ -6,15 +6,16 @@ exercises: 20
 
 ::: questions
 
-- What papers are trending among (example topic) researchers?
+- What papers are useful to researchers working on (example topic)?
 - What are the top collaborations in (example topic)?
+- What could I narrow my topic appropriately?
 
 :::
 
 
 ::: objectives
 
-- Expand a search using SciX second-order operators, including trending, useful, and review
+- Expand a search using SciX second-order operators, including useful and review
 - Explore connections among authors and papers using SciX visualizations
 
 :::
@@ -35,7 +36,7 @@ Ask learners: "Can everyone see the SciX homepage on their browser?"
 
 ### Research Trends
 
-First we will focus on second order operators, which are search operations that are performed on the results of a previous query.  The second order operators available in SciX are: **similar**, **trending**, **useful**, and **reviews**. Each of these second order operators benefit from taking different things into consideration for the initial query, so we will discuss them all individually in this lesson.
+First we will focus on second order operators, which are search operations that are performed on the results of a previous query. The second order operators available in SciX are: **similar**, **trending**, **useful**, and **reviews**. Each of these second order operators benefit from taking different things into consideration for the initial query, so we will discuss the three we highlight individually in this lesson.
 
 To get started, let's run an example search query on SciX.  You can search for any topic you are interested in, but for my demonstration, I am going to look for papers about volcanoes.
 
@@ -53,7 +54,7 @@ First let's look at the "Similar" operator.
 
 Results from this second operator query exclude the results from the original query, so it is best to focus on creating a narrow set of results, or even a single relevant paper, to build off in the "similar" search, so look through the results and select the one to three papers most relevant for your topic.  I'll select just the first article using the checkbox and click on "Similar" under the Explore menu.
 
-It may take a little while for the results from the second order operator to load.  In the background, cience Explorer is combining the abstracts from articles in the original selection and then ranking all abstracts in SciX based on their textual similarity to the combined abstracts.  The articles returned are the most similar to those from the original selection as determined by text analysis.
+It may take a little while for the results from the second order operator to load.  In the background, Science Explorer is combining the abstracts from articles in the original selection and then ranking all abstracts in SciX based on their textual similarity to the combined abstracts.  The articles returned are the most similar to those from the original selection as determined by text analysis.
 
 ![](fig/scix-similar.png){alt="Screenshot results that are similar to one of the results from the original Volcanoes search results."}
 
@@ -65,21 +66,9 @@ similar("weak lensing" -entdate:[NOW-7DAYS TO *]) entdate:[NOW-7DAYS TO *] bibst
 
 returns a list of arXiv papers made available during the last week that are textually similar to papers published before 7 days ago about "weak lensing". Since the Similar operator excludes results returned by the original query, they used separate date ranges in the first-order query and the outer query in order to force the queries to be different.
 
-#### Trending
-
-The next second-order operator we're going to discuss is called "trending." It returns a list of papers currently popular among people who read the topic of the initial query. The results are sorted by which papers were read the most.  You can select a specific paper, or set of papers, to seed your trend analysis via the Explore menu, or directly query trending for a specific topic in the main search bar.  For example:
-
-```
-trending(volcanoes)
-```
-
-returns the most popular papers among people who have read the large number of papers about volcanoes.
-
-![](fig/scix-trending.png){alt="Screenshot of SciX results about volcanoes that are trending."}
-
 #### Useful
 
-The second order operator "useful" examines the references included in papers identified by the original query. It combines them into a list sorted by how often a given paper is referenced in the original set.  The documents returned are the ones found most useful, the ones cited the most often, by the authors of relevant papers on the topic.  This can be useful for exposing papers in different, but related fields, such as papers that describe software that other researchers found useful when exploring their topic.
+The second order operator "useful" examines the references included in papers identified by the original query. It combines them into a list sorted by how often a given paper is referenced in the original set.  The documents returned are the ones found most useful, the ones cited the most often, by the authors of relevant papers on the topic.  This can be helpful by exposing papers in different, but related fields, such as papers that describe software that other researchers found useful when exploring their topic.
 
 ![](fig/scix-useful.png){alt="Screenshot of SciX results about volcanoes that are useful."}
 
