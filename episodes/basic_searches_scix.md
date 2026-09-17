@@ -61,10 +61,16 @@ start guide and search examples.
 
 ![Quick Help](fig/quick-help.png){alt='Help carousel on the SciX homepage showing navigation arrows and learning resources'}
 
+When you visit a page for the first, SciX offers a quick tour of the page's features. You can quit that at any time by clicking the x in the upper right of the current tour dialog box. At any time, you can restart the tour by clicking the blue Tour button in the upper right of the SciX header. Tours are available on the main search page, the results listing, and abstract view.
+
+![Tour the page's freatures](fig/SciX-tour.png){alt='SciX homepage with Tour in progress describing the search bar; a call out points to the button that initiates the Tour feature. '}
+
+
 For more detailed assistance, click the "Help" button in the upper
 right.
 
 ![SciX help carousel with a Help button in the top right](fig/extensive-help.png){alt='SciX homepage with the Help button highlighted in the top-right corner'}
+
 
 ## Starting a Search
 
