@@ -4,7 +4,11 @@ teaching: 20
 exercises: 20
 ---
 
-
+::: questions
+- What papers are useful to researchers working on (example topic)?
+- How could I narrow (example topic) appropriately?
+- What are the top collaborations in (example topic)?
+:::
 
 ::: objectives
 - Expand a search using SciX second-order operators, including useful and review
