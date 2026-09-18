@@ -91,7 +91,7 @@ to get over 68,000 results.
 
 The second-order operator ```Useful()``` examines the references included in papers identified by the original query. It combines them into a list sorted by how often a given paper is referenced in the original set.  The documents returned are the ones cited the most often, by the authors of the chosen papers on the topic, which can include foundational papers, datasets, and software. This query can also expose papers in different, but related fields, such as papers that describe software that other researchers found useful when exploring the topic.
 
-::: challenge
+:::: challenge
 Submit a query to determine what papers are useful to volcanologists.  
 
 ::: solution
@@ -101,20 +101,20 @@ Using an unfielded search for volcanoes as input, ```Useful()``` returned over 4
 The top three papers shown contain significant data sets and fundamental software functions.
 
 :::
-::: 
+:::: 
 #### Reviews
 
 The last second-order operator we will cover today is ```Reviews()```. This operator collects the list of papers that cite the papers in the original query and sorts them by how frequently each paper appears. It does not necessarily return articles from review journals, such as _Annual Review of Earth and Planetary Sciences, Annual Review of Astronomy and Astrophysics,_ or _Annual Review of Information Science and Technology_. You can think of the results from a ```Reviews()``` search as a higher-level view of your topic or taking a step back from the details. These results will be the most relevant papers on your topic when viewed from this broader perspective within its field. 
 
-::: challenge
+:::: challenge
 Submit a query to take a higher-level look at volcanoes, perhaps place it within physical geology more broadly using ``Reviews()```. 
 
-:::solution 
+::: solution 
 ![SciX Results view of the output of 'Results](fig/scix-reviews.png){alt="Screenshot of SciX results that are reviews of literature about volcanoes."}
 Using an unfielded search for volcanoes as input, ```Reviews()``` returned over 127,00 results when this example was run as you can see in the upper left; because SciX adds new material on daily and weekly cycles you may see a different count.
 
 The top three papers shown appear be about tectonic systems.
-
+:::
 ::::
 
 If you were looking for a more traditional review journal covering a field with which you were less familiar, you could consult the SciX Journals database. It is available at [https://scixplorer.org/journalsdb](). You can type a word or two into the search bar to identify journals with titles containing those words.
@@ -175,7 +175,7 @@ Reviewing a paper network can help you drill down into a topic or help you expan
 
 This visualization is created by looking at authors that frequently appear together and creating groups based on the frequencies of those collaborations.  Each of these groups contain authors that often work with each other, though not every author in each group will have worked with every other author in their group.  You may find it helpful when looking for new opportunities, when trying to eliminate possible conflicts of interest, or when surveying the research landscape. 
 
-::: challenge
+:::: challenge
 Visualize an Author Network
 
 Create a visualization of the Author Network using your search results. Like the Paper Network, this visualization will default to the first 400 papers but you can chance the number used.
@@ -185,7 +185,7 @@ Create a visualization of the Author Network using your search results. Like the
 
 Using the top 400 documents returned by unfielded search for volcanoes for input, the visualization algorithm identified seven main groups when when this example; because SciX adds new material on daily and weekly cycles you may see a different distribution.
 :::
-:::
+::::
 
 Clicking into the section group, the inside edge of the donut, will bring up the list of papers in that group.  Clicking on a specific name, or their specific section of the donut, will instead show all papers by that particular author.
 
