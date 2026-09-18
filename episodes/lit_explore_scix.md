@@ -233,3 +233,4 @@ second-order operator [query that takes as input the output of a previous query]
 ```Similar()```  SciX [second-order operator that analyzes the textual similarity of documents](https://scixplorer.org/scixhelp/search-scix/second-order), returning results that are similar to the input text provided whether from single or multiple papers or directly typed sample  
 ```Useful()``` SciX [second-order operator that analyzes the reference lists](https://scixplorer.org/scixhelp/search-scix/second-order); takes a nitty-gritty approach to topic by asking what are researchers actually using  
 visualization  use of graphs and other graphical elements to convey information; can be an effective way of communicating complex relationships, such as [SciX Paper and Author Networks](https://scixplorer.org/scixhelp/actions-scix/visualize)
+:::
