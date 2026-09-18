@@ -110,19 +110,15 @@ For more information about using ORCiD in SciX, we recommend
 For a few well-established researchers in your field, compare the effectiveness and efficiency of traditional name searches to ORCiD searches. Which works best now?
 :::
 
-::: Key Points   
+::: keypoints   
 SciX encourages authors to identify themselves and claim their work with ORCiDs.    
 Users can search SciX for people using ORCiDs.     
 Users can use SciX search tools to find their papers without ORCiDS and claim them.       
 SciX will communicate users' claims to ORCiD.    
 :::
 
-::: Glossary
-ISNI   [International Standard Name Identifier](https://isni.org/), a unique, persistent identifier for people and organizations of which ORCiDs are a subset   
-
-ORCiD  [Open Researcher and Contributor ID](https://orcid.org/), a unique, persistent identifier for researchers   
-
-claiming a paper       process by which a researcher identifies themselves as one of the authors so that their ORCiD can be attached to a document that did not previously have that information    
-::: 
-
-
+::: glossary
+ISNI - [International Standard Name Identifier](https://isni.org/), a unique, persistent identifier for people and organizations of which ORCiDs are a subset   
+ORCiD - [Open Researcher and Contributor ID](https://orcid.org/), a unique, persistent identifier for researchers   
+claiming a paper - process by which a researcher identifies themselves as one of the authors so that their ORCiD can be attached to a document that did not previously have that information    
+:::
