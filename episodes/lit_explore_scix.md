@@ -56,9 +56,9 @@ Results from this second-operator query exclude the results from the original qu
 
 It may take a little while for the results from the second-order operator to load.  In the background, Science Explorer is combining the abstracts from articles in the original selection and then ranking all abstracts in SciX based on their textual similarity to the combined abstracts.  The articles returned are the most similar to those from the original selection as determined by text analysis.
 
-![SciX Results view of the output of ```Similar()``` acting on the most relevant paper returned by an unfielded search for 'volcanoes'"](fig/scix-similar.png){alt="Screenshot of results that are similar to the top result from the original 'volcanoes' search results."}
+![SciX Results view of the output of ```Similar()``` acting on the most relevant paper returned by an unfielded search for 'volcanoes'](fig/scix-similar.png){alt="Screenshot of results that are similar to the top result from the original 'volcanoes' search results."}
 
-In addition to lists of papers, ```Similar()```accepts any text as input.  The format is
+In addition to lists of papers, ```Similar()``` accepts any text as input.  The format is
 
 ```
 similar("any text for comparison goes here",input)
@@ -74,11 +74,11 @@ and feed it into ```Similar()```.
 similar("Yellowstone Caldera activity remains at background levels, with 61 located earthquakes in August (largest = M2.0). Deformation measurements indicate no significant uplift of the north caldera rim since January 2026 and only minor uplift of the caldera since the beginning of the year.",input)
 ```
 
-![SciX Main Search page detail with 'Similar()' being applied to user-provided text.](fig/scix-similar-example-yellowstone-init.png){alt="Screenshot of SciX main search bar with "Similar()". User has entered text about Yellowstone directly into function."}
+![SciX Main Search page detail with 'Similar()' being applied to user-provided text.](fig/scix-similar-example-yellowstone-init.png){alt="Screenshot of SciX main search bar with 'Similar()'. User has entered text about Yellowstone directly into function."}
 
 to get over 68,000 results.
 
-![SciX Results page for documents similar to the user input text about Yellowstone monitoring](fig/scix-similar-example-yellowstone-results.png){alt="Screenshot of SciX results page from search of "Similar()" with user-input text about Yellowstone monitoring."}
+![SciX Results page for documents similar to the user input text about Yellowstone monitoring](fig/scix-similar-example-yellowstone-results.png){alt="Screenshot of SciX results page from search of 'Similar()' with user-input text about Yellowstone monitoring."}
 
 [Michael Kurtz et al. 2020](https://doi.org/10.3847/25c2cfeb.8d12c399) and the [SciX ```Similar()``` help](https://scixplorer.org/scixhelp/search-scix/second-order) provide examples of sophisticated queries using ```Similar()```
 
@@ -102,17 +102,17 @@ The top three papers shown contain significant data sets and fundamental softwar
 The last second-order operator we will cover today is ```Reviews()```. This operator collects the list of papers that cite the papers in the original query and sorts them by how frequently each paper appears. It does not necessarily return articles from review journals, such as _Annual Review of Earth and Planetary Sciences, Annual Review of Astronomy and Astrophysics,_ or _Annual Review of Information Science and Technology_. You can think of the results from a ```Reviews()``` search as a higher-level view of your topic or taking a step back from the details. These results will be the most relevant papers on your topic when viewed from this broader perspective within its field. 
 
 :::: challenge
-Submit a query to take a higher-level look at volcanoes, perhaps place it within physical geology more broadly using ``Reviews()```. 
+Submit a query to take a higher-level look at volcanoes, perhaps place it within physical geology more broadly using ```Reviews()```. 
 
 ::: solution 
-![SciX Results view of the output of 'Results](fig/scix-reviews.png){alt="Screenshot of SciX results that are reviews of literature about volcanoes."}
+![SciX Results view of the output of 'Results'](fig/scix-reviews.png){alt="Screenshot of SciX results that are reviews of literature about volcanoes."}
 Using an unfielded search for volcanoes as input, ```Reviews()``` returned over 127,00 results when this example was run as you can see in the upper left; because SciX adds new material on daily and weekly cycles you may see a different count.
 
 The top three papers shown appear be about tectonic systems.
 :::
 ::::
 
-If you were looking for a more traditional review journal covering a field with which you were less familiar, you could consult the SciX Journals database. It is available at [https://scixplorer.org/journalsdb](). You can type a word or two into the search bar to identify journals with titles containing those words.
+If you were looking for a more traditional review journal covering a field with which you were less familiar, you could consult the SciX Journals database. It is available at [https://scixplorer.org/journalsdb](https://scixplorer.org/journalsdb). You can type a word or two into the search bar to identify journals with titles containing those words.
 
 ![SciX Journals Database with a search for journals whose titles contain the word 'Review'](fig/scix-journalsdb-review.png){alt="Screenshot of SciX Journals Database search results for 'Review' "}
 
@@ -207,12 +207,12 @@ For more details about these two graphs and information about the other SciX gra
 - [Exploring SciX Visualizations](https://ads.harvard.edu/handouts/SciX_visualizations_handout.pdf) handout 
 - [2020 paper by Michael Kurtz et al on second-order operations](https://doi.org/10.3847/25c2cfeb.8d12c399) (Paper Network only)
 
-  ::: challenge
-  ## Bonus Challenge
- Using search results from a query of interest to you, try one of the Explore menu options that we were not able to cover today. Consult the [SciX Help documentation](https://scixplorer.org/scixhelp/) for anything that is unclear.
-  :::
+:::: challenge
+## Bonus Challenge
+Using search results from a query of interest to you, try one of the Explore menu options that we were not able to cover today. Consult the [SciX Help documentation](https://scixplorer.org/scixhelp/) for anything that is unclear.
+::::
 
-  ::: Key Points
+::: key points
 SciX offers powerful tools that operate on sets of documents to assist you analyzing the literature.   
 ```Similar()``` identifies items that are textually similar:  find more like ....  
 ```Useful()``` analyzes reference lists:  what will help me with ....  
@@ -221,7 +221,7 @@ The Paper Network groups papers topically through their references:  how could I
 The Author Network identifies groups through co-authorship:  what collaborations are working in this field? what is that lab producing?  
 :::
 
-::: Glossary
+::: glossary
 
 Author Network   SciX visualization that [groups authors by co-author frequency](https://scixplorer.org/help/actions/visualize); surveys the research landscape for a topic   
 bibstem    SciX abbreviation used for journal names and some other publication categories; it can be used as as search field    
