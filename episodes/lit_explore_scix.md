@@ -208,28 +208,41 @@ For more details about these two graphs and information about the other SciX gra
 - [2020 paper by Michael Kurtz et al on second-order operations](https://doi.org/10.3847/25c2cfeb.8d12c399) (Paper Network only)
 
 :::: challenge
+
 ## Bonus Challenge
 Using search results from a query of interest to you, try one of the Explore menu options that we were not able to cover today. Consult the [SciX Help documentation](https://scixplorer.org/scixhelp/) for anything that is unclear.
 ::::
 
 ::: keypoints
-SciX offers powerful tools that operate on sets of documents to assist you analyzing the literature.   
-```Similar()``` identifies items that are textually similar:  find more like ....  
-```Useful()``` analyzes reference lists:  what will help me with ....  
-```Reviews()``` analyzes citations lists: what has this contributed to ...   
-The Paper Network groups papers topically through their references:  how could I narrow my topic? what am I missing?  
-The Author Network identifies groups through co-authorship:  what collaborations are working in this field? what is that lab producing?  
+
+- SciX offers powerful tools that operate on sets of documents to assist you analyzing the literature.   
+- ```Similar()``` identifies items that are textually similar:  find more like ....  
+- ```Useful()``` analyzes reference lists:  what will help me with ....  
+- ```Reviews()``` analyzes citations lists: what has this contributed to ...   
+- The Paper Network groups papers topically through their references:  how could I narrow my topic? what am I missing?  
+- The Author Network identifies groups through co-authorship:  what collaborations are working in this field? what is that lab producing?  
 :::
 
 ::: glossary
+
 Author Network - SciX visualization that [groups authors by co-author frequency](https://scixplorer.org/help/actions/visualize); surveys the research landscape for a topic
+
 bibstem -  SciX abbreviation used for journal names and some other publication categories; it can be used as as search field
+
 Concept Cloud -  SciX visualization that [compares frequency or uniqueness of title and abstract words against entire corpus](https://scixplorer.org/help/actions/visualize); can be used to characterize work or to identify search terms
+
 Paper Network  SciX visualization that [groups papers by topic through their references](https://scixplorer.org/help/actions/visualize); can focus help narrow research questions or ensure completeness of literature review
+
 Review colloquial term for an article giving a broad overview of a field and summarizing its current state, some journals focus exclusively on soliciting such contributions
+
 ```Reviews()``` - SciX [second-order operator that analyzes citation lists](https://scixplorer.org/scixhelp/search-scix/second-order); takes a higher-level view of a topic by asking what has this contributed to
-second-order operator [query that takes as input the output of a previous query](https://scixplorer.org/scixhelp/search-scix/second-order); in SciX, these frequently operate on sets of documents
+
+second-order operator - [query that takes as input the output of a previous query](https://scixplorer.org/scixhelp/search-scix/second-order); in SciX, these frequently operate on sets of documents
+
 ```Similar()``` - SciX [second-order operator that analyzes the textual similarity of documents](https://scixplorer.org/scixhelp/search-scix/second-order), returning results that are similar to the input text provided whether from single or multiple papers or directly typed sample
+
 ```Useful()``` - SciX [second-order operator that analyzes the reference lists](https://scixplorer.org/scixhelp/search-scix/second-order); takes a nitty-gritty approach to topic by asking what are researchers actually using
+
 visualization - use of graphs and other graphical elements to convey information; can be an effective way of communicating complex relationships, such as [SciX Paper and Author Networks](https://scixplorer.org/scixhelp/actions-scix/visualize)
+
 :::
