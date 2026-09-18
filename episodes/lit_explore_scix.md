@@ -5,19 +5,15 @@ exercises: 20
 ---
 
 ::: questions
-
 - What papers are useful to researchers working on (example topic)?
 - How could I narrow (example topic) appropriately?
 - What are the top collaborations in (example topic)?
-
 :::
 
 
 ::: objectives
-
 - Expand a search using SciX second-order operators, including useful and review
 - Explore connections among authors and papers using SciX visualizations
-
 :::
 
 ## Literature Exploration in SciX
@@ -31,7 +27,7 @@ When you go to [SciX](https://scixplorer.org/), ensure you can see the homepage.
 ![Science Explorer Main Search Page](fig/scix-homepage.png){alt="Screenshot of the SciX homepage"}
 
 ::: instructor 
-Ask learners: "Can everyone see the SciX homepage on their browser?"  
+Ask learners: "Can everyone see the SciX homepage on their browser?"
 :::
 
 ### Research Trends
@@ -39,7 +35,7 @@ Ask learners: "Can everyone see the SciX homepage on their browser?"
 First we will focus on second-order operators, which are search operations that are performed on the results of a previous query. The second order operators available in SciX are: **similar**, **useful**, **reviews**, and **trending**,. Each of these second-order operators benefit from taking different things into consideration for the initial query, so we will discuss individually the three we highlight in this lesson.
 
 ::: instructor  
-You might mention the kinds of topical searches you commonly perform in SciX (e.g., finding articles for your domain or checking citation metrics). The guided examples will be more meaningful if you modify them for your discpline or facility.
+You might mention the kinds of topical searches you commonly perform in SciX (e.g., finding articles for your domain or checking citation metrics). The guided examples will be more meaningful if you modify them for your discipline or facility.
 :::
 
 To get started, let's run an example search query on SciX.  You can search for any topic you are interested in, but for my demonstration, I am going to look for papers about volcanoes.
@@ -99,9 +95,9 @@ Submit a query to determine what papers are useful to volcanologists.
 Using an unfielded search for volcanoes as input, ```Useful()``` returned over 4,00 results when this example was run as you can see in the upper left; because SciX adds new material on daily and weekly cycles you may see a different count.
 
 The top three papers shown contain significant data sets and fundamental software functions.
-
 :::
 :::: 
+
 #### Reviews
 
 The last second-order operator we will cover today is ```Reviews()```. This operator collects the list of papers that cite the papers in the original query and sorts them by how frequently each paper appears. It does not necessarily return articles from review journals, such as _Annual Review of Earth and Planetary Sciences, Annual Review of Astronomy and Astrophysics,_ or _Annual Review of Information Science and Technology_. You can think of the results from a ```Reviews()``` search as a higher-level view of your topic or taking a step back from the details. These results will be the most relevant papers on your topic when viewed from this broader perspective within its field. 
