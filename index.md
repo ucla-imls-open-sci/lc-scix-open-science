@@ -21,3 +21,15 @@ You should have the following skills/knowledge before starting this lesson:
 If you do not have an ORCiD, you should consider [obtaining one](https://orcid.org/) before beginning [SciX and ORCiD](https://ucla-imls-open-sci.info/lc-scix-open-science/orcid_scix.html). However, doing so is optional.
 
 ::::::::::::
+
+
+::: callout
+
+Acknowledgement of Support
+This project was made possible in part by the Institute of Museum and Library Services (Grant RE-252335-OLS-22).
+
+The views, findings, conclusions or recommendations expressed in this lesson do not necessarily represent those of the Institute of Museum and Library Services.
+
+JLB acknowledges support from the Astrophysics Data System (ADS), which is operated by the Smithsonian Astrophysical Observatory (SAO) under NASA Cooperative Agreement 80NSSC25M7105.  ADS is expanding to become the Science Explorer (SciX), which is operated by SAO under NASA Cooperative Agreement 80NSSC21M0056.
+
+:::
