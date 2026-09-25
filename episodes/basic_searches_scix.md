@@ -262,12 +262,12 @@ You can find this option in the **Refereed** facet in the sidebar. It's useful i
 
 **Note:** SciX considers dissertations to be refereed. Most, but not all, conference abstracts and proceedings are categorized as non-refereed.
 
-- "Refereed" includes only peer-reviewed works
-- "Not Refereed" includes the grey literature, preprints, or white papers
+- **Refereed** includes only peer-reviewed works
+- **Not Refereed** includes the grey literature, preprints, or white papers
 
-If you want only "Refereed" papers, you can either:
-- **Limit** to "Refereed" papers
-- **Exclude** "Not Refereed" items
+If you want only "Refereed" papers, you can either:  
+- **Limit** to "Refereed" papers  
+- **Exclude** "Not Refereed" items  
 
 ![SciX Refereed facet in results sidebar](fig/scix-refereed-filter.png){alt='SciX results view including Refereed facet panel with checkboxes for refereed and non-refereed papers'}
 
