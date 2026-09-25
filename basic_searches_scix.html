@@ -416,7 +416,7 @@ get? Discuss with your neighbor.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <figure><img src="fig/results-view-shoemaker.png" alt='Search results view showing 2,560 items for "Shoemaker"' class="figure mx-auto d-block"><div class="figcaption">Results for Gene Shoemaker</div>
 </figure><p><code>author:"shoemaker"</code> returned 2,560 results when this
@@ -505,7 +505,7 @@ term help</div>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater.png" alt='SciX results view showing 8,901 items for "Crater"' class="figure mx-auto d-block"><div class="figcaption">Results for Keyword crater</div>
 </figure><p><code>keyword:"crater"</code> returned 8,901 results when this
@@ -550,7 +550,7 @@ for ‘crater’.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater-exact.png" alt="SciX results view of search for exact match keyword crater" class="figure mx-auto d-block"><div class="figcaption">Exact keyword search for crater (synonym
 expansion disabled)</div>
@@ -631,7 +631,7 @@ start an <code>abs</code> search for ‘crater’.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <figure><img src="fig/scix-abs-crater.png" alt="SciX results view from abs:crater search" class="figure mx-auto d-block"><div class="figcaption">SciX Results view showing search panel for
 abs:crater</div>
@@ -657,12 +657,14 @@ conference proceedings or technical reports.</p>
 <p><strong>Note:</strong> SciX considers dissertations to be refereed.
 Most, but not all, conference abstracts and proceedings are categorized
 as non-refereed.</p>
-<ul><li>“Refereed” includes only peer-reviewed works</li>
-<li>“Not Refereed” includes the grey literature, preprints, or white
-papers</li>
-</ul><p>If you want only “Refereed” papers, you can either: -
-<strong>Limit</strong> to “Refereed” papers - <strong>Exclude</strong>
-“Not Refereed” items</p>
+<ul><li>
+<strong>Refereed</strong> includes only peer-reviewed works</li>
+<li>
+<strong>Not Refereed</strong> includes the grey literature,
+preprints, or white papers</li>
+</ul><p>If you want only “Refereed” papers, you can either:<br>
+- <strong>Limit</strong> to “Refereed” papers<br>
+- <strong>Exclude</strong> “Not Refereed” items</p>
 <figure><img src="fig/scix-refereed-filter.png" alt="SciX results view including Refereed facet panel with checkboxes for refereed and non-refereed papers" class="figure mx-auto d-block"><div class="figcaption">SciX Refereed facet in results sidebar</div>
 </figure></div>
 <div class="section level3">

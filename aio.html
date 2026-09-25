@@ -856,7 +856,7 @@ get? Discuss with your neighbor.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <figure><img src="fig/results-view-shoemaker.png" alt='Search results view showing 2,560 items for "Shoemaker"' class="figure mx-auto d-block"><div class="figcaption">Results for Gene Shoemaker</div>
 </figure><p><code>author:"shoemaker"</code> returned 2,560 results when this
@@ -955,7 +955,7 @@ term help</div>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater.png" alt='SciX results view showing 8,901 items for "Crater"' class="figure mx-auto d-block"><div class="figcaption">Results for Keyword crater</div>
 </figure><p><code>keyword:"crater"</code> returned 8,901 results when this
@@ -1003,7 +1003,7 @@ for ‘crater’.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater-exact.png" alt="SciX results view of search for exact match keyword crater" class="figure mx-auto d-block"><div class="figcaption">Exact keyword search for crater (synonym
 expansion disabled)</div>
@@ -1092,7 +1092,7 @@ start an <code>abs</code> search for ‘crater’.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <figure><img src="fig/scix-abs-crater.png" alt="SciX results view from abs:crater search" class="figure mx-auto d-block"><div class="figcaption">SciX Results view showing search panel for
 abs:crater</div>
@@ -1120,13 +1120,15 @@ conference proceedings or technical reports.</p>
 Most, but not all, conference abstracts and proceedings are categorized
 as non-refereed.</p>
 <ul>
-<li>“Refereed” includes only peer-reviewed works</li>
-<li>“Not Refereed” includes the grey literature, preprints, or white
-papers</li>
+<li>
+<strong>Refereed</strong> includes only peer-reviewed works</li>
+<li>
+<strong>Not Refereed</strong> includes the grey literature,
+preprints, or white papers</li>
 </ul>
-<p>If you want only “Refereed” papers, you can either: -
-<strong>Limit</strong> to “Refereed” papers - <strong>Exclude</strong>
-“Not Refereed” items</p>
+<p>If you want only “Refereed” papers, you can either:<br>
+- <strong>Limit</strong> to “Refereed” papers<br>
+- <strong>Exclude</strong> “Not Refereed” items</p>
 <figure><img src="fig/scix-refereed-filter.png" alt="SciX results view including Refereed facet panel with checkboxes for refereed and non-refereed papers" class="figure mx-auto d-block"><div class="figcaption">SciX Refereed facet in results sidebar</div>
 </figure>
 </div>
@@ -1592,10 +1594,13 @@ accept sets of papers, or the results of a previous query, as their
 input. The graphic below can help describe the similarities and
 differences among these operations.</p>
 <figure><img src="fig/scix-second-operators.png" alt="Graphic summarizing the four second order operators of SciX." class="figure mx-auto d-block"><div class="figcaption">SciX Second-Order Operations</div>
-</figure><p>For more information, we recommend - <a href="https://scixplorer.org/scixhelp/search-scix/second-order" class="external-link">SciX
-help page on second-order queries</a> - <a href="https://ads.harvard.edu/handouts/SciX_2ndorder_operators.pdf" class="external-link">Second
-Order Operators in SciX</a> - <a href="https://doi.org/10.3847/25c2cfeb.8d12c399" class="external-link">2020 paper by Michael
-Kurtz et al on second-order operations</a></p>
+</figure><p>For more information, we recommend<br>
+- <a href="https://scixplorer.org/scixhelp/search-scix/second-order" class="external-link">SciX
+help page on second-order queries</a><br>
+- <a href="https://ads.harvard.edu/handouts/SciX_2ndorder_operators.pdf" class="external-link">Second
+Order Operators in SciX</a><br>
+- <a href="https://doi.org/10.3847/25c2cfeb.8d12c399" class="external-link">2020 paper by
+Michael Kurtz et al on second-order operations</a></p>
 </div>
 </div>
 <div class="section level3">
@@ -1716,10 +1721,14 @@ through abstract text for the Concept Cloud. These tools are helpful in
 building a substantive literature review and in positioning your work to
 your best advantage.</p>
 <p>For more details about these two graphs and information about the
-other SciX graphics, we recommend - <a href="https://scixplorer.org/scixhelp/actions-scix/visualize" class="external-link">SciX Help
-page on Visualizations</a> - <a href="https://ads.harvard.edu/handouts/SciX_visualizations_handout.pdf" class="external-link">Exploring
-SciX Visualizations</a> handout - <a href="https://doi.org/10.3847/25c2cfeb.8d12c399" class="external-link">2020 paper by Michael
-Kurtz et al on second-order operations</a> (Paper Network only)</p>
+other SciX graphics, we recommend<br>
+- <a href="https://scixplorer.org/scixhelp/actions-scix/visualize" class="external-link">SciX
+Help page on Visualizations</a><br>
+- <a href="https://ads.harvard.edu/handouts/SciX_visualizations_handout.pdf" class="external-link">Exploring
+SciX Visualizations</a> handout<br>
+- <a href="https://doi.org/10.3847/25c2cfeb.8d12c399" class="external-link">2020 paper by
+Michael Kurtz et al on second-order operations</a> (Paper Network
+only)</p>
 <div id="bonus-challenge" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
@@ -1827,7 +1836,7 @@ ensure you can see the homepage.</p>
 Contributor ID</a>. Many researchers and authors today are claiming
 ORCiDs to help disambiguate themselves from others who share their name.
 SciX lets you search for published content using an ORCiD, just write
-“orcid:” before the ID in the query field. For example:</p>
+<code>orcid:</code> before the ID in the query field. For example:</p>
 <pre><code><span><span class="va">orcid</span><span class="op">:</span><span class="fl">0000</span><span class="op">-</span><span class="fl">0002</span><span class="op">-</span><span class="fl">6949</span><span class="op">-</span><span class="fl">0090</span></span></code></pre>
 <figure><img src="fig/scix-orcid-search.png" alt="Screenshot of a search for an ORCiD." class="figure mx-auto d-block"><div class="figcaption">Screenshot of a search for an ORCiD.</div>
 </figure><p>The ORCiD identifiers attached to a paper can come from the
@@ -1900,10 +1909,12 @@ authors, many of whom may have similar names. SciX provides tools to
 search for papers using ORCiDs, where those are known, as well as
 assistance to authors in ensuring all their papers are properly ORCiD
 tagged.</p>
-<p>For more information about using ORCiD in SciX, we recommend: - SciX
-Help page: <a href="https://scixplorer.org/scixhelp/orcid-scix/orcid-search" class="external-link">Searching
-for papers in ORCID</a> - SciX Help page: <a href="https://scixplorer.org/scixhelp/orcid-scix/claiming-papers" class="external-link">Claiming
-papers in ORCID</a> - Handout: <a href="https://ads.harvard.edu/handouts/SciX_ORCiD_handout.pdf" class="external-link">ORCiD in
+<p>For more information about using ORCiD in SciX, we recommend:<br>
+- SciX Help page: <a href="https://scixplorer.org/scixhelp/orcid-scix/orcid-search" class="external-link">Searching
+for papers in ORCID</a><br>
+- SciX Help page: <a href="https://scixplorer.org/scixhelp/orcid-scix/claiming-papers" class="external-link">Claiming
+papers in ORCID</a><br>
+- Handout: <a href="https://ads.harvard.edu/handouts/SciX_ORCiD_handout.pdf" class="external-link">ORCiD in
 SciX</a></p>
 <div id="bonus-challenge" class="callout challenge">
 <div class="callout-square">
