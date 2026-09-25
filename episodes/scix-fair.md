@@ -28,8 +28,7 @@ The prompts are phrased as "discuss with a friend" but in small cohesive groups,
 
 Open science has become a buzz word today. We are all supposed to be in favor of open science. 
 
-::: discussion 
-Define Open Science
+::: discussion **Define Open Science**
 
 What comes to mind when you hear "open science"? How would you define open science?
 
@@ -52,7 +51,7 @@ Furthermore,
 - "Scientific processes and results should be open such that they are reproducible by members of the community."
 - "Processes and participants should welcome participation and collaboration by other researchers and organizations."
 
-see their [NASA Open Science](https://science.nasa.gov/open-science/) site. They also offer [online training](https://science.nasa.gov/open-science/training/). FAIR here and in this lesson stands for **Findable, Accessible, Interoperable,** and **Reusable.**
+per their [NASA Open Science](https://science.nasa.gov/open-science/) site. NASA also offers [online training](https://science.nasa.gov/open-science/training/). FAIR here and in this lesson stands for **Findable, Accessible, Interoperable,** and **Reusable.**
 
 UNESCO has a similar definition.
 
@@ -60,15 +59,14 @@ UNESCO has a similar definition.
 
 Furthermore,
 
-"Open science:
-- increases scientific collaborations and sharing of information for the benefits of science and society;
-- makes multilingual scientific knowledge openly available, accessible and reusable for everyone; and
-- opens the processes of scientific knowledge creation, evaluation and communication to societal actors beyond the traditional scientific community."
+"Open science:  
+- increases scientific collaborations and sharing of information for the benefits of science and society;  
+- makes multilingual scientific knowledge openly available, accessible and reusable for everyone; and  
+- opens the processes of scientific knowledge creation, evaluation and communication to societal actors beyond the traditional scientific community."   
 
-see the [introduction to their recommendations for open science](https://www.unesco.org/en/open-science/about).
+per the [introduction to their recommendations for open science](https://www.unesco.org/en/open-science/about).
 
-::: discussion
-Open Science in Real World
+::: discussion **Open Science in Real World**
 
 Identify an open science practice that does or could benefit your community and the associated benefit(s).
 
@@ -88,8 +86,7 @@ The [Science Explorer (SciX)](scixplorer.org) is a NASA-funded digital library t
 
 The NASA definition calls for FAIR "data, tools, software, documentation, and publications." Originally defined in a highly technical manner for data, we now apply FAIR to most research artifacts.
 
-::: discussion
-Define FAIR 
+::: discussion  **Define FAIR** 
 
 What comes to mind when you hear "FAIR"? How would you identify or measure whether an item was FAIR?
 
@@ -130,11 +127,11 @@ As fundamentally an indexing service, the [data and metadata SciX](https://scixp
 
 SciX assigns each item a unique, persistent identifier, a bibcode that not only retrieves the article but also connects related papers via citations. When data, software, or other materials are available, they are either linked as external resources or indexed with their own identifiers internally. For interoperability, SciX also retains and displays the unique identifiers that other systems have assigned the same work. (F1)  
 
-![Screenshot of the SciX abstract page showing bibcode](fig/scix-bibcode.png){alt='Screenshot of a SciX abstract page with callouts showing the bibcode and identifiers from other systems.'}
+![Screenshot of the SciX abstract page showing bibcode](fig/SciX-bibcode.png){alt='Screenshot of a SciX abstract page with callouts showing the bibcode and identifiers from other systems.'}
 
 SciX enriches the records it maintains with metadata from multiple sources, including information it develops.  For instance, to make papers more findable, SciX is testing assigning keywords from the [Unified Astronomy Thesaurus (UAT)](https://astrothesaurus.org/) to all papers in its astronomy collection. Doing so provides a consistent set of keywords across time and journals. (F2)
 
-![Screenshot of the SciX abstract page showing some metadata tags](fig/scix-metadata-tags.png){alt='Screenshot of a SciX abstract page with callouts showing some of the metadata tags.'}
+![Screenshot of the SciX abstract page showing some metadata tags](fig/SciX-metadata-tags.png){alt='Screenshot of a SciX abstract page with callouts showing some of the metadata tags.'}
 
 ### Accessible Principles
 
@@ -149,7 +146,7 @@ SciX provides a [free API](https://scixplorer.org/scixhelp/api-scix/) for standa
 
 Applying accessibly to papers and research artifacts more broadly. SciX always links to the publisher's version of record, even if it has a paywall. It also matches the available open access versions providing the user with multiple options.  In addition, it links to data, software, and proposals to help the user understand how the reported results were achieved, reproduce them or reuse them as appropripiate.
 
-![Screenshot of the SciX abstract page showing links to multiple resources including full text](fig/scix-access-links.png){alt='Screenshot of a SciX abstract page with callouts showing links to full text options and multiple other resources, including datasets and a proposal.'}
+![Screenshot of the SciX abstract page showing links to multiple resources including full text](fig/SciX-access-links.png){alt='Screenshot of a SciX abstract page with callouts showing links to full text options and multiple other resources, including datasets and a proposal.'}
 
 ### Interoperable Principles
 
@@ -163,7 +160,7 @@ SciX uses [the UAT](https://astrothesaurus.org/thesaurus/search-the-uat/) as its
 
 When an article cites supporting references, the SciX includes the citation information as part of the metadata. SciX maintains cross-references to multiple other systems. (I3)
 
-![Screenshot of the SciX reference list for a paper ](fig/scix-reference-list.png){alt='Screenshot of a SciX reference list with callouts showing references, citations, and mention.'}
+![Screenshot of the SciX reference list for a paper ](fig/SciX-reference-list.png){alt='Screenshot of a SciX reference list with callouts showing references, citations, and mention.'}
 
 ### Reusable Principles
 
@@ -186,8 +183,7 @@ Ask one or two learners to comment on what they thought about the FAIRness of th
 
 We have spent some time defining both open science and FAIR. How do they relate?
 
-:::discussion
-Open Science vs. FAIR
+:::discussion **Open Science vs. FAIR**
 
 Are open science and FAIR the same? Is FAIR sufficient for open science? Is FAIR necessary for open science?
 
@@ -214,8 +210,7 @@ As part of its open science practice, SciX commits to
 
 Please share your thoughts with a friend. 
 
-::::challenge
-Bonus Challenge
+::::challenge **Bonus Challenge**
 
 If you have not already taken [NASA Open Science Essentials](https://stemgateway.nasa.gov/s/course-offering/a0BSJ0000049icD/open-science-essentials) or [NASA Open Science 101](), browse the [static version](https://doi.org/10.5281/zenodo.15857835) for some additional thought-provoking topics. You could also take the online version,, but it is not always offered.
 ::::
