@@ -27,7 +27,7 @@ capabilities. In this episode, we'll cover both author and keyword
 searches, then show you how to refine your results.
 
 ::: instructor
-You might mention the kinds of searches you commonly perform in SciX (e.g., finding articles for your domain or checking citation metrics).
+You might mention the kinds of searches you commonly perform in SciX (e.g., finding articles in your specialty or checking citation metrics).
 The guided examples will be more meaningful if you modify them for your discpline or facility.
 - Who is an author your learners would know?
 - What is a topic in which your learners would be interested?
@@ -61,10 +61,16 @@ start guide and search examples.
 
 ![Quick Help](fig/quick-help.png){alt='Help carousel on the SciX homepage showing navigation arrows and learning resources'}
 
+When you visit a page for the first, SciX offers a quick tour of the page's features. You can quit that at any time by clicking the x in the upper right of the current tour dialog box. At any time, you can restart the tour by clicking the blue Tour button in the upper right of the SciX header. Tours are available on the main search page, the results listing, and abstract view.
+
+![Tour the page's freatures](fig/SciX-tour.png){alt='SciX homepage with Tour in progress describing the search bar; a call out points to the button that initiates the Tour feature. '}
+
+
 For more detailed assistance, click the "Help" button in the upper
 right.
 
 ![SciX help carousel with a Help button in the top right](fig/extensive-help.png){alt='SciX homepage with the Help button highlighted in the top-right corner'}
+
 
 ## Starting a Search
 
@@ -75,28 +81,23 @@ among the most common performed in SciX.
 
 ![Main search bar highlighted on the SciX homepage](fig/starting-search.png){alt='Highlighted search bar on the SciX homepage for entering search terms'}
 
-:::: challenge
+## Author Search
+
 If you select author from either the quick fields or the dropdown menu,
 SciX will add the field to the search bar.
 
 ![Starting an author search](fig/starting-author-search.png){alt='Author field selected in the SciX search bar'}
-
-## Author Search
 
 1. In the search field, select **author** from the quick fields or
    dropdown.
 2. Type `"shoemaker"` (for example, for Gene Shoemaker) and click the
    blue magnifying glass.
 
-
 ::: instructor
-Learners can just type names and phrases into the search bar. However, they will have greater control over structured searches using fields like shown here than unfielded searches.
+Learners can just type names and phrases into the search bar. However, they will have greater control over their results if they build structured queries using fields than if they use simple unfielded searches.
 :::
 
-::: solution
 ![Searching on author name Shoemaker](fig/add-author-name-search.png){alt='Search results initiated for author name "Shoemaker"'}
-:::
-::::
 
 :::: challenge
 ## Search by Author
@@ -107,7 +108,7 @@ get? Discuss with your neighbor.
 ::: solution
 ![Results for Gene Shoemaker](fig/results-view-shoemaker.png){alt='Search results view showing 2,560 items for "Shoemaker"'}
 
-author:”shoemaker” returned 2,560 results when this example was run as you can see in the upper
+`author:"shoemaker"` returned 2,560 results when this example was run as you can see in the upper
 left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 
 The results are sorted by relevance and are in descending order.
@@ -131,9 +132,9 @@ you can access the papers, data, and software that you want.
 ![Article results view in SciX with callouts showing resources available if paper, references or citations, or data icons are clicked](fig/article-results-view2.png){alt='Results view with callouts showing what is available when paper, references or citations, or data icons are clicked'}
 
 Looking at the list of results as a whole, I see some interesting
-articles with an author named “Shoemaker” but perhaps not immediately,
+articles with an author named “Shoemaker" but perhaps not immediately,
 Gene Shoemaker, planetary scientist. The author box on the left allows
-me to narrow my results. It lists variants of the name “Shoemaker” at
+me to narrow my results. It lists variants of the name “Shoemaker" at
 the top followed by the names of co-authors.
 
 The most common variants and co-authors are listed first.
@@ -154,7 +155,7 @@ You can further narrow your search results using the **Institutions** facet.
 For example, if your target author worked at Lowell Observatory, you can:
 
 - **Limit** to papers with authors from that institution
-- **Exclude** results from other affiliations
+- **Exclude** results from other institutions
 
 This is especially useful when multiple authors share similar names but work at different institutions.
 
@@ -185,7 +186,7 @@ Return to the SciX main search page. Use the "all search terms" dropdown menu to
 ::: solution
 ![Results for Keyword crater](fig/scix-keyword-crater.png){alt='SciX results view showing 8,901 items for "Crater"'}
 
-keyword:”crater” returned 8,901 results when this example was run as you can see in the upper
+`keyword:"crater"` returned 8,901 results when this example was run as you can see in the upper
 left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 :::
 ::::
@@ -204,8 +205,8 @@ a search for `crater` might automatically include terms like:
 This expansion improves discoverability across disciplines that might use
 different terminology for the same concept.
 
-If you only want the **exact term** you typed (no expansion), add an equals
-sign: `=crater`.
+If you only want the **exact term** you type (no expansion), add an equals
+sign: `=keyword:crater`.
 
 This exact-match feature is helpful when you're targeting highly specific
 terms or avoiding irrelevant results.
@@ -219,7 +220,7 @@ Return to the SciX main search page. Execute an exact keyword search for 'crater
 
 ![Exact keyword search for crater (synonym expansion disabled](fig/scix-keyword-crater-exact.png){alt='SciX results view of search for exact match keyword crater'}
 
-=keyword:”crater” returned 2,329 results when this example was run as you can see in the upper
+`=keyword:"crater"` returned 2,329 results when this example was run as you can see in the upper
 left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 
 With synonym expansaion disabled, fewer results are returned. However, those precise results may be just what you need.
@@ -240,15 +241,15 @@ As time allows, encourage learners to share their expectations and experiences w
 ### Narrowing Results Using Keyword Facet
 
 After running a keyword search, you can refine your results using the
-**Keywords** facet in the sidebar. Authors or publisheres provided these keywords, 
-which are listed in order of frequency with in your results.
+**Keywords** facet in the sidebar. Authors or publishers provided these keywords, 
+which are listed in order of frequency within your results.
 
 You can:
 
 - Choose to **limit to preferred keywords** or **exclude undesired ones**
 - Click the upward arrow in the lower right corner of the facet to browse the full list of keywords
 
-![SciX Keywords facet for search refinement](fig/scix-keyword-facet){alt='SciX results view with Keywords facet open and arrow to access enhanced search panel highlighted'}
+![SciX Keywords facet for search refinement](fig/scix-keyword-facet.png){alt='SciX results view with Keywords facet open and arrow to access enhanced search panel highlighted'}
 
 - Sort keywords by frequency or alphabetically
 - Search for a specific keyword or partial match
@@ -260,13 +261,14 @@ This is especially useful when you're trying to focus on a specific subtopic
 or filter out irrelevant results.
 
 ::: instructor
-Keyword searches are complicated because publishers use different keyword systems, which can also change over time. The keyword_schema field identifies the system where known. 
-Authors who want their papers to be discovered (and cited) might want to give some additional attention to the keywords they suggest for their papers.
+Keyword searches are complicated because publishers use different keyword systems, which can also change over time. The keyword_schema field identifies the system where known.
+Authors who want their papers to be discovered (and cited) might want to give some additional attention to the keywords they suggest for their papers. 
+The UAT keyword facet is an alternative to the standard keyword facet for astronomy content. SciX is adding UAT keywords to the astronomy collection to provide a uniform set of keywords across time and publishers. The UAT keywords are supplemental and will not replace the original author or publisher provided terms. This feature is generated through machine-learning and is a beta feature while SciX continues to test the quality of the assignments. 
 :::
 
 ### Powering Up Your Keyword Search
 
-You can expand the places SciX looks for your keyword by using an abs search. Using the abs prefix will search
+You can expand the places SciX looks for your keyword by using an abs search. Using the `abs` prefix will search
 
 - title
 - keywords, provided by author or publisher
@@ -275,19 +277,19 @@ You can expand the places SciX looks for your keyword by using an abs search. Us
 The presence of your keyword in the abstract is a better indicator of its significance within the paper as a whole than a passing mention in the full text. This "balanced" search is the most common topical search in SciX.
 
 ::: instructor
-'abs' is short for "abstract' but an 'abstract' only is also possible as is a full-text search. Both of these are mentioned briefly later in the module. 
+`abs` is short for "abstract" but an "abstract" only is also possible as is a full-text search. Both of these are mentioned briefly later in the module. 
 :::
 
 :::: challenge
-Return to the main menu. Use the 'all search terms' dropdown menu to start an 'abs' search for 'crater'.
+Return to the main menu. Use the 'all search terms' dropdown menu to start an `abs` search for 'crater'.
 
 ::: solution
 ![SciX Results view showing search panel for abs:crater](fig/scix-abs-crater.png){alt='SciX results view from abs:crater search'} 
 
-abs:”crater” returned 53,647 results when this example was run as you can see in the upper
+`abs:"crater"` returned 53,647 results when this example was run as you can see in the upper
 left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 
-By searching more fields, an abs search will produce more results than just searching the keywords field alone. 
+By searching more fields, an `abs` search will produce more results than just searching the keywords field alone. 
 :::
 ::::
 
@@ -328,8 +330,9 @@ focus on specific formats such as:
 - Dissertations
 - Conference papers
 - Technical reports
-- Dataset
+- Datasets
 - Software
+- Proposals
 
 Use the **Publication Type** facet in the sidebar to:
 
@@ -349,7 +352,7 @@ This is particularly helpful when your search returns a mix of source types
 and you're only interested in peer-reviewed articles or long-form research. It can also help you identify specialized resources like data and software.
 
 ::: instructor
-Publication Type refers to the type of document.  SciX has a separate field and facet to search and filter by journal or publisher.  By now, learners should be comfortable using the main search page 'all search terms' dropdown menu to locate the 'Publication Full Name' search or used the Publications facet. 
+Publication Type refers to the type of document.  SciX has a separate field and facet to search and filter by journal or publisher.  By now, learners should be comfortable using the main search page 'all search terms' dropdown menu to locate the 'Publication Full Name' search or use the Publications facet. 
 :::
 
 ### Searching Text 
@@ -382,7 +385,7 @@ abs:(crater AND mars) NOT body:jezero
 This finds articles that mention crater and Mars in the title, abstract, or keywords,
 but **exclude** any that mention Jezero in the body text.
 
-![SciX results view for complex search of article text](fig/scix-field-specific-search.png){alt='SciX results from complex search shwon in bar as 'abs:(crater AND mars) NOT body:jezero'}
+![SciX results view for complex search of article text](fig/scix-field-specific-search.png){alt="SciX results from complex search shwon in bar as 'abs:(crater AND mars) NOT body:jezero'"}
 
 ::: challenge
 Return to the SciX main search page. Construct a query that either includes or excludes text from the acknowledgements section.
@@ -396,7 +399,6 @@ If time permits, encourage the learners to share their searches with the class. 
 ## Exploring the Abstract View
 
 From any list of results, click an article title of interest to open the abstract view. When you first open the abstract view, you will see in the center
-
 
 - Detailed bibliographic information (title, authors, publication
   details, DOIs)
