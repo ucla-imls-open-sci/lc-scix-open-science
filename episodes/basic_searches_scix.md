@@ -27,7 +27,7 @@ capabilities. In this episode, we'll cover both author and keyword
 searches, then show you how to refine your results.
 
 ::: instructor
-You might mention the kinds of searches you commonly perform in SciX (e.g., finding articles for your domain or checking citation metrics).
+You might mention the kinds of searches you commonly perform in SciX (e.g., finding articles in your specialty or checking citation metrics).
 The guided examples will be more meaningful if you modify them for your discpline or facility.
 - Who is an author your learners would know?
 - What is a topic in which your learners would be interested?
@@ -61,10 +61,16 @@ start guide and search examples.
 
 ![Quick Help](fig/quick-help.png){alt='Help carousel on the SciX homepage showing navigation arrows and learning resources'}
 
+When you visit a page for the first, SciX offers a quick tour of the page's features. You can quit that at any time by clicking the x in the upper right of the current tour dialog box. At any time, you can restart the tour by clicking the blue Tour button in the upper right of the SciX header. Tours are available on the main search page, the results listing, and abstract view.
+
+![Tour the page's freatures](fig/SciX-tour.png){alt='SciX homepage with Tour in progress describing the search bar; a call out points to the button that initiates the Tour feature. '}
+
+
 For more detailed assistance, click the "Help" button in the upper
 right.
 
 ![SciX help carousel with a Help button in the top right](fig/extensive-help.png){alt='SciX homepage with the Help button highlighted in the top-right corner'}
+
 
 ## Starting a Search
 
@@ -75,28 +81,23 @@ among the most common performed in SciX.
 
 ![Main search bar highlighted on the SciX homepage](fig/starting-search.png){alt='Highlighted search bar on the SciX homepage for entering search terms'}
 
-:::: challenge
+## Author Search
+
 If you select author from either the quick fields or the dropdown menu,
 SciX will add the field to the search bar.
 
 ![Starting an author search](fig/starting-author-search.png){alt='Author field selected in the SciX search bar'}
-
-## Author Search
 
 1. In the search field, select **author** from the quick fields or
    dropdown.
 2. Type `"shoemaker"` (for example, for Gene Shoemaker) and click the
    blue magnifying glass.
 
-
 ::: instructor
-Learners can just type names and phrases into the search bar. However, they will have greater control over structured searches using fields like shown here than unfielded searches.
+Learners can just type names and phrases into the search bar. However, they will have greater control over their results if they build structured queries using fields than if they use simple unfielded searches.
 :::
 
-::: solution
 ![Searching on author name Shoemaker](fig/add-author-name-search.png){alt='Search results initiated for author name "Shoemaker"'}
-:::
-::::
 
 :::: challenge
 ## Search by Author
@@ -204,7 +205,7 @@ a search for `crater` might automatically include terms like:
 This expansion improves discoverability across disciplines that might use
 different terminology for the same concept.
 
-If you only want the **exact term** you typed (no expansion), add an equals
+If you only want the **exact term** you type (no expansion), add an equals
 sign: `=crater`.
 
 This exact-match feature is helpful when you're targeting highly specific
@@ -240,8 +241,8 @@ As time allows, encourage learners to share their expectations and experiences w
 ### Narrowing Results Using Keyword Facet
 
 After running a keyword search, you can refine your results using the
-**Keywords** facet in the sidebar. Authors or publisheres provided these keywords, 
-which are listed in order of frequency with in your results.
+**Keywords** facet in the sidebar. Authors or publishers provided these keywords, 
+which are listed in order of frequency within your results.
 
 You can:
 
@@ -328,8 +329,9 @@ focus on specific formats such as:
 - Dissertations
 - Conference papers
 - Technical reports
-- Dataset
+- Datasets
 - Software
+- Proposals
 
 Use the **Publication Type** facet in the sidebar to:
 

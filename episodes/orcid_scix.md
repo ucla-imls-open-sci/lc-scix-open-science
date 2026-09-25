@@ -19,8 +19,7 @@ exercises: 10
 
 ## SciX and ORCiD
 
-In this lesson we are going to be talking about how SciX integrates ORCiD. Hopefully, you already have an ORCiD for yourself, and an understanding of ORCiD. If not, please review the Library Carpentries Lesson "Open Research and Contributor IDs (ORCID) for Librarians" before beginning this module.
-https://firbolg.github.io/LC_ORCID/
+In this lesson, we are going to be talking about how SciX integrates ORCiD. Hopefully, you already have an ORCiD for yourself, and an understanding of ORCiD. If not, please review the Library Carpentries Lesson "[Open Research and Contributor IDs (ORCID) for Librarians](https://firbolg.github.io/LC_ORCID/)" before beginning this module.
 
 ### Setting Up Your Environment
 
@@ -32,21 +31,32 @@ When you navigate to [SciX](https://scixplorer.org/), ensure you can see the hom
 Ask learners: "Can everyone see the SciX homepage on their browser?"  
 :::
 
-### ADS & SciX
-
-Before we get too far, I want to remind everyone that the Science Explorer is an expanded and updated indexing and abstracting service that is being developed by the same team that created the [Astrophysics Data System](https://ui.adsabs.harvard.edu/).  A lot of SciX's functionality is borrowed from ADS, so you will sometimes see ADS branding even though we are looking at SciX, for the purposes of this lesson you can consider SciX and ADS to be interchangeable.
-
 ### ORCiD & SciX
 
-Many researchers and authors today are claiming [ORCiDs](https://orcid.org/) to help disambiguate themselves from others who share their name.  SciX lets you search for published content using an ORCiD, just write "orcid:" before the ID in the query field.  For example:
+ORCiD stands for [Open Researcher and Contributor ID](https://orcid.org/) 
+Many researchers and authors today are claiming ORCiDs to help disambiguate themselves from others who share their name.  SciX lets you search for published content using an ORCiD, just write "orcid:" before the ID in the query field.  For example:
 
+```
 orcid:0000-0002-6949-0090
+```
 
 ![](fig/scix-orcid-search.png){alt="Screenshot of a search for an ORCiD."}
 
 The ORCiD identifiers attached to a paper can come from the publisher, if that information is provided by the authors when submitting the paper.
 
-However SciX also lets you claim papers for your ORCiD, which is especially useful if the papers pre-date the ORCiD system or if you know that the publisher did not collect that information when you originally submitted the paper.  SciX shares these claimed papers back to ORCiD so that they can show up on your profile there.
+::: discussion
+ORCiD Use
+
+How do researchers at your institution use ORCiDs? What are the expectations of researchers, publishers, funders, and administers regarding these identifiers? What are the barriers to ORCiD use? Discuss with a friend.
+:::
+
+::: instructor
+If time permits, ask one or two learners to share how ORCiDs are being used at their institution?
+
+If any of them mention barriers to adoption, be prepared to discuss briefly further as class. Would their situation be helped by encouraging additional claims through SciX?
+:::
+
+However, SciX also lets you claim papers for your ORCiD, which is especially useful if the papers pre-date the ORCiD system or if you know that the publisher did not collect that information when you originally submitted the paper.  SciX shares these claimed papers back to ORCiD so that they can show up on your profile there.
 
 In order to claim a paper for your ORCiD in SciX, you need to connect to your ORCiD account using the ORCiD menu option at the top of the screen. It will bring up the ORCiD logon screen. Then, you can sign in with your usual ORCiD credentials. 
 
@@ -56,7 +66,7 @@ For your information:  Learners transitioning from ADS or who have had some prev
 
 ![](fig/scix-orcid-signon.png){alt="Screenshot of the ORCiD sign in option in SciX."}
 
-You will first see "My ORCiD Page" listing all of the papers is SciX currently associated with your ORCiD. 
+You will first see "My ORCiD Page" listing all of the papers in SciX currently associated with your ORCiD. 
 
 ![](fig/scix-orcid-dashboard.png){alt="Screenshot of a 'My ORCiD Page' that shows the status of SciX papers associated with an ORCiD along with information about the user."}
 
@@ -68,20 +78,47 @@ Then, search through SciX for your papers and click the "Claim" button to the ri
 
 ![](fig/scix-orcid-claim.png){alt="Screenshot show the buttons for claim and delete claim in SciX."}
 
-Visiting "My ORCiD Page" will bring back to the dashboard of all of your claimed articles, where you can push them to sync with ORCiD and make other edits.
+
+Visiting “My ORCiD Page” will bring back to the dashboard of all of your claimed articles, where you can push them to sync with ORCiD and make other edits.
+
+::: challenge
+### Reflection and Discussion
+If you have published papers in SciX, spend a few minutes ensuring your ORCiD is associated with each of them.
+
+If you do not have published papers in SciX, do one of the following
+- Assist a friend who is working on claiming their papers.
+- Search for the papers of someone at your institution and identify which of their papers they should be encouraged to claim soon.
+
+Working with a friend, address any areas of difficulty or confusion.
+:::
+
+::: instructor
+Ask by show of hands whether learners will be able to assist others at their institutions with claiming papers in the future.
+:::
 
 ### Summary
 
-ORCiDs provide a prower tool for uniquely identifying individual authors, many of who may have similar names.  SciX provides tools to search for papers using ORCiDs, where those are known, as well as assistance to authors in ensuring all their papers are properly ORCiD tagged. For more information about ORCiD searches, please visit the SciX "Searching for papers in ORCID" help page [https://scixplorer.org/scixhelp/orcid-scix/orcid-search](https://scixplorer.org/scixhelp/orcid-scix/orcid-search).  For more information about claiming papers with your ORCiD, please visit the SciX "Claiming papers in ORCID" Help page [https://scixplorer.org/scixhelp/orcid-scix/claiming-papers](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers).  You may also find this [ORCiD in SciX](https://ads.harvard.edu/handouts/SciX_ORCiD_handout.pdf) handout helpful.
+ORCiDs provide a prowerful tool for uniquely identifying individual authors, many of whom may have similar names.  SciX provides tools to search for papers using ORCiDs, where those are known, as well as assistance to authors in ensuring all their papers are properly ORCiD tagged.
 
+For more information about using ORCiD in SciX, we recommend
+- [Searching for papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/orcid-search) SciX help page
+- [Claiming papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers) SciX Help page
+- [ORCiD in SciX](https://ads.harvard.edu/handouts/SciX_ORCiD_handout.pdf) handout
 
-::: discussion
-### Reflection and Discussion
+::: challenge
+### Bonus Challenge
+For a few well-established researchers in your field, compare the effectiveness and efficiency of traditional name searches to ORCiD searches. Which works best now?
+:::
 
-In small groups, review ORCiD mode and SciX's "My ORCiD Page," jot down any questions for the larger group.
-If you have publications in SciX, check to see if they are already claimed in ORCiD, and if not, claim them and work with group mates to walk through the process.
-Report back any discussion/questions to the class.
+::: keypoints   
+SciX encourages authors to identify themselves and claim their work with ORCiDs.    
+Users can search SciX for people using ORCiDs.     
+Users can use SciX search tools to find their papers without ORCiDS and claim them.       
+SciX will communicate users' claims to ORCiD.    
+:::
 
-How do researchers at your institution use ORiDs? 
-
+::: glossary
+ISNI - [International Standard Name Identifier](https://isni.org/), a unique, persistent identifier for people and organizations of which ORCiDs are a subset   
+ORCiD - [Open Researcher and Contributor ID](https://orcid.org/), a unique, persistent identifier for researchers   
+claiming a paper - process by which a researcher identifies themselves as one of the authors so that their ORCiD can be attached to a document that did not previously have that information    
 :::
