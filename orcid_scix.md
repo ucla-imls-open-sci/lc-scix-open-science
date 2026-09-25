@@ -21,6 +21,10 @@ exercises: 10
 
 In this lesson, we are going to be talking about how SciX integrates ORCiD. Hopefully, you already have an ORCiD for yourself, and an understanding of ORCiD. If not, please review the Library Carpentries Lesson "[Open Research and Contributor IDs (ORCID) for Librarians](https://firbolg.github.io/LC_ORCID/)" before beginning this module.
 
+::: instructor
+Some learners may have an ISNI (International Standard Name Identifier) rather than an ORCiD. The numbers are formatted similarly; [ORCiDs fall within a reserved range of ISNI](https://info.orcid.org/orcid-and-isni-issue-joint-statement-on-interoperation-april-2013/). However, SciX does not currently support ISNI for research identification and ORCiD provides more robust services to individual researchers. Therefore, learners who have ISNI but not ORCiD should still be encouraged to obtain an ORCiD as well.
+::: 
+
 ### Setting Up Your Environment
 
 When you navigate to [SciX](https://scixplorer.org/), ensure you can see the homepage.  
@@ -45,7 +49,7 @@ orcid:0000-0002-6949-0090
 The ORCiD identifiers attached to a paper can come from the publisher, if that information is provided by the authors when submitting the paper.
 
 ::: discussion
-ORCiD Use
+## ORCiD Use
 
 How do researchers at your institution use ORCiDs? What are the expectations of researchers, publishers, funders, and administers regarding these identifiers? What are the barriers to ORCiD use? Discuss with a friend.
 :::
@@ -61,7 +65,7 @@ However, SciX also lets you claim papers for your ORCiD, which is especially use
 In order to claim a paper for your ORCiD in SciX, you need to connect to your ORCiD account using the ORCiD menu option at the top of the screen. It will bring up the ORCiD logon screen. Then, you can sign in with your usual ORCiD credentials. 
 
 ::: instructor 
-For your information:  Learners transitioning from ADS or who have had some previous SciX experience may have ADS or SciX accounts; the two are interchangeable.  If so, they may have enterend ORCiD information into their ADS or SciX account. They may also have been encouraged to log into both their ADS or SciX account and their ORCiD account. While that procedure is not wrong, it is also not necessary. In the interest of simplicity, the module only demonstrates loging into the ORCiD account, which is sufficient for all ORCiD-related tasks. If a learner asks about ORCiD and SciX accounts, you can find out more about using them together on the SciX "Claiming papers in ORCID" Help page [https://scixplorer.org/scixhelp/orcid-scix/claiming-papers](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers). 
+For your information:  Learners transitioning from ADS or who have had some previous SciX experience may have ADS or SciX accounts; the two are interchangeable.  If so, they may have entered ORCiD information into their ADS or SciX account. They may also have been encouraged to log into both their ADS or SciX account and their ORCiD account. While that procedure is not wrong, it is also not necessary. In the interest of simplicity, the module only demonstrates logging into the ORCiD account, which is sufficient for all ORCiD-related tasks. If a learner asks about ORCiD and SciX accounts, you can find out more about using them together on the SciX "Claiming papers in ORCID" Help page [https://scixplorer.org/scixhelp/orcid-scix/claiming-papers](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers). 
 :::
 
 ![](fig/scix-orcid-signon.png){alt="Screenshot of the ORCiD sign in option in SciX."}
@@ -79,9 +83,9 @@ Then, search through SciX for your papers and click the "Claim" button to the ri
 ![](fig/scix-orcid-claim.png){alt="Screenshot show the buttons for claim and delete claim in SciX."}
 
 
-Visiting “My ORCiD Page” will bring back to the dashboard of all of your claimed articles, where you can push them to sync with ORCiD and make other edits.
+Visiting "My ORCiD Page" will bring back to the dashboard of all of your claimed articles, where you can push them to sync with ORCiD and make other edits.
 
-::: challenge
+::: discussion
 ### Reflection and Discussion
 If you have published papers in SciX, spend a few minutes ensuring your ORCiD is associated with each of them.
 
@@ -98,7 +102,7 @@ Ask by show of hands whether learners will be able to assist others at their ins
 
 ### Summary
 
-ORCiDs provide a prowerful tool for uniquely identifying individual authors, many of whom may have similar names.  SciX provides tools to search for papers using ORCiDs, where those are known, as well as assistance to authors in ensuring all their papers are properly ORCiD tagged.
+ORCiDs provide a powerful tool for uniquely identifying individual authors, many of whom may have similar names.  SciX provides tools to search for papers using ORCiDs, where those are known, as well as assistance to authors in ensuring all their papers are properly ORCiD tagged.
 
 For more information about using ORCiD in SciX, we recommend
 - [Searching for papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/orcid-search) SciX help page
@@ -121,4 +125,11 @@ SciX will communicate users' claims to ORCiD.
 ISNI - [International Standard Name Identifier](https://isni.org/), a unique, persistent identifier for people and organizations of which ORCiDs are a subset   
 ORCiD - [Open Researcher and Contributor ID](https://orcid.org/), a unique, persistent identifier for researchers   
 claiming a paper - process by which a researcher identifies themselves as one of the authors so that their ORCiD can be attached to a document that did not previously have that information    
+:::
+
+::: keypoints   
+- SciX encourages authors to identify themselves and claim their work with ORCiDs.    
+- Users can search SciX for people using ORCiDs.     
+- Users can use SciX search tools to find their papers without ORCiDS and claim them.       
+- SciX will communicate users' claims to ORCiD.    
 :::
