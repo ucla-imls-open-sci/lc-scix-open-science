@@ -242,6 +242,7 @@ The presence of your keyword in the abstract is a better indicator of its signif
 :::
 
 :::: challenge
+## Abstract Search
 Return to the main menu. Use the 'all search terms' dropdown menu to start an `abs` search for 'crater'.
 
 ::: solution
@@ -329,7 +330,6 @@ in addition to our old friends
 You can also use Boolean operators (`AND`, `OR`, `NOT`) to combine or exclude terms.
 
 For example:
-
 ```text
 abs:(crater AND mars) NOT body:jezero
 ```
@@ -339,6 +339,7 @@ This finds articles that mention crater and Mars in the title, abstract, or keyw
 ![SciX results view for complex search of article text](fig/scix-field-specific-search.png){alt="SciX results from complex search shown in bar as 'abs:(crater AND mars) NOT body:jezero'"}
 
 ::: challenge
+## Searching Acknowledgements (or Not)
 Return to the SciX main search page. Construct a query that either includes or excludes text from the acknowledgments section.
 Share your results with a neighbor.
 :::
@@ -384,7 +385,7 @@ Mendeley uses RIS, BibTeX, and EndNote, which are all available.
 :::
 
 ::: challenge
-## Challenge
+## Abstract View Deep Dive
 
 Select an article and review its abstract view thoroughly. 
 - What extra details can you find that weren't in the results view?
@@ -396,6 +397,7 @@ Share your findings with a neighbor.
 If time permits, encourage learners to share their experiences with the class.
 :::
 
+::: discussion
 ## Reflection and Discussion
 
 Take a few minutes to perform a search on a topic relevant to your work using both author and keyword searches. Then, discuss with a partner:
@@ -403,6 +405,7 @@ Take a few minutes to perform a search on a topic relevant to your work using bo
 - What did you search for?
 - Did you find relevant materials?
 - What aspects of the process were straightforward or challenging?
+:::
 
 ::: challenge
 ## Bonus Challenge

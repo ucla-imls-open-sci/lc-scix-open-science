@@ -99,10 +99,10 @@ Ask by show of hands whether learners will be able to assist others at their ins
 
 ORCiDs provide a powerful tool for uniquely identifying individual authors, many of whom may have similar names. SciX provides tools to search for papers using ORCiDs, where those are known, as well as assistance to authors in ensuring all their papers are properly ORCiD tagged.
 
-For more information about using ORCiD in SciX, we recommend
-- [Searching for papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/orcid-search) SciX Help page
-- [Claiming papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers) SciX Help page
-- [ORCiD in SciX](https://ads.harvard.edu/handouts/SciX_ORCiD_handout.pdf) handout
+For more information about using ORCiD in SciX, we recommend:
+- SciX Help page: [Searching for papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/orcid-search)
+- SciX Help page: [Claiming papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers)
+- Handout: [ORCiD in SciX](https://ads.harvard.edu/handouts/SciX_ORCiD_handout.pdf)
 
 ::: challenge
 ## Bonus Challenge
@@ -110,8 +110,8 @@ For a few well-established researchers in your field, compare the effectiveness 
 :::
 
 ::: keypoints
-SciX encourages authors to identify themselves and claim their work with ORCiDs.
-Users can search SciX for people using ORCiDs. 
-Users can use SciX search tools to find their papers without ORCiDs and claim them.
-SciX will communicate users' claims to ORCiD.
+- SciX encourages authors to identify themselves and claim their work with ORCiDs.    
+- Users can search SciX for people using ORCiDs.     
+- Users can use SciX search tools to find their papers without ORCiDS and claim them.       
+- SciX will communicate users' claims to ORCiD.  
 :::
