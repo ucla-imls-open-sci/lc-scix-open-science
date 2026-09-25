@@ -420,9 +420,9 @@ get? Discuss with your neighbor.</p>
 <div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <figure><img src="fig/results-view-shoemaker.png" alt='Search results view showing 2,560 items for "Shoemaker"' class="figure mx-auto d-block"><div class="figcaption">Results for Gene Shoemaker</div>
-</figure><p>author:”shoemaker” returned 2,560 results when this example was run
-as you can see in the upper left; because SciX adds new material on
-daily and weekly cycles you may see a different count.</p>
+</figure><p><code>author:"shoemaker"</code> returned 2,560 results when this
+example was run as you can see in the upper left; because SciX adds new
+material on daily and weekly cycles you may see a different count.</p>
 <p>The results are sorted by relevance and are in descending order. You
 can change the sorting criterion by using the dropdown menu to select:
 date, author count, citation count, entry date, first author, normalized
@@ -471,7 +471,7 @@ can:</p>
 <strong>Limit</strong> to papers with authors from that
 institution</li>
 <li>
-<strong>Exclude</strong> results from other affiliations</li>
+<strong>Exclude</strong> results from other institutions</li>
 </ul><p>This is especially useful when multiple authors share similar names
 but work at different institutions.</p>
 <figure><img src="fig/refine-by-institution.png" alt="SciX sidebar facet showing a list of institutions such as Lowell Observatory with checkboxes to include or exclude them from results" class="figure mx-auto d-block"><div class="figcaption">Institutions facet in SciX</div>
@@ -507,9 +507,9 @@ dropdown menu to start a keyword search for ‘crater.’ <img src="fig/scix-all
 <div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater.png" alt='SciX results view showing 8,901 items for "Crater"' class="figure mx-auto d-block"><div class="figcaption">Results for Keyword crater</div>
-</figure><p>keyword:”crater” returned 8,901 results when this example was run as
-you can see in the upper left; because SciX adds new material on daily
-and weekly cycles you may see a different count.</p>
+</figure><p><code>keyword:"crater"</code> returned 8,901 results when this
+example was run as you can see in the upper left; because SciX adds new
+material on daily and weekly cycles you may see a different count.</p>
 </div>
 </div>
 </div>
@@ -528,7 +528,7 @@ include terms like:</p>
 </ul><p>This expansion improves discoverability across disciplines that might
 use different terminology for the same concept.</p>
 <p>If you only want the <strong>exact term</strong> you type (no
-expansion), add an equals sign: <code>=crater</code>.</p>
+expansion), add an equals sign: <code>=keyword:crater</code>.</p>
 <p>This exact-match feature is helpful when you’re targeting highly
 specific terms or avoiding irrelevant results.</p>
 <div id="keyword-search-1" class="callout challenge">
@@ -553,11 +553,11 @@ for ‘crater’.</p>
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater-exact.png" alt="SciX results view of search for exact match keyword crater" class="figure mx-auto d-block"><div class="figcaption">Exact keyword search for crater (synonym
 expansion disabled</div>
-</figure><p>=keyword:”crater” returned 2,329 results when this example was run as
-you can see in the upper left; because SciX adds new material on daily
-and weekly cycles you may see a different count.</p>
-<p>With synonym expansaion disabled, fewer results are returned.
-However, those precise results may be just what you need.</p>
+</figure><p><code>=keyword:"crater"</code> returned 2,329 results when this
+example was run as you can see in the upper left; because SciX adds new
+material on daily and weekly cycles you may see a different count.</p>
+<p>With synonym expansion disabled, fewer results are returned. However,
+those precise results may be just what you need.</p>
 </div>
 </div>
 </div>
@@ -590,13 +590,13 @@ your results.</p>
 </li>
 <li>Click the upward arrow in the lower right corner of the facet to
 browse the full list of keywords</li>
-</ul><figure><img src="fig/scix-keyword-facet" alt="SciX results view with Keywords facet open and arrow to access enhanced search panel highlighted" class="figure mx-auto d-block"><div class="figcaption">SciX Keywords facet for search refinement</div>
+</ul><figure><img src="fig/scix-keyword-facet.png" alt="SciX results view with Keywords facet open and arrow to access enhanced search panel highlighted" class="figure mx-auto d-block"><div class="figcaption">SciX Keywords facet for search refinement</div>
 </figure><ul><li>Sort keywords by frequency or alphabetically</li>
 <li>Search for a specific keyword or partial match</li>
 <li>Download keywords for use outside of SciX</li>
-</ul><p><img src="fig/scix-keyword-facet-search.png" alt="SciX Keywords facet search panel showing search for terms begining with ‘sh’" class="figure">{alt=‘SciX
-Keywords facet search panel with results of search for keywords begining
-with ’sh’ sorted by frequency’}</p>
+</ul><p><img src="fig/scix-keyword-facet-search.png" alt="SciX Keywords facet search panel showing search for terms beginning with ‘sh’" class="figure">{alt=‘SciX
+Keywords facet search panel with results of search for keywords
+beginning with ’sh’ sorted by frequency’}</p>
 <p>This is especially useful when you’re trying to focus on a specific
 subtopic or filter out irrelevant results.</p>
 
@@ -604,7 +604,7 @@ subtopic or filter out irrelevant results.</p>
 <div class="section level3">
 <h3 id="powering-up-your-keyword-search">Powering Up Your Keyword Search<a class="anchor" aria-label="anchor" href="#powering-up-your-keyword-search"></a></h3>
 <p>You can expand the places SciX looks for your keyword by using an abs
-search. Using the abs prefix will search</p>
+search. Using the <code>abs</code> prefix will search</p>
 <ul><li>title</li>
 <li>keywords, provided by author or publisher</li>
 <li>abstract</li>
@@ -622,7 +622,7 @@ in SciX.</p>
 <h3 class="callout-title">Challenge</h3>
 <div class="callout-content">
 <p>Return to the main menu. Use the ‘all search terms’ dropdown menu to
-start an ‘abs’ search for ‘crater’.</p>
+start an <code>abs</code> search for ‘crater’.</p>
 </div>
 </div>
 </div>
@@ -635,11 +635,11 @@ start an ‘abs’ search for ‘crater’.</p>
 <div class="accordion-body">
 <figure><img src="fig/scix-abs-crater.png" alt="SciX results view from abs:crater search" class="figure mx-auto d-block"><div class="figcaption">SciX Results view showing search panel for
 abs:crater</div>
-</figure><p>abs:”crater” returned 53,647 results when this example was run as you
-can see in the upper left; because SciX adds new material on daily and
-weekly cycles you may see a different count.</p>
-<p>By searching more fields, an abs search will produce more results
-than just searching the keywords field alone.</p>
+</figure><p><code>abs:"crater"</code> returned 53,647 results when this example
+was run as you can see in the upper left; because SciX adds new material
+on daily and weekly cycles you may see a different count.</p>
+<p>By searching more fields, an <code>abs</code> search will produce
+more results than just searching the keywords field alone.</p>
 </div>
 </div>
 </div>
@@ -729,10 +729,9 @@ exclude it from another (e.g., the body).</p>
 <p>This finds articles that mention crater and Mars in the title,
 abstract, or keywords, but <strong>exclude</strong> any that mention
 Jezero in the body text.</p>
-<p><img src="fig/scix-field-specific-search.png" alt="SciX results view for complex search of article text" class="figure">{alt=‘SciX
-results from complex search shwon in bar as ’abs:(crater AND mars) NOT
-body:jezero’}</p>
-<div id="challenge6" class="callout challenge">
+<figure><img src="fig/scix-field-specific-search.png" alt="SciX results from complex search shown in bar as 'abs:(crater AND mars) NOT body:jezero'" class="figure mx-auto d-block"><div class="figcaption">SciX results view for complex search of article
+text</div>
+</figure><div id="challenge6" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
@@ -769,17 +768,17 @@ datasets</div>
 similar, produces the list of corresponding papers with all of their
 details. Those lists can be converted to search results for further
 investigation.</p>
-<figure><img src="fig/scix-abstract-view-2.PNG" alt="List of papers cited by main paper shown from within SciX abstract view with basic metadata plus annotatons highlighting features of this view" class="figure mx-auto d-block"><div class="figcaption">Citation list available in SciX abstract
+<figure><img src="fig/scix-abstract-view-2.PNG" alt="List of papers cited by main paper shown from within SciX abstract view with basic metadata plus annotations highlighting features of this view" class="figure mx-auto d-block"><div class="figcaption">Citation list available in SciX abstract
 view</div>
 </figure><p>Clicking the links on the left side for metrics produces a graphical
-display of the citations to the paper over time. The citataion data can
+display of the citations to the paper over time. The citation data can
 be downloaded.</p>
-<figure><img src="fig/scix-abstract-view-3.PNG" alt="Bar graph and numerical citation data for the paper shown from within SciX abstract view plus annotatons highlighting features of this view" class="figure mx-auto d-block"><div class="figcaption">Metric data visualized within SciX abstract
+<figure><img src="fig/scix-abstract-view-3.PNG" alt="Bar graph and numerical citation data for the paper shown from within SciX abstract view plus annotations highlighting features of this view" class="figure mx-auto d-block"><div class="figcaption">Metric data visualized within SciX abstract
 view</div>
 </figure><p>Clicking the links on the left side for export citation provides
 access to a variety of citation formats that can be downloaded to a file
 or copied to the clipboard.</p>
-<figure><img src="fig/scix-abstract-view-4.PNG" alt="Export citation tools showcasing BibteX option available from within SciX abstract view plus annotatons highlighting features of this view" class="figure mx-auto d-block"><div class="figcaption">Export citation tools available within SciX
+<figure><img src="fig/scix-abstract-view-4.PNG" alt="Export citation tools showcasing BibteX option available from within SciX abstract view plus annotations highlighting features of this view" class="figure mx-auto d-block"><div class="figcaption">Export citation tools available within SciX
 abstract view</div>
 </figure><div id="challenge" class="callout challenge">
 <div class="callout-square">
