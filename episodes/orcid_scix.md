@@ -117,8 +117,4 @@ Users can use SciX search tools to find their papers without ORCiDS and claim th
 SciX will communicate users' claims to ORCiD.    
 :::
 
-::: glossary
-ISNI - [International Standard Name Identifier](https://isni.org/), a unique, persistent identifier for people and organizations of which ORCiDs are a subset   
-ORCiD - [Open Researcher and Contributor ID](https://orcid.org/), a unique, persistent identifier for researchers   
-claiming a paper - process by which a researcher identifies themselves as one of the authors so that their ORCiD can be attached to a document that did not previously have that information    
-:::
+
