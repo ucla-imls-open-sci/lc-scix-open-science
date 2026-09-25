@@ -301,7 +301,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Literature Exploration in SciX</h1>
-        <p>Last updated on 2026-09-18 |
+        <p>Last updated on 2026-09-25 |
 
         <a href="https://github.com/ucla-imls-open-sci/lc-scix-open-science/edit/main/episodes/lit_explore_scix.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -355,7 +355,7 @@ can see the homepage.</p>
 operations that are performed on the results of a previous query. The
 second order operators available in SciX are: <strong>similar</strong>,
 <strong>useful</strong>, <strong>reviews</strong>, and
-<strong>trending</strong>,. Each of these second-order operators benefit
+<strong>trending</strong>. Each of these second-order operators benefit
 from taking different things into consideration for the initial query,
 so we will discuss individually the three we highlight in this
 lesson.</p>
@@ -400,10 +400,10 @@ Notification Service</a> report</p>
 Report dated 2026 September 01</div>
 </figure><p>and feed it into <code>Similar()</code>.</p>
 <pre><code><span><span class="fu">similar</span><span class="op">(</span><span class="st">"Yellowstone Caldera activity remains at background levels, with 61 located earthquakes in August (largest = M2.0). Deformation measurements indicate no significant uplift of the north caldera rim since January 2026 and only minor uplift of the caldera since the beginning of the year."</span>,<span class="va">input</span><span class="op">)</span></span></code></pre>
-<figure><img src="fig/scix-similar-example-yellowstone-init.png" alt="Screenshot of SciX main search bar with 'Similar()'. User has entered text about Yellowstone directly into function." class="figure mx-auto d-block"><div class="figcaption">SciX Main Search page detail with ‘Similar()’
-being applied to user-provided text.</div>
+<figure><img src="fig/scix-similar-example-yellowstone-init.png" alt="Screenshot of SciX main search bar with `Similar()`. User has entered text about Yellowstone directly into function." class="figure mx-auto d-block"><div class="figcaption">SciX Main Search page detail with
+<code>Similar()</code> being applied to user-provided text.</div>
 </figure><p>to get over 68,000 results.</p>
-<figure><img src="fig/scix-similar-example-yellowstone-results.png" alt="Screenshot of SciX results page from search of 'Similar()' with user-input text about Yellowstone monitoring." class="figure mx-auto d-block"><div class="figcaption">SciX Results page for documents similar to the
+<figure><img src="fig/scix-similar-example-yellowstone-results.png" alt="Screenshot of SciX results page from search of `Similar()` with user-input text about Yellowstone monitoring." class="figure mx-auto d-block"><div class="figcaption">SciX Results page for documents similar to the
 user input text about Yellowstone monitoring</div>
 </figure><p><a href="https://doi.org/10.3847/25c2cfeb.8d12c399" class="external-link">Michael Kurtz et
 al. 2020</a> and the <a href="https://scixplorer.org/scixhelp/search-scix/second-order" class="external-link">SciX
@@ -421,25 +421,14 @@ which can include foundational papers, datasets, and software. This
 query can also expose papers in different, but related fields, such as
 papers that describe software that other researchers found useful when
 exploring the topic.</p>
-<div id="challenge1" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Submit a query to determine what papers are useful to
-volcanologists.</p>
-</div>
-</div>
-</div>
+<p>:::: challenge <strong>Discover Useful Papers</strong> Submit a query
+to determine what papers are useful to volcanologists.</p>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p><img src="fig/scix-useful.png" alt="Screenshot of SciX results about volcanoes that are useful." class="figure">
 Using an unfielded search for volcanoes as input, <code>Useful()</code>
@@ -452,6 +441,7 @@ fundamental software functions.</p>
 </div>
 </div>
 </div>
+<p>::::</p>
 </div>
 <div class="section level4">
 <h4 id="reviews">Reviews<a class="anchor" aria-label="anchor" href="#reviews"></a></h4>
@@ -466,37 +456,28 @@ from a <code>Reviews()</code> search as a higher-level view of your
 topic or taking a step back from the details. These results will be the
 most relevant papers on your topic when viewed from this broader
 perspective within its field.</p>
-<div id="challenge2" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Submit a query to take a higher-level look at volcanoes, perhaps
-place it within physical geology more broadly using
+<p>:::: challenge <strong>Discover Papers that Might Give an
+Overview</strong> Submit a query to take a higher-level look at
+volcanoes, perhaps place it within physical geology more broadly using
 <code>Reviews()</code>.</p>
-</div>
-</div>
-</div>
 <div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p><img src="fig/scix-reviews.png" alt="Screenshot of SciX results that are reviews of literature about volcanoes." class="figure">
 Using an unfielded search for volcanoes as input, <code>Reviews()</code>
-returned over 127,00 results when this example was run as you can see in
-the upper left; because SciX adds new material on daily and weekly
+returned over 127,000 results when this example was run as you can see
+in the upper left; because SciX adds new material on daily and weekly
 cycles you may see a different count.</p>
 <p>The top three papers shown appear be about tectonic systems.</p>
 </div>
 </div>
 </div>
 </div>
+<p>::::</p>
 <p>If you were looking for a more traditional review journal covering a
 field with which you were less familiar, you could consult the SciX
 Journals database. It is available at <a href="https://scixplorer.org/journalsdb" class="external-link">https://scixplorer.org/journalsdb</a>.
@@ -504,9 +485,10 @@ You can type a word or two into the search bar to identify journals with
 titles containing those words.</p>
 <figure><img src="fig/scix-journalsdb-review.png" alt="Screenshot of SciX Journals Database search results for 'Review' " class="figure mx-auto d-block"><div class="figcaption">SciX Journals Database with a search for
 journals whose titles contain the word ‘Review’</div>
-</figure><figure><img src="fig/scix-journalsdb-ESRv.png" alt="Detail of Screenshot of SciX Journals Database search results for 'Review' near _Earth Science Reviews_'" class="figure mx-auto d-block"><div class="figcaption">Detail of SciX Journals Database listing for
-journals whose titles contain the word ‘Review’ near the Earth Science
-Reviews</div>
+</figure><figure><img src="fig/scix-journalsdb-ESRv.png" alt="Detail of Screenshot of SciX Journals Database search results for 'Review' near *Earth Science Reviews*" class="figure mx-auto d-block"><div class="figcaption">Detail of SciX Journals Database listing for
+journals whose titles contain the word ‘Review’ near the <em>Earth
+Science Reviews</em>
+</div>
 </figure><p>If I try typing “Review”, I find a lot of choices. However, scrolling
 through them, I do not find a volcanology specific review journal. My
 best option is probably <em>Earth Science Reviews</em> (ESRv). If I
@@ -516,26 +498,17 @@ that journal.</p>
 in <em>Earth Science Reviews</em> (bibstem = ESRv)</div>
 </figure><p>Alternatively, if I click on the full name of the journal, I will get
 more technical information about the SciX holdings for this journal.</p>
-<figure><img src="fig/scix-journalsdb-ESRv-detail.png" alt="Screenshot of SciX Journals Database listing in JSON for _Earth Science Reviews_" class="figure mx-auto d-block"><div class="figcaption">SciX Journals Database listing (JSON) for
+<figure><img src="fig/scix-journalsdb-ESRv.-detail.png" alt="Screenshot of SciX Journals Database listing in JSON for *Earth Science Reviews*" class="figure mx-auto d-block"><div class="figcaption">SciX Journals Database listing (JSON) for
 <em>Earth Science Reviews</em>
 </div>
-</figure><div id="reflection-and-discussion" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<span class="callout-header">Discussion</span>
-<div id="reflection-and-discussion" class="callout-inner">
-<h3 class="callout-title">Reflection and Discussion</h3>
-<div class="callout-content">
+</figure><p>::: discussion <strong><em>Reflection and Discussion on Second-Order
+Operators</em></strong></p>
 <p>Spend 2-3 minutes working with second-order operators looking for
 research trends in a topic of your choice. Then, discuss what you did
 and what you learned with a friend. Was something difficult for you? Did
 something surprise you?</p>
-<p>Which operator are you most likely to use: similar, useful,
-reviews?</p>
-</div>
-</div>
-</div>
+<p>Which operator are you most likely to use: <code>Similar()</code>,
+<code>Useful()</code>, or <code>Reviews()</code>? :::</p>
 
 </div>
 <div class="section level4">
@@ -547,9 +520,11 @@ input. The graphic below to can help describe the similarities and
 differences among these operations.</p>
 <figure><img src="fig/scix-second-operators.png" alt="Graphic summarizing the four second order operators of SciX." class="figure mx-auto d-block"><div class="figcaption">SciX Second-Order Operations</div>
 </figure><p>For more information, we recommend - <a href="https://scixplorer.org/scixhelp/search-scix/second-order" class="external-link">SciX
-help page on second-order queries</a> - <a href="https://ads.harvard.edu/handouts/SciX_2ndorder_operators.pdf" class="external-link">Second
-Order Operators in SciX</a> - <a href="https://doi.org/10.3847/25c2cfeb.8d12c399" class="external-link">2020 paper by Michael
-Kurtz et al on second-order operations</a></p>
+help page on second-order queries</a><br>
+- <a href="https://ads.harvard.edu/handouts/SciX_2ndorder_operators.pdf" class="external-link">Second
+Order Operators in SciX</a><br>
+- <a href="https://doi.org/10.3847/25c2cfeb.8d12c399" class="external-link">2020 paper by
+Michael Kurtz et al on second-order operations</a></p>
 </div>
 </div>
 <div class="section level3">
@@ -596,27 +571,16 @@ with each other, though not every author in each group will have worked
 with every other author in their group. You may find it helpful when
 looking for new opportunities, when trying to eliminate possible
 conflicts of interest, or when surveying the research landscape.</p>
-<div id="challenge3" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Visualize an Author Network</p>
+<p>:::: challenge <strong>Visualize an Author Network</strong></p>
 <p>Create a visualization of the Author Network using your search
 results. Like the Paper Network, this visualization will default to the
 first 400 papers but you can chance the number used.</p>
-</div>
-</div>
-</div>
 <div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <figure><img src="fig/scix-author-network.png" alt="Screenshot of SciX author network visualization, showing the main groups of authors for papers in the original volcanoes results set." class="figure mx-auto d-block"><div class="figcaption">SciX Author Network for 400 papers about
 volcanoes</div>
@@ -628,6 +592,7 @@ and weekly cycles you may see a different distribution.</p>
 </div>
 </div>
 </div>
+<p>::::</p>
 <p>Clicking into the section group, the inside edge of the donut, will
 bring up the list of papers in that group. Clicking on a specific name,
 or their specific section of the donut, will instead show all papers by
@@ -636,22 +601,13 @@ that particular author.</p>
 individuals in different groups.</p>
 <p>Like the Paper Network, the Author Network also has an option to
 download the underlying data as a csv file.</p>
-<div id="reflection-and-discussion-1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<span class="callout-header">Discussion</span>
-<div id="reflection-and-discussion-1" class="callout-inner">
-<h3 class="callout-title">Reflection and Discussion</h3>
-<div class="callout-content">
+<p>::: discussion <strong>Reflection and Discussion on
+Visualizations</strong></p>
 <p>Spend 2-3 minutes individually looking at these visualizations for a
 topic of your choice. Then, discuss what you did and what you learned
 with a friend. Was anything difficult? Did anything surprise you? How
 could you use either the paper network or author network in your own
-work?</p>
-</div>
-</div>
-</div>
+work? :::</p>
 
 </div>
 </div>
@@ -667,24 +623,16 @@ building a substantive literature review and in positioning your work to
 your best advantage.</p>
 <p>For more details about these two graphs and information about the
 other SciX graphics, we recommend - <a href="https://scixplorer.org/help/actions/visualize" class="external-link">SciX Help page on
-Visualizations</a> - <a href="https://ads.harvard.edu/handouts/SciX_visualizations_handout.pdf" class="external-link">Exploring
-SciX Visualizations</a> handout - <a href="https://doi.org/10.3847/25c2cfeb.8d12c399" class="external-link">2020 paper by Michael
-Kurtz et al on second-order operations</a> (Paper Network only)</p>
-<div id="bonus-challenge" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="bonus-challenge" class="callout-inner">
-<h3 class="callout-title">Bonus Challenge</h3>
-<div class="callout-content">
-<p>Using search results from a query of interest to you, try one of the
-Explore menu options that we were not able to cover today. Consult the
-<a href="https://scixplorer.org/scixhelp/" class="external-link">SciX Help documentation</a>
-for anything that is unclear.</p>
-</div>
-</div>
-</div>
+Visualizations</a><br>
+- <a href="https://ads.harvard.edu/handouts/SciX_visualizations_handout.pdf" class="external-link">Exploring
+SciX Visualizations</a> handout<br>
+- <a href="https://doi.org/10.3847/25c2cfeb.8d12c399" class="external-link">2020 paper by
+Michael Kurtz et al on second-order operations</a> (Paper Network
+only)</p>
+<p>:::: challenge <strong>onus Challenge</strong> Using search results
+from a query of interest to you, try one of the Explore menu options
+that we were not able to cover today. Consult the <a href="https://scixplorer.org/scixhelp/" class="external-link">SciX Help documentation</a> for
+anything that is unclear. ::::</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -710,38 +658,6 @@ collaborations are working in this field? what is that lab
 producing?<br></li>
 </ul></div>
 </div>
-</div>
-<div class="glossary">
-<p>Author Network - SciX visualization that <a href="https://scixplorer.org/help/actions/visualize" class="external-link">groups authors by
-co-author frequency</a>; surveys the research landscape for a topic</p>
-<p>bibstem - SciX abbreviation used for journal names and some other
-publication categories; it can be used as as search field</p>
-<p>Concept Cloud - SciX visualization that <a href="https://scixplorer.org/help/actions/visualize" class="external-link">compares frequency
-or uniqueness of title and abstract words against entire corpus</a>; can
-be used to characterize work or to identify search terms</p>
-<p>Paper Network SciX visualization that <a href="https://scixplorer.org/help/actions/visualize" class="external-link">groups papers by
-topic through their references</a>; can focus help narrow research
-questions or ensure completeness of literature review</p>
-<p>Review colloquial term for an article giving a broad overview of a
-field and summarizing its current state, some journals focus exclusively
-on soliciting such contributions</p>
-<p><code>Reviews()</code> - SciX <a href="https://scixplorer.org/scixhelp/search-scix/second-order" class="external-link">second-order
-operator that analyzes citation lists</a>; takes a higher-level view of
-a topic by asking what has this contributed to</p>
-<p>second-order operator - <a href="https://scixplorer.org/scixhelp/search-scix/second-order" class="external-link">query
-that takes as input the output of a previous query</a>; in SciX, these
-frequently operate on sets of documents</p>
-<p><code>Similar()</code> - SciX <a href="https://scixplorer.org/scixhelp/search-scix/second-order" class="external-link">second-order
-operator that analyzes the textual similarity of documents</a>,
-returning results that are similar to the input text provided whether
-from single or multiple papers or directly typed sample</p>
-<p><code>Useful()</code> - SciX <a href="https://scixplorer.org/scixhelp/search-scix/second-order" class="external-link">second-order
-operator that analyzes the reference lists</a>; takes a nitty-gritty
-approach to topic by asking what are researchers actually using</p>
-<p>visualization - use of graphs and other graphical elements to convey
-information; can be an effective way of communicating complex
-relationships, such as <a href="https://scixplorer.org/scixhelp/actions-scix/visualize" class="external-link">SciX Paper
-and Author Networks</a></p>
 </div>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
@@ -808,8 +724,8 @@ any links that you are not going to use.
   "url": "https://ucla-imls-open-sci.github.io/lc-scix-open-science/lit_explore_scix.html",
   "identifier": "https://ucla-imls-open-sci.github.io/lc-scix-open-science/lit_explore_scix.html",
   "dateCreated": "2025-03-12",
-  "dateModified": "2026-09-18",
-  "datePublished": "2026-09-24"
+  "dateModified": "2026-09-25",
+  "datePublished": "2026-09-25"
 }
 
   </script><script>

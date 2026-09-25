@@ -308,7 +308,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Basic Searches in SciX</h1>
-        <p>Last updated on 2026-09-18 |
+        <p>Last updated on 2026-09-25 |
 
         <a href="https://github.com/ucla-imls-open-sci/lc-scix-open-science/edit/main/episodes/basic_searches_scix.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -399,19 +399,9 @@ fields or dropdown.</li>
 <li>Type <code>"shoemaker"</code> (for example, for Gene Shoemaker) and
 click the blue magnifying glass.</li>
 </ol><figure><img src="fig/add-author-name-search.png" alt='Search results initiated for author name "Shoemaker"' class="figure mx-auto d-block"><div class="figcaption">Searching on author name Shoemaker</div>
-</figure><div id="search-by-author" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="search-by-author" class="callout-inner">
-<h3 class="callout-title">Search by Author</h3>
-<div class="callout-content">
+</figure><p>:::: challenge <strong>Author Search</strong></p>
 <p>Try searching for Gene Shoemaker on your own. How many results do you
 get? Discuss with your neighbor.</p>
-</div>
-</div>
-</div>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
@@ -420,9 +410,9 @@ get? Discuss with your neighbor.</p>
 <div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <figure><img src="fig/results-view-shoemaker.png" alt='Search results view showing 2,560 items for "Shoemaker"' class="figure mx-auto d-block"><div class="figcaption">Results for Gene Shoemaker</div>
-</figure><p>author:”shoemaker” returned 2,560 results when this example was run
-as you can see in the upper left; because SciX adds new material on
-daily and weekly cycles you may see a different count.</p>
+</figure><p><code>author:”shoemaker”</code> returned 2,560 results when this
+example was run as you can see in the upper left; because SciX adds new
+material on daily and weekly cycles you may see a different count.</p>
 <p>The results are sorted by relevance and are in descending order. You
 can change the sorting criterion by using the dropdown menu to select:
 date, author count, citation count, entry date, first author, normalized
@@ -432,6 +422,7 @@ menu to switch between descending and ascending order.</p>
 </div>
 </div>
 </div>
+<p>::::</p>
 <p>For each article returned, you see the title, author list, date of
 publication, journal, and citation count. Looking at the three icons on
 the right, you can tell whether SciX links to the full-text, references
@@ -471,7 +462,7 @@ can:</p>
 <strong>Limit</strong> to papers with authors from that
 institution</li>
 <li>
-<strong>Exclude</strong> results from other affiliations</li>
+<strong>Exclude</strong> results from other institutions</li>
 </ul><p>This is especially useful when multiple authors share similar names
 but work at different institutions.</p>
 <figure><img src="fig/refine-by-institution.png" alt="SciX sidebar facet showing a list of institutions such as Lowell Observatory with checkboxes to include or exclude them from results" class="figure mx-auto d-block"><div class="figcaption">Institutions facet in SciX</div>
@@ -486,19 +477,9 @@ timeline</li>
 </ul><p>Use this if you’re researching a specific publication window or want
 to filter out older or newer results.</p>
 <figure><img src="fig/date-slider-expanded.png" alt="Date range slider with adjustable endpoints and expand icon in SciX facet panel" class="figure mx-auto d-block"><div class="figcaption">Date range slider controls in SciX</div>
-</figure><div id="keyword-search" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="keyword-search" class="callout-inner">
-<h3 class="callout-title">Keyword Search</h3>
-<div class="callout-content">
+</figure><p>:::: challenge <strong>Keyword Search</strong></p>
 <p>Return to the SciX main search page. Use the “all search terms”
 dropdown menu to start a keyword search for ‘crater.’ <img src="fig/scix-allsearchterms.png" alt='SciX main search terms with "all search terms" menu extended; abs search is highlighted and explained' class="figure"></p>
-</div>
-</div>
-</div>
 <div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
@@ -507,13 +488,14 @@ dropdown menu to start a keyword search for ‘crater.’ <img src="fig/scix-all
 <div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater.png" alt='SciX results view showing 8,901 items for "Crater"' class="figure mx-auto d-block"><div class="figcaption">Results for Keyword crater</div>
-</figure><p>keyword:”crater” returned 8,901 results when this example was run as
-you can see in the upper left; because SciX adds new material on daily
-and weekly cycles you may see a different count.</p>
+</figure><p><code>keyword:”crater”</code> returned 8,901 results when this
+example was run as you can see in the upper left; because SciX adds new
+material on daily and weekly cycles you may see a different count.</p>
 </div>
 </div>
 </div>
 </div>
+<p>::::</p>
 </div>
 <div class="section level3">
 <h3 id="understanding-scix-synonym-expansion">Understanding SciX Synonym Expansion<a class="anchor" aria-label="anchor" href="#understanding-scix-synonym-expansion"></a></h3>
@@ -528,22 +510,12 @@ include terms like:</p>
 </ul><p>This expansion improves discoverability across disciplines that might
 use different terminology for the same concept.</p>
 <p>If you only want the <strong>exact term</strong> you type (no
-expansion), add an equals sign: <code>=crater</code>.</p>
+expansion), add an equals sign: <code>=keyword:crater</code>.</p>
 <p>This exact-match feature is helpful when you’re targeting highly
 specific terms or avoiding irrelevant results.</p>
-<div id="keyword-search-1" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="keyword-search-1" class="callout-inner">
-<h3 class="callout-title">Keyword Search</h3>
-<div class="callout-content">
+<p>:::: challenge <strong>Exact Keyword Search</strong></p>
 <p>Return to the SciX main search page. Execute an exact keyword search
 for ‘crater’.</p>
-</div>
-</div>
-</div>
 <div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
@@ -553,29 +525,21 @@ for ‘crater’.</p>
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater-exact.png" alt="SciX results view of search for exact match keyword crater" class="figure mx-auto d-block"><div class="figcaption">Exact keyword search for crater (synonym
 expansion disabled</div>
-</figure><p>=keyword:”crater” returned 2,329 results when this example was run as
-you can see in the upper left; because SciX adds new material on daily
-and weekly cycles you may see a different count.</p>
+</figure><p><code>=keyword:”crater”</code> returned 2,329 results when this
+example was run as you can see in the upper left; because SciX adds new
+material on daily and weekly cycles you may see a different count.</p>
 <p>With synonym expansaion disabled, fewer results are returned.
 However, those precise results may be just what you need.</p>
 </div>
 </div>
 </div>
 </div>
-<div id="keyword-search-2" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="keyword-search-2" class="callout-inner">
-<h3 class="callout-title">Keyword Search</h3>
-<div class="callout-content">
+<p>::::</p>
+<p>::: challenge <strong>Compare Expansive vs Exact
+Searches</strong></p>
 <p>Experiment with an author or keyword search, both with and without
 the equal sign. What differences do you observe? Discuss your
-experiences with a partner</p>
-</div>
-</div>
-</div>
+experiences with a partner :::</p>
 
 </div>
 <div class="section level3">
@@ -590,7 +554,7 @@ your results.</p>
 </li>
 <li>Click the upward arrow in the lower right corner of the facet to
 browse the full list of keywords</li>
-</ul><figure><img src="fig/scix-keyword-facet" alt="SciX results view with Keywords facet open and arrow to access enhanced search panel highlighted" class="figure mx-auto d-block"><div class="figcaption">SciX Keywords facet for search refinement</div>
+</ul><figure><img src="fig/scix-keyword-facet.png" alt="SciX results view with Keywords facet open and arrow to access enhanced search panel highlighted" class="figure mx-auto d-block"><div class="figcaption">SciX Keywords facet for search refinement</div>
 </figure><ul><li>Sort keywords by frequency or alphabetically</li>
 <li>Search for a specific keyword or partial match</li>
 <li>Download keywords for use outside of SciX</li>
@@ -603,8 +567,9 @@ subtopic or filter out irrelevant results.</p>
 </div>
 <div class="section level3">
 <h3 id="powering-up-your-keyword-search">Powering Up Your Keyword Search<a class="anchor" aria-label="anchor" href="#powering-up-your-keyword-search"></a></h3>
-<p>You can expand the places SciX looks for your keyword by using an abs
-search. Using the abs prefix will search</p>
+<p>You can expand the places SciX looks for your keyword by using an
+<code>abs</code> search. Using the <code>abs</code> prefix will
+search</p>
 <ul><li>title</li>
 <li>keywords, provided by author or publisher</li>
 <li>abstract</li>
@@ -613,19 +578,9 @@ its significance within the paper as a whole than a passing mention in
 the full text. This “balanced” search is the most common topical search
 in SciX.</p>
 
-<div id="challenge5" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Return to the main menu. Use the ‘all search terms’ dropdown menu to
-start an ‘abs’ search for ‘crater’.</p>
-</div>
-</div>
-</div>
+<p>:::: challenge <strong>Abs Search</strong> Return to the main menu.
+Use the ‘all search terms’ dropdown menu to start an ‘abs’ search for
+‘crater’.</p>
 <div id="accordionSolution4" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
@@ -635,15 +590,16 @@ start an ‘abs’ search for ‘crater’.</p>
 <div class="accordion-body">
 <figure><img src="fig/scix-abs-crater.png" alt="SciX results view from abs:crater search" class="figure mx-auto d-block"><div class="figcaption">SciX Results view showing search panel for
 abs:crater</div>
-</figure><p>abs:”crater” returned 53,647 results when this example was run as you
-can see in the upper left; because SciX adds new material on daily and
-weekly cycles you may see a different count.</p>
-<p>By searching more fields, an abs search will produce more results
-than just searching the keywords field alone.</p>
+</figure><p><code>abs:”crater”</code> returned 53,647 results when this example
+was run as you can see in the upper left; because SciX adds new material
+on daily and weekly cycles you may see a different count.</p>
+<p>By searching more fields, an <code>abs</code> search will produce
+more results than just searching the keywords field alone.</p>
 </div>
 </div>
 </div>
 </div>
+<p>::::</p>
 </div>
 <div class="section level3">
 <h3 id="filtering-by-refereed-status">Filtering by Refereed Status<a class="anchor" aria-label="anchor" href="#filtering-by-refereed-status"></a></h3>
@@ -660,9 +616,9 @@ as non-refereed.</p>
 <ul><li>“Refereed” includes only peer-reviewed works</li>
 <li>“Not Refereed” includes the grey literature, preprints, or white
 papers</li>
-</ul><p>If you want only “Refereed” papers, you can either -
-<strong>Limit</strong> to “Refereed” papers - <strong>Exclude</strong>
-“Not Refereed” items</p>
+</ul><p>If you want only “Refereed” papers, you can either<br>
+- <strong>Limit</strong> to “Refereed” papers<br>
+- <strong>Exclude</strong> “Not Refereed” items</p>
 <figure><img src="fig/scix-refereed-filter.png" alt="SciX results view including Refereed facet panel with checkboxes refereed and non-refereed papers" class="figure mx-auto d-block"><div class="figcaption">SciX Refereed facet in results sidebar</div>
 </figure></div>
 <div class="section level3">
@@ -732,20 +688,10 @@ Jezero in the body text.</p>
 <p><img src="fig/scix-field-specific-search.png" alt="SciX results view for complex search of article text" class="figure">{alt=‘SciX
 results from complex search shwon in bar as ’abs:(crater AND mars) NOT
 body:jezero’}</p>
-<div id="challenge6" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<p>Return to the SciX main search page. Construct a query that either
+<p>::: challenge <strong>Searching Acknowledgements (or Not)</strong>
+Return to the SciX main search page. Construct a query that either
 includes or excludes text from the acknowledgements section. Share your
-results with a neighbor.</p>
-</div>
-</div>
-</div>
+results with a neighbor. :::</p>
 
 </div>
 </section><section><h2 class="section-heading" id="exploring-the-abstract-view">Exploring the Abstract View<a class="anchor" aria-label="anchor" href="#exploring-the-abstract-view"></a></h2>
@@ -781,21 +727,11 @@ access to a variety of citation formats that can be downloaded to a file
 or copied to the clipboard.</p>
 <figure><img src="fig/scix-abstract-view-4.PNG" alt="Export citation tools showcasing BibteX option available from within SciX abstract view plus annotatons highlighting features of this view" class="figure mx-auto d-block"><div class="figcaption">Export citation tools available within SciX
 abstract view</div>
-</figure><div id="challenge" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="challenge" class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
+</figure><p>::: challenge <strong>Abstract View Deep Dive</strong></p>
 <p>Select an article and review its abstract view thoroughly. - What
 extra details can you find that weren’t in the results view? - What
 features would be most useful to you personally? Share your findings
-with a neighbor.</p>
-</div>
-</div>
-</div>
+with a neighbor. :::</p>
 
 </section><section><h2 class="section-heading" id="reflection-and-discussion">Reflection and Discussion<a class="anchor" aria-label="anchor" href="#reflection-and-discussion"></a></h2>
 <hr class="half-width"><p>Take a few minutes to perform a search on a topic relevant to your
@@ -805,19 +741,9 @@ partner:</p>
 <li>Did you find relevant materials?</li>
 <li>What aspects of the process were straightforward or
 challenging?</li>
-</ul><div id="bonus-challenge" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="bonus-challenge" class="callout-inner">
-<h3 class="callout-title">Bonus Challenge</h3>
-<div class="callout-content">
+</ul><p>::: challenge <strong>Bonus Challenge</strong></p>
 <p>Try exporting a citation from one of your articles. Explore the
-export options and compare different formats.</p>
-</div>
-</div>
-</div>
+export options and compare different formats. :::</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -898,8 +824,8 @@ any links that you are not going to use.
   "url": "https://ucla-imls-open-sci.github.io/lc-scix-open-science/basic_searches_scix.html",
   "identifier": "https://ucla-imls-open-sci.github.io/lc-scix-open-science/basic_searches_scix.html",
   "dateCreated": "2025-03-12",
-  "dateModified": "2026-09-18",
-  "datePublished": "2026-09-24"
+  "dateModified": "2026-09-25",
+  "datePublished": "2026-09-25"
 }
 
   </script><script>
