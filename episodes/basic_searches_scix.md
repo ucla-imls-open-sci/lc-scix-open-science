@@ -28,7 +28,7 @@ searches, then show you how to refine your results.
 
 ::: instructor
 You might mention the kinds of searches you commonly perform in SciX (e.g., finding articles in your specialty or checking citation metrics).
-The guided examples will be more meaningful if you modify them for your discpline or facility.
+The guided examples will be more meaningful if you modify them for your discipline or facility.
 - Who is an author your learners would know?
 - What is a topic in which your learners would be interested?
 :::
@@ -132,9 +132,9 @@ you can access the papers, data, and software that you want.
 ![Article results view in SciX with callouts showing resources available if paper, references or citations, or data icons are clicked](fig/article-results-view2.png){alt='Results view with callouts showing what is available when paper, references or citations, or data icons are clicked'}
 
 Looking at the list of results as a whole, I see some interesting
-articles with an author named “Shoemaker" but perhaps not immediately,
+articles with an author named "Shoemaker" but perhaps not immediately,
 Gene Shoemaker, planetary scientist. The author box on the left allows
-me to narrow my results. It lists variants of the name “Shoemaker" at
+me to narrow my results. It lists variants of the name "Shoemaker" at
 the top followed by the names of co-authors.
 
 The most common variants and co-authors are listed first.
@@ -223,7 +223,7 @@ Return to the SciX main search page. Execute an exact keyword search for 'crater
 `=keyword:"crater"` returned 2,329 results when this example was run as you can see in the upper
 left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 
-With synonym expansaion disabled, fewer results are returned. However, those precise results may be just what you need.
+With synonym expansion disabled, fewer results are returned. However, those precise results may be just what you need.
 :::
 ::::
 
@@ -255,7 +255,7 @@ You can:
 - Search for a specific keyword or partial match
 - Download keywords for use outside of SciX
 
-![SciX Keywords facet search panel showing search for terms begining with 'sh'](fig/scix-keyword-facet-search.png){alt='SciX Keywords facet search panel with results of search for keywords begining with 'sh' sorted by frequency'}
+![SciX Keywords facet search panel showing search for terms beginning with 'sh'](fig/scix-keyword-facet-search.png){alt='SciX Keywords facet search panel with results of search for keywords beginning with 'sh' sorted by frequency'}
 
 This is especially useful when you're trying to focus on a specific subtopic
 or filter out irrelevant results.
@@ -315,7 +315,7 @@ If you want only "Refereed" papers, you can either
 ![SciX Refereed facet in results sidebar](fig/scix-refereed-filter.png){alt='SciX results view including Refereed facet panel with checkboxes refereed and non-refereed papers'}
 
 ::: instructor
-SciX welcomes submission of missing gray literature and disserations.  Learners can use the Missing/Incorrect option on the Feedback dropdown menu to submit articles.
+SciX welcomes submission of missing gray literature and dissertations.  Learners can use the Missing/Incorrect option on the Feedback dropdown menu to submit articles.
 SciX considers the dissertation defense a reviewing process. Not everyone would agree on this characterization.
 SciX evaluates conferences individually to determine whether their abstracts and proceedings should be considered refereed or non-refereed.
 :::
@@ -385,7 +385,7 @@ abs:(crater AND mars) NOT body:jezero
 This finds articles that mention crater and Mars in the title, abstract, or keywords,
 but **exclude** any that mention Jezero in the body text.
 
-![SciX results view for complex search of article text](fig/scix-field-specific-search.png){alt="SciX results from complex search shwon in bar as 'abs:(crater AND mars) NOT body:jezero'"}
+![SciX results view for complex search of article text](fig/scix-field-specific-search.png){alt="SciX results from complex search shown in bar as 'abs:(crater AND mars) NOT body:jezero'"}
 
 ::: challenge
 Return to the SciX main search page. Construct a query that either includes or excludes text from the acknowledgements section.
@@ -417,20 +417,20 @@ SciX matches preprints to the publisher's version of record and provides a singl
 
 Clicking the links on the left side for citations, references, or similar, produces the list of corresponding papers with all of their details.  Those lists can be converted to search results for further investigation.
 
-![Citation list available in SciX abstract view](fig/scix-abstract-view-2.PNG){alt='List of papers cited by main paper shown from within SciX abstract view with basic metadata plus annotatons highlighting features of this view'}
+![Citation list available in SciX abstract view](fig/scix-abstract-view-2.PNG){alt='List of papers cited by main paper shown from within SciX abstract view with basic metadata plus annotations highlighting features of this view'}
 
-Clicking the links on the left side for metrics produces a graphical display of the citations to the paper over time. The citataion data can be downloaded.
+Clicking the links on the left side for metrics produces a graphical display of the citations to the paper over time. The citation data can be downloaded.
 
-![Metric data visualized within SciX abstract view](fig/scix-abstract-view-3.PNG){alt='Bar graph and numerical citation data for the paper shown from within SciX abstract view plus annotatons highlighting features of this view'}
+![Metric data visualized within SciX abstract view](fig/scix-abstract-view-3.PNG){alt='Bar graph and numerical citation data for the paper shown from within SciX abstract view plus annotations highlighting features of this view'}
 
 Clicking the links on the left side for export citation provides access to a variety of citation formats that can be downloaded to a file or copied to the clipboard.
 
-![Export citation tools available within SciX abstract view](fig/scix-abstract-view-4.PNG){alt='Export citation tools showcasing BibteX option available from within SciX abstract view plus annotatons highlighting features of this view'}
+![Export citation tools available within SciX abstract view](fig/scix-abstract-view-4.PNG){alt='Export citation tools showcasing BibteX option available from within SciX abstract view plus annotations highlighting features of this view'}
 
 ::: instructor
 Most publisher formats for SciX supported disciplines are supported. If we are missing one, custom formats are possible. However, SciX encourages learners to recommend missing formats for inclusion.
-Zotoro uses RIS format, which is avialable.
-Mendolay uses RIS, BibteX, and EndNote, which are all available.
+Zotero uses RIS format, which is available.
+Mendeley uses RIS, BibteX, and EndNote, which are all available.
 :::
 
 ::: challenge
@@ -443,7 +443,7 @@ Share your findings with a neighbor.
 :::
 
 ::: instructor
-If time permits, enourage learners to share their experiences with the class.
+If time permits, encourage learners to share their experiences with the class.
 :::
 
 ## Reflection and Discussion
