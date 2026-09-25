@@ -156,7 +156,7 @@ Now, let's turn to examining SciX visualizations, and we are going to focus on t
 
 #### Paper Network
 
-This visualization creates groups of papers by looking at the references from each paper and grouping them based on how many are shared.  Because the papers in these groups cite a similar set of other papers, we can expect the papers in the group to be about the same topics. By default, this visualization only uses data from the first 400 papers in your search results, but you can adjust that; the maximum papers analysized are 1000 papers.  
+This visualization creates groups of papers by looking at the references from each paper and grouping them based on how many are shared.  Because the papers in these groups cite a similar set of other papers, we can expect the papers in the group to be about the same topics. By default, this visualization only uses data from the first 400 papers in your search results, but you can adjust that; the maximum papers analyzed are 1000 papers.  
 
 ![SciX Paper Network for 400 papers about volcanoes](fig/scix-paper-network.png){alt="Screenshot of SciX paper network visualization, showing the main subtopic groups for papers in the original volcanoes set."}
 
@@ -186,7 +186,7 @@ Clicking into the section group, the inside edge of the donut, will bring up the
 
 Clicking on the "View link overlay?" will show connections among individuals in different groups.
 
-Like the Paper Network, the Author Network also has an option to download the underlying data as a csv file.
+Like the Paper Network, the Author Network also has an option to download the underlying data as a CSV file.
 
 ::: discussion
 ### Reflection and Discussion
