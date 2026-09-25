@@ -34,7 +34,7 @@ Ask learners: "Can everyone see the SciX homepage on their browser?"
 ### ORCiD & SciX
 
 ORCiD stands for [Open Researcher and Contributor ID](https://orcid.org/).
-Many researchers and authors today are claiming ORCiDs to help disambiguate themselves from others who share their name. SciX lets you search for published content using an ORCiD, just write "orcid:" before the ID in the query field. For example:
+Many researchers and authors today are claiming ORCiDs to help disambiguate themselves from others who share their name. SciX lets you search for published content using an ORCiD, just write `orcid:` before the ID in the query field. For example:
 
 ```
 orcid:0000-0002-6949-0090
@@ -99,10 +99,10 @@ Ask by show of hands whether learners will be able to assist others at their ins
 
 ORCiDs provide a powerful tool for uniquely identifying individual authors, many of whom may have similar names. SciX provides tools to search for papers using ORCiDs, where those are known, as well as assistance to authors in ensuring all their papers are properly ORCiD tagged.
 
-For more information about using ORCiD in SciX, we recommend:
-- SciX Help page: [Searching for papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/orcid-search)
-- SciX Help page: [Claiming papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers)
-- Handout: [ORCiD in SciX](https://ads.harvard.edu/handouts/SciX_ORCiD_handout.pdf)
+For more information about using ORCiD in SciX, we recommend:  
+- SciX Help page: [Searching for papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/orcid-search)  
+- SciX Help page: [Claiming papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers)  
+- Handout: [ORCiD in SciX](https://ads.harvard.edu/handouts/SciX_ORCiD_handout.pdf)  
 
 ::: challenge
 ## Bonus Challenge

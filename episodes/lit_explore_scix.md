@@ -146,10 +146,10 @@ To review, SciX second-order operators can provide deeper insights and more info
 
 ![SciX Second-Order Operations](fig/scix-second-operators.png){alt="Graphic summarizing the four second order operators of SciX."}
 
-For more information, we recommend 
-- [SciX help page on second-order queries](https://scixplorer.org/scixhelp/search-scix/second-order)
-- [Second Order Operators in SciX](https://ads.harvard.edu/handouts/SciX_2ndorder_operators.pdf)
-- [2020 paper by Michael Kurtz et al on second-order operations](https://doi.org/10.3847/25c2cfeb.8d12c399)
+For more information, we recommend   
+- [SciX help page on second-order queries](https://scixplorer.org/scixhelp/search-scix/second-order)  
+- [Second Order Operators in SciX](https://ads.harvard.edu/handouts/SciX_2ndorder_operators.pdf)  
+- [2020 paper by Michael Kurtz et al on second-order operations](https://doi.org/10.3847/25c2cfeb.8d12c399)  
 
 ### Connections & Collaborations
 
@@ -205,10 +205,10 @@ If time permits, ask one or two learners to describe their experience. If they r
 ### Summary of Visualizations
 SciX visualizations provide additional ways of analyzing your search results. Each takes the results of a query and highlights connections among the documents: topics through references for the Paper Network, collaborations through authors for the Author Network, influence through citations for metrics and results, and relative frequency of concepts through abstract text for the Concept Cloud. These tools are helpful in building a substantive literature review and in positioning your work to your best advantage.
 
-For more details about these two graphs and information about the other SciX graphics, we recommend 
-- [SciX Help page on Visualizations](https://scixplorer.org/scixhelp/actions-scix/visualize)
-- [Exploring SciX Visualizations](https://ads.harvard.edu/handouts/SciX_visualizations_handout.pdf) handout 
-- [2020 paper by Michael Kurtz et al on second-order operations](https://doi.org/10.3847/25c2cfeb.8d12c399) (Paper Network only)
+For more details about these two graphs and information about the other SciX graphics, we recommend  
+- [SciX Help page on Visualizations](https://scixplorer.org/scixhelp/actions-scix/visualize)   
+- [Exploring SciX Visualizations](https://ads.harvard.edu/handouts/SciX_visualizations_handout.pdf) handout    
+- [2020 paper by Michael Kurtz et al on second-order operations](https://doi.org/10.3847/25c2cfeb.8d12c399) (Paper Network only)   
 
 :::: challenge
 ## Bonus Challenge
