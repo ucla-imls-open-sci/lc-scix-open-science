@@ -372,12 +372,12 @@ options</div>
 left/right arrows to view introductory resources, including a quick
 start guide and search examples.</p>
 <figure><img src="fig/quick-help.png" alt="Help carousel on the SciX homepage showing navigation arrows and learning resources" class="figure mx-auto d-block"><div class="figcaption">Quick Help</div>
-</figure><p>When you visit a page for the first, SciX offers a quick tour of the
-page’s features. You can quit that at any time by clicking the x in the
-upper right of the current tour dialog box. At any time, you can restart
-the tour by clicking the blue Tour button in the upper right of the SciX
-header. Tours are available on the main search page, the results
-listing, and abstract view.</p>
+</figure><p>When you visit a page for the first time, SciX offers a quick tour of
+the page’s features. You can quit that at any time by clicking the x in
+the upper right of the current tour dialog box. At any time, you can
+restart the tour by clicking the blue Tour button in the upper right of
+the SciX header. Tours are available on the main search page, the
+results listing, and abstract view.</p>
 <figure><img src="fig/SciX-tour.png" alt="SciX homepage with Tour in progress describing the search bar; a call out points to the button that initiates the Tour feature. " class="figure mx-auto d-block"><div class="figcaption">Tour the page’s freatures</div>
 </figure><p>For more detailed assistance, click the “Help” button in the upper
 right.</p>
@@ -417,7 +417,7 @@ get? Discuss with your neighbor.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <figure><img src="fig/results-view-shoemaker.png" alt='Search results view showing 2,560 items for "Shoemaker"' class="figure mx-auto d-block"><div class="figcaption">Results for Gene Shoemaker</div>
 </figure><p><code>author:"shoemaker"</code> returned 2,560 results when this
@@ -495,8 +495,10 @@ to filter out older or newer results.</p>
 <h3 class="callout-title">Keyword Search</h3>
 <div class="callout-content">
 <p>Return to the SciX main search page. Use the “all search terms”
-dropdown menu to start a keyword search for ‘crater.’ <img src="fig/scix-allsearchterms.png" alt='SciX main search terms with "all search terms" menu extended; abs search is highlighted and explained' class="figure"></p>
-</div>
+dropdown menu to start a keyword search for ‘crater.’</p>
+<figure><img src="fig/scix-allsearchterms.png" alt='SciX main search terms with "all search terms" menu extended; abs search is highlighted and explained' class="figure mx-auto d-block"><div class="figcaption">SciX main search page showing hover over search
+term help</div>
+</figure></div>
 </div>
 </div>
 <div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
@@ -504,7 +506,7 @@ dropdown menu to start a keyword search for ‘crater.’ <img src="fig/scix-all
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater.png" alt='SciX results view showing 8,901 items for "Crater"' class="figure mx-auto d-block"><div class="figcaption">Results for Keyword crater</div>
 </figure><p><code>keyword:"crater"</code> returned 8,901 results when this
@@ -528,7 +530,7 @@ include terms like:</p>
 </ul><p>This expansion improves discoverability across disciplines that might
 use different terminology for the same concept.</p>
 <p>If you only want the <strong>exact term</strong> you type (no
-expansion), add an equals sign: <code>=keyword:crater</code>.</p>
+expansion), add an equals sign: <code>=keyword:"crater"</code>.</p>
 <p>This exact-match feature is helpful when you’re targeting highly
 specific terms or avoiding irrelevant results.</p>
 <div id="keyword-search-1" class="callout challenge">
@@ -549,10 +551,10 @@ for ‘crater’.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <figure><img src="fig/scix-keyword-crater-exact.png" alt="SciX results view of search for exact match keyword crater" class="figure mx-auto d-block"><div class="figcaption">Exact keyword search for crater (synonym
-expansion disabled</div>
+expansion disabled)</div>
 </figure><p><code>=keyword:"crater"</code> returned 2,329 results when this
 example was run as you can see in the upper left; because SciX adds new
 material on daily and weekly cycles you may see a different count.</p>
@@ -572,7 +574,7 @@ those precise results may be just what you need.</p>
 <div class="callout-content">
 <p>Experiment with an author or keyword search, both with and without
 the equal sign. What differences do you observe? Discuss your
-experiences with a partner</p>
+experiences with a partner.</p>
 </div>
 </div>
 </div>
@@ -594,10 +596,9 @@ browse the full list of keywords</li>
 </figure><ul><li>Sort keywords by frequency or alphabetically</li>
 <li>Search for a specific keyword or partial match</li>
 <li>Download keywords for use outside of SciX</li>
-</ul><p><img src="fig/scix-keyword-facet-search.png" alt="SciX Keywords facet search panel showing search for terms beginning with ‘sh’" class="figure">{alt=‘SciX
-Keywords facet search panel with results of search for keywords
-beginning with ’sh’ sorted by frequency’}</p>
-<p>This is especially useful when you’re trying to focus on a specific
+</ul><figure><img src="fig/scix-keyword-facet-search.png" alt="SciX Keywords facet search panel with results of search for keywords beginning with 'sh' sorted by frequency" class="figure mx-auto d-block"><div class="figcaption">SciX Keywords facet search panel showing search
+for terms beginning with ‘sh’</div>
+</figure><p>This is especially useful when you’re trying to focus on a specific
 subtopic or filter out irrelevant results.</p>
 
 </div>
@@ -631,7 +632,7 @@ start an <code>abs</code> search for ‘crater’.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <figure><img src="fig/scix-abs-crater.png" alt="SciX results view from abs:crater search" class="figure mx-auto d-block"><div class="figcaption">SciX Results view showing search panel for
 abs:crater</div>
@@ -660,10 +661,10 @@ as non-refereed.</p>
 <ul><li>“Refereed” includes only peer-reviewed works</li>
 <li>“Not Refereed” includes the grey literature, preprints, or white
 papers</li>
-</ul><p>If you want only “Refereed” papers, you can either -
+</ul><p>If you want only “Refereed” papers, you can either: -
 <strong>Limit</strong> to “Refereed” papers - <strong>Exclude</strong>
 “Not Refereed” items</p>
-<figure><img src="fig/scix-refereed-filter.png" alt="SciX results view including Refereed facet panel with checkboxes refereed and non-refereed papers" class="figure mx-auto d-block"><div class="figcaption">SciX Refereed facet in results sidebar</div>
+<figure><img src="fig/scix-refereed-filter.png" alt="SciX results view including Refereed facet panel with checkboxes for refereed and non-refereed papers" class="figure mx-auto d-block"><div class="figcaption">SciX Refereed facet in results sidebar</div>
 </figure></div>
 <div class="section level3">
 <h3 id="filtering-by-publication-type">Filtering by Publication Type<a class="anchor" aria-label="anchor" href="#filtering-by-publication-type"></a></h3>
@@ -690,9 +691,9 @@ and non-article</div>
 article, proceedings article, book chapter ….) or non-article (PhD
 thesis, editorial, book…)</p>
 <p>Like the Keywords facet, clicking the upper arrow at the lower right
-of a long list in the Publication Type facet opens window where you
-can</p>
-<ul><li>Sort keywords by types by frequency or alphabetically</li>
+of a long list in the Publication Type facet opens a window where you
+can:</p>
+<ul><li>Sort keywords by types, frequency, or alphabetically</li>
 <li>Search for a specific type or partial match</li>
 </ul><p>This is particularly helpful when your search returns a mix of source
 types and you’re only interested in peer-reviewed articles or long-form
@@ -717,7 +718,7 @@ exclude it from another (e.g., the body).</p>
 <code>ack:</code> — acknowledgments only</li>
 <li>
 <code>full:</code> — full text of the article</li>
-</ul><p>in addition, to our old friends</p>
+</ul><p>in addition to our old friends</p>
 <ul><li>
 <code>keyword:</code> — author- or publisher-provided keywords</li>
 <li>
@@ -740,7 +741,7 @@ text</div>
 <h3 class="callout-title">Challenge</h3>
 <div class="callout-content">
 <p>Return to the SciX main search page. Construct a query that either
-includes or excludes text from the acknowledgements section. Share your
+includes or excludes text from the acknowledgments section. Share your
 results with a neighbor.</p>
 </div>
 </div>
@@ -778,7 +779,7 @@ view</div>
 </figure><p>Clicking the links on the left side for export citation provides
 access to a variety of citation formats that can be downloaded to a file
 or copied to the clipboard.</p>
-<figure><img src="fig/scix-abstract-view-4.PNG" alt="Export citation tools showcasing BibteX option available from within SciX abstract view plus annotations highlighting features of this view" class="figure mx-auto d-block"><div class="figcaption">Export citation tools available within SciX
+<figure><img src="fig/scix-abstract-view-4.PNG" alt="Export citation tools showcasing BibTeX option available from within SciX abstract view plus annotations highlighting features of this view" class="figure mx-auto d-block"><div class="figcaption">Export citation tools available within SciX
 abstract view</div>
 </figure><div id="challenge" class="callout challenge">
 <div class="callout-square">
