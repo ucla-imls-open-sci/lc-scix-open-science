@@ -57,12 +57,11 @@ UNESCO has a similar definition.
 
 "Open science is a set of principles and practices that aim to make scientific research from all fields accessible to everyone for the benefits of scientists and society as a whole. Open science is about making sure not only that scientific knowledge is accessible but also that the production of that knowledge itself is inclusive, equitable and sustainable."
 
-Furthermore the [introduction to UNESCO's recommendations for open science](https://www.unesco.org/en/open-science/about) states:
+Furthermore the [introduction to UNESCO's recommendations for open science](https://www.unesco.org/en/open-science/about) states that Open Science: 
 
-"Open science:
-- increases scientific collaborations and sharing of information for the benefits of science and society;
-- makes multilingual scientific knowledge openly available, accessible and reusable for everyone; and
-- opens the processes of scientific knowledge creation, evaluation and communication to societal actors beyond the traditional scientific community."
+- "increases scientific collaborations and sharing of information for the benefits of science and society";
+- "makes multilingual scientific knowledge openly available, accessible and reusable for everyone"; and
+- "opens the processes of scientific knowledge creation, evaluation and communication to societal actors beyond the traditional scientific community".
 
 ::: discussion
 ## Open Science in the Real World
@@ -72,7 +71,6 @@ Identify an open science practice that does or could benefit your community and 
 Identify either one unintended consequence of open science practices in your community or one aspect of open science practice that makes members of your community uncomfortable. 
 
 Discuss your experiences with a friend. Brainstorm solutions to the unintended consequences or the areas of reluctance.
-
 :::
 
 ::: instructor
@@ -189,7 +187,6 @@ We have spent some time defining both open science and FAIR. How do they relate?
 Are open science and FAIR the same? Is FAIR sufficient for open science? Is FAIR necessary for open science?
 
 Discuss with a friend.
-
 :::
 
 ::: instructor
@@ -202,6 +199,7 @@ As part of its open science practice, SciX commits to:
 - releasing [open source models](https://huggingface.co/adsabs)
 - publishing its [work open access](https://scixplorer.org/search?p=1&q=first_author%3A%28%22accomazzi%2C+alberto%22+OR+%22kurtz%2C+michael%22%29+property%3Aopenaccess&sort=score+desc&sort=date+desc&d=heliophysics)
 
+::: discussion
 ## Reflection and Discussion
 
 - How does SciX make research more discoverable?
@@ -210,6 +208,7 @@ As part of its open science practice, SciX commits to:
 - What do you see as your role in the growing open science ecosystem?
 
 Please share your thoughts with a friend
+:::
 
 ::: challenge
 ## Bonus Challenge
