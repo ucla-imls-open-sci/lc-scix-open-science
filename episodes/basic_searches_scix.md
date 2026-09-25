@@ -15,16 +15,12 @@ exercises: 10
 - Execute a basic keyword search
 - Refine a search using facets
 - Identify useful metadata and resources through the abstract view
-- Follow links from the abstract page to access resources such as the
-  open access version of the article, related software, and associated
-  datasets
+- Follow links from the abstract page to access resources such as the open access version of the article, related software, and associated datasets
 :::
 
 ## Basic Searches in SciX
 
-Once you've accessed the SciX main page, you're ready to explore its search
-capabilities. In this episode, we'll cover both author and keyword
-searches, then show you how to refine your results.
+Once you've accessed the SciX main page, you're ready to explore its search capabilities. In this episode, we'll cover both author and keyword searches, then show you how to refine your results.
 
 ::: instructor
 You might mention the kinds of searches you commonly perform in SciX (e.g., finding articles in your specialty or checking citation metrics).
@@ -45,53 +41,42 @@ Ask learners: "Can everyone see the SciX homepage on their browser?"
 
 ## Selecting Your Discipline
 
-On your first visit, select your preferred discipline from the dropdown
-menu in the upper left.
+On your first visit, select your preferred discipline from the dropdown menu in the upper left.
 
-**Note:** This step customizes your search tools but does not limit your
-overall search.
+**Note:** This step customizes your search tools but does not limit your overall search.
 
 ![Dropdown menu showing discipline selection options](fig/scix-select-discipline.png){alt='Dropdown menu for selecting a discipline in SciX, such as Planetary Science'}
 
 ## Quick Help & Navigation
 
-SciX offers a help carousel on the main search page. Click the
-left/right arrows to view introductory resources, including a quick
-start guide and search examples.
+SciX offers a help carousel on the main search page. Click the left/right arrows to view introductory resources, including a quick start guide and search examples.
 
 ![Quick Help](fig/quick-help.png){alt='Help carousel on the SciX homepage showing navigation arrows and learning resources'}
 
-When you visit a page for the first, SciX offers a quick tour of the page's features. You can quit that at any time by clicking the x in the upper right of the current tour dialog box. At any time, you can restart the tour by clicking the blue Tour button in the upper right of the SciX header. Tours are available on the main search page, the results listing, and abstract view.
+When you visit a page for the first time, SciX offers a quick tour of the page's features. You can quit that at any time by clicking the x in the upper right of the current tour dialog box. At any time, you can restart the tour by clicking the blue Tour button in the upper right of the SciX header. Tours are available on the main search page, the results listing, and abstract view.
 
 ![Tour the page's freatures](fig/SciX-tour.png){alt='SciX homepage with Tour in progress describing the search bar; a call out points to the button that initiates the Tour feature. '}
 
 
-For more detailed assistance, click the "Help" button in the upper
-right.
+For more detailed assistance, click the "Help" button in the upper right.
 
 ![SciX help carousel with a Help button in the top right](fig/extensive-help.png){alt='SciX homepage with the Help button highlighted in the top-right corner'}
 
 
 ## Starting a Search
 
-As an open science search engine, SciX is primarily concerned with
-ensuring that literature, data, and software are findable or
-discoverable. So, let’s find some relevant papers. Author searches are
-among the most common performed in SciX.
+As an open science search engine, SciX is primarily concerned with ensuring that literature, data, and software are findable or discoverable. So, let’s find some relevant papers. Author searches are among the most common performed in SciX.
 
 ![Main search bar highlighted on the SciX homepage](fig/starting-search.png){alt='Highlighted search bar on the SciX homepage for entering search terms'}
 
 ## Author Search
 
-If you select author from either the quick fields or the dropdown menu,
-SciX will add the field to the search bar.
+If you select author from either the quick fields or the dropdown menu, SciX will add the field to the search bar.
 
 ![Starting an author search](fig/starting-author-search.png){alt='Author field selected in the SciX search bar'}
 
-1. In the search field, select **author** from the quick fields or
-   dropdown.
-2. Type `"shoemaker"` (for example, for Gene Shoemaker) and click the
-   blue magnifying glass.
+1. In the search field, select **author** from the quick fields or dropdown.
+2. Type `"shoemaker"` (for example, for Gene Shoemaker) and click the blue magnifying glass.
 
 ::: instructor
 Learners can just type names and phrases into the search bar. However, they will have greater control over their results if they build structured queries using fields than if they use simple unfielded searches.
@@ -102,40 +87,26 @@ Learners can just type names and phrases into the search bar. However, they will
 :::: challenge
 ## Search by Author
 
-Try searching for Gene Shoemaker on your own. How many results do you
-get? Discuss with your neighbor.
+Try searching for Gene Shoemaker on your own. How many results do you get? Discuss with your neighbor.
 
 ::: solution
 ![Results for Gene Shoemaker](fig/results-view-shoemaker.png){alt='Search results view showing 2,560 items for "Shoemaker"'}
 
-`author:"shoemaker"` returned 2,560 results when this example was run as you can see in the upper
-left; because SciX adds new material on daily and weekly cycles you may see a different count. 
+`author:"shoemaker"` returned 2,560 results when this example was run as you can see in the upper left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 
-The results are sorted by relevance and are in descending order.
-You can change the sorting criterion by using the dropdown menu to
-select: date, author count, citation count, entry date, first author,
-normalized citation count, or read count. Click the button next to the
-dropdown menu to switch between descending and ascending order.
+The results are sorted by relevance and are in descending order. You can change the sorting criterion by using the dropdown menu to select: date, author count, citation count, entry date, first author, normalized citation count, or read count. Click the button next to the dropdown menu to switch between descending and ascending order.
 :::
 ::::
 
-For each article returned, you see the title, author list, date of
-publication, journal, and citation count. Looking at the three icons on
-the right, you can tell whether SciX links to the full-text, references
-or citations, and data.
+For each article returned, you see the title, author list, date of publication, journal, and citation count. Looking at the three icons on the right, you can tell whether SciX links to the full-text, references or citations, and data.
 
 ![Article results view in SciX](fig/articles-result-view.png){alt='List of search results showing article titles, author names, dates, and icons for full-text, references, and datasets'}
 
-As an open science digital library, SciX is also concerned with ensuring
-you can access the papers, data, and software that you want.
+As an open science digital library, SciX is also concerned with ensuring you can access the papers, data, and software that you want.
 
 ![Article results view in SciX with callouts showing resources available if paper, references or citations, or data icons are clicked](fig/article-results-view2.png){alt='Results view with callouts showing what is available when paper, references or citations, or data icons are clicked'}
 
-Looking at the list of results as a whole, I see some interesting
-articles with an author named "Shoemaker" but perhaps not immediately,
-Gene Shoemaker, planetary scientist. The author box on the left allows
-me to narrow my results. It lists variants of the name "Shoemaker" at
-the top followed by the names of co-authors.
+Looking at the list of results as a whole, I see some interesting articles with an author named "Shoemaker" but perhaps not immediately, Gene Shoemaker, planetary scientist. The author box on the left allows me to narrow my results. It lists variants of the name "Shoemaker" at the top followed by the names of co-authors.
 
 The most common variants and co-authors are listed first.
 
@@ -162,7 +133,7 @@ This is especially useful when multiple authors share similar names but work at 
 ![Institutions facet in SciX](fig/refine-by-institution.png){alt='SciX sidebar facet showing a list of institutions such as Lowell Observatory with checkboxes to include or exclude them from results'}
 
 ::: instructor
-SciX also has an affiliation (aff:) field search that searches the exact affiliation text provided by the author or publisher.  The Institution facet uses a SciX standardized abbreviation and is similar to the institution (inst) field search. Some institutions listed in the facet can be opened to identify authors with individual departments. Learners asking detailed questions about this feature should be encouraged to read the SciX [blog post about it](https://scixplorer.org/scixblog/affils-update). 
+SciX also has an affiliation (aff:) field search that searches the exact affiliation text provided by the author or publisher. The Institution facet uses a SciX standardized abbreviation and is similar to the institution (inst) field search. Some institutions listed in the facet can be opened to identify authors with individual departments. Learners asking detailed questions about this feature should be encouraged to read the SciX [blog post about it](https://scixplorer.org/scixblog/affils-update). 
 :::
 
 ### Refine by Date
@@ -177,39 +148,34 @@ Use this if you're researching a specific publication window or want to filter o
 ![Date range slider controls in SciX](fig/date-slider-expanded.png){alt='Date range slider with adjustable endpoints and expand icon in SciX facet panel'}
 
 :::: challenge
-### Keyword Search
+## Keyword Search
 
 Return to the SciX main search page. Use the "all search terms" dropdown menu to start a keyword search for 'crater.' 
+
 ![SciX main search page showing hover over search term help](fig/scix-allsearchterms.png){alt='SciX main search terms with "all search terms" menu extended; abs search is highlighted and explained'}
 
 
 ::: solution
 ![Results for Keyword crater](fig/scix-keyword-crater.png){alt='SciX results view showing 8,901 items for "Crater"'}
 
-`keyword:"crater"` returned 8,901 results when this example was run as you can see in the upper
-left; because SciX adds new material on daily and weekly cycles you may see a different count. 
+`keyword:"crater"` returned 8,901 results when this example was run as you can see in the upper left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 :::
 ::::
 
 ### Understanding SciX Synonym Expansion
 
-SciX automatically expands keyword searches with discipline-specific synonyms,
-related terms, and even common misspellings or alternate forms. For example,
-a search for `crater` might automatically include terms like:
+SciX automatically expands keyword searches with discipline-specific synonyms, related terms, and even common misspellings or alternate forms. For example, a search for `crater` might automatically include terms like:
 
 - craters, cratering, cratered
 - craterlets, craterlike, crateris
 - craterform, subcrater, craterization
 - krater, cratori, noncrater, etc.
 
-This expansion improves discoverability across disciplines that might use
-different terminology for the same concept.
+This expansion improves discoverability across disciplines that might use different terminology for the same concept.
 
-If you only want the **exact term** you type (no expansion), add an equals
-sign: `=keyword:crater`.
+If you only want the **exact term** you type (no expansion), add an equals sign: `=keyword:"crater"`.
 
-This exact-match feature is helpful when you're targeting highly specific
-terms or avoiding irrelevant results.
+This exact-match feature is helpful when you're targeting highly specific terms or avoiding irrelevant results.
 
 :::: challenge
 ## Keyword Search
@@ -218,10 +184,9 @@ Return to the SciX main search page. Execute an exact keyword search for 'crater
 
 ::: solution
 
-![Exact keyword search for crater (synonym expansion disabled](fig/scix-keyword-crater-exact.png){alt='SciX results view of search for exact match keyword crater'}
+![Exact keyword search for crater (synonym expansion disabled)](fig/scix-keyword-crater-exact.png){alt='SciX results view of search for exact match keyword crater'}
 
-`=keyword:"crater"` returned 2,329 results when this example was run as you can see in the upper
-left; because SciX adds new material on daily and weekly cycles you may see a different count. 
+`=keyword:"crater"` returned 2,329 results when this example was run as you can see in the upper left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 
 With synonym expansion disabled, fewer results are returned. However, those precise results may be just what you need.
 :::
@@ -230,8 +195,7 @@ With synonym expansion disabled, fewer results are returned. However, those prec
 ::: challenge
 ## Keyword Search
 
-Experiment with an author or keyword search, both with and without the equal sign.
-What differences do you observe? Discuss your experiences with a partner
+Experiment with an author or keyword search, both with and without the equal sign. What differences do you observe? Discuss your experiences with a partner.
 :::
 
 ::: instructor
@@ -240,9 +204,7 @@ As time allows, encourage learners to share their expectations and experiences w
 
 ### Narrowing Results Using Keyword Facet
 
-After running a keyword search, you can refine your results using the
-**Keywords** facet in the sidebar. Authors or publishers provided these keywords, 
-which are listed in order of frequency within your results.
+After running a keyword search, you can refine your results using the **Keywords** facet in the sidebar. Authors or publishers provided these keywords, which are listed in order of frequency within your results.
 
 You can:
 
@@ -255,10 +217,9 @@ You can:
 - Search for a specific keyword or partial match
 - Download keywords for use outside of SciX
 
-![SciX Keywords facet search panel showing search for terms beginning with 'sh'](fig/scix-keyword-facet-search.png){alt='SciX Keywords facet search panel with results of search for keywords beginning with 'sh' sorted by frequency'}
+![SciX Keywords facet search panel showing search for terms beginning with 'sh'](fig/scix-keyword-facet-search.png){alt="SciX Keywords facet search panel with results of search for keywords beginning with 'sh' sorted by frequency"}
 
-This is especially useful when you're trying to focus on a specific subtopic
-or filter out irrelevant results.
+This is especially useful when you're trying to focus on a specific subtopic or filter out irrelevant results.
 
 ::: instructor
 Keyword searches are complicated because publishers use different keyword systems, which can also change over time. The keyword_schema field identifies the system where known.
@@ -286,8 +247,7 @@ Return to the main menu. Use the 'all search terms' dropdown menu to start an `a
 ::: solution
 ![SciX Results view showing search panel for abs:crater](fig/scix-abs-crater.png){alt='SciX results view from abs:crater search'} 
 
-`abs:"crater"` returned 53,647 results when this example was run as you can see in the upper
-left; because SciX adds new material on daily and weekly cycles you may see a different count. 
+`abs:"crater"` returned 53,647 results when this example was run as you can see in the upper left; because SciX adds new material on daily and weekly cycles you may see a different count. 
 
 By searching more fields, an `abs` search will produce more results than just searching the keywords field alone. 
 :::
@@ -295,35 +255,30 @@ By searching more fields, an `abs` search will produce more results than just se
 
 ### Filtering by Refereed Status
 
-SciX allows you to filter your search results based on whether a paper is
-**refereed** (peer-reviewed) or **non-refereed** (everything else).
+SciX allows you to filter your search results based on whether a paper is **refereed** (peer-reviewed) or **non-refereed** (everything else).
 
-You can find this option in the **Refereed** facet in the sidebar. It's useful
-if you're looking only for peer-reviewed journal articles or want to ensure you see 
-other materials like conference proceedings or technical reports.
+You can find this option in the **Refereed** facet in the sidebar. It's useful if you're looking only for peer-reviewed journal articles or want to ensure you see other materials like conference proceedings or technical reports.
 
-**Note:** SciX considers dissertations to be refereed. Most, but not all, conference
-abstracts and proceedings are categorized as non-refereed.
+**Note:** SciX considers dissertations to be refereed. Most, but not all, conference abstracts and proceedings are categorized as non-refereed.
 
 - "Refereed" includes only peer-reviewed works
 - "Not Refereed" includes the grey literature, preprints, or white papers
 
-If you want only "Refereed" papers, you can either
+If you want only "Refereed" papers, you can either:
 - **Limit** to "Refereed" papers
 - **Exclude** "Not Refereed" items
 
-![SciX Refereed facet in results sidebar](fig/scix-refereed-filter.png){alt='SciX results view including Refereed facet panel with checkboxes refereed and non-refereed papers'}
+![SciX Refereed facet in results sidebar](fig/scix-refereed-filter.png){alt='SciX results view including Refereed facet panel with checkboxes for refereed and non-refereed papers'}
 
 ::: instructor
-SciX welcomes submission of missing gray literature and dissertations.  Learners can use the Missing/Incorrect option on the Feedback dropdown menu to submit articles.
+SciX welcomes submission of missing gray literature and dissertations. Learners can use the Missing/Incorrect option on the Feedback dropdown menu to submit articles.
 SciX considers the dissertation defense a reviewing process. Not everyone would agree on this characterization.
 SciX evaluates conferences individually to determine whether their abstracts and proceedings should be considered refereed or non-refereed.
 :::
 
 ### Filtering by Publication Type
 
-You can also filter your results by **Publication Type**, helping you
-focus on specific formats such as:
+You can also filter your results by **Publication Type**, helping you focus on specific formats such as:
 
 - Journal articles
 - Book chapters
@@ -343,23 +298,20 @@ Use the **Publication Type** facet in the sidebar to:
 
 Within the facet, Publication Types are grouped by article (journal article, proceedings article, book chapter ....) or non-article (PhD thesis, editorial, book...)
 
-Like the Keywords facet, clicking the upper arrow at the lower right of a long list in the Publication Type facet opens window where you can
+Like the Keywords facet, clicking the upper arrow at the lower right of a long list in the Publication Type facet opens a window where you can:
 
-- Sort keywords by types by frequency or alphabetically
+- Sort keywords by types, frequency, or alphabetically
 - Search for a specific type or partial match
 
-This is particularly helpful when your search returns a mix of source types
-and you're only interested in peer-reviewed articles or long-form research. It can also help you identify specialized resources like data and software.
+This is particularly helpful when your search returns a mix of source types and you're only interested in peer-reviewed articles or long-form research. It can also help you identify specialized resources like data and software.
 
 ::: instructor
-Publication Type refers to the type of document.  SciX has a separate field and facet to search and filter by journal or publisher.  By now, learners should be comfortable using the main search page 'all search terms' dropdown menu to locate the 'Publication Full Name' search or use the Publications facet. 
+Publication Type refers to the type of document. SciX has a separate field and facet to search and filter by journal or publisher. By now, learners should be comfortable using the main search page 'all search terms' dropdown menu to locate the 'Publication Full Name' search or use the Publications facet. 
 :::
 
 ### Searching Text 
 
-You can target your search to specific parts of an article by using the corresponding field
-search. These are especially useful when you're looking for a term in just
-one section (e.g., the title) or want to exclude it from another (e.g., the body).
+You can target your search to specific parts of an article by using the corresponding field search. These are especially useful when you're looking for a term in just one section (e.g., the title) or want to exclude it from another (e.g., the body).
 
 Common text field searches in SciX include:
 
@@ -369,7 +321,7 @@ Common text field searches in SciX include:
 - `ack:` — acknowledgments only
 - `full:` — full text of the article
 
-in addition, to our old friends 
+in addition to our old friends 
 
 - `keyword:` — author- or publisher-provided keywords
 - `abs:` — title, abstract, and keywords
@@ -382,13 +334,12 @@ For example:
 abs:(crater AND mars) NOT body:jezero
 ```
 
-This finds articles that mention crater and Mars in the title, abstract, or keywords,
-but **exclude** any that mention Jezero in the body text.
+This finds articles that mention crater and Mars in the title, abstract, or keywords, but **exclude** any that mention Jezero in the body text.
 
 ![SciX results view for complex search of article text](fig/scix-field-specific-search.png){alt="SciX results from complex search shown in bar as 'abs:(crater AND mars) NOT body:jezero'"}
 
 ::: challenge
-Return to the SciX main search page. Construct a query that either includes or excludes text from the acknowledgements section.
+Return to the SciX main search page. Construct a query that either includes or excludes text from the acknowledgments section.
 Share your results with a neighbor.
 :::
 
@@ -400,8 +351,7 @@ If time permits, encourage the learners to share their searches with the class. 
 
 From any list of results, click an article title of interest to open the abstract view. When you first open the abstract view, you will see in the center
 
-- Detailed bibliographic information (title, authors, publication
-  details, DOIs)
+- Detailed bibliographic information (title, authors, publication details, DOIs)
 - Abstract
 - Author- or publisher-provided keywords
 
@@ -415,7 +365,7 @@ SciX matches preprints to the publisher's version of record and provides a singl
 
 ![SciX main abstract view annotated to show bibliographic information plus links to open access versions and datasets](fig/scix-abstract-view-1.PNG){alt='SciX main abstract page showing detailed metadata and icons for open access versions and datasets; image is annotated to highlight features'}
 
-Clicking the links on the left side for citations, references, or similar, produces the list of corresponding papers with all of their details.  Those lists can be converted to search results for further investigation.
+Clicking the links on the left side for citations, references, or similar, produces the list of corresponding papers with all of their details. Those lists can be converted to search results for further investigation.
 
 ![Citation list available in SciX abstract view](fig/scix-abstract-view-2.PNG){alt='List of papers cited by main paper shown from within SciX abstract view with basic metadata plus annotations highlighting features of this view'}
 
@@ -425,16 +375,16 @@ Clicking the links on the left side for metrics produces a graphical display of 
 
 Clicking the links on the left side for export citation provides access to a variety of citation formats that can be downloaded to a file or copied to the clipboard.
 
-![Export citation tools available within SciX abstract view](fig/scix-abstract-view-4.PNG){alt='Export citation tools showcasing BibteX option available from within SciX abstract view plus annotations highlighting features of this view'}
+![Export citation tools available within SciX abstract view](fig/scix-abstract-view-4.PNG){alt='Export citation tools showcasing BibTeX option available from within SciX abstract view plus annotations highlighting features of this view'}
 
 ::: instructor
 Most publisher formats for SciX supported disciplines are supported. If we are missing one, custom formats are possible. However, SciX encourages learners to recommend missing formats for inclusion.
 Zotero uses RIS format, which is available.
-Mendeley uses RIS, BibteX, and EndNote, which are all available.
+Mendeley uses RIS, BibTeX, and EndNote, which are all available.
 :::
 
 ::: challenge
-### Challenge
+## Challenge
 
 Select an article and review its abstract view thoroughly. 
 - What extra details can you find that weren't in the results view?
@@ -448,8 +398,7 @@ If time permits, encourage learners to share their experiences with the class.
 
 ## Reflection and Discussion
 
-Take a few minutes to perform a search on a topic relevant to your work
-using both author and keyword searches. Then, discuss with a partner:
+Take a few minutes to perform a search on a topic relevant to your work using both author and keyword searches. Then, discuss with a partner:
 
 - What did you search for?
 - Did you find relevant materials?
@@ -458,15 +407,11 @@ using both author and keyword searches. Then, discuss with a partner:
 ::: challenge
 ## Bonus Challenge
 
-Try exporting a citation from one of your articles. Explore the export
-options and compare different formats.
+Try exporting a citation from one of your articles. Explore the export options and compare different formats.
 :::
 
 ::: keypoints
-- SciX enables effective author and keyword searches with powerful
-  synonym expansion.
-- Facet filters help narrow down results by author variants,
-  institutional affiliation, and publication date.
-- The abstract view provides in-depth details and links to additional
-  resources.
+- SciX enables effective author and keyword searches with powerful synonym expansion.
+- Facet filters help narrow down results by author variants, institutional affiliation, and publication date.
+- The abstract view provides in-depth details and links to additional resources.
 :::

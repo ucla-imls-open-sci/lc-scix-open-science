@@ -11,7 +11,7 @@ exercises: 20
 :::
 
 ::: objectives
-- Expand a search using SciX second-order operators, including `Useful()` and `Review()`
+- Expand a search using SciX second-order operators, including `Useful()` and `Reviews()`
 - Explore connections among authors and papers using SciX visualizations
 :::
 
@@ -21,7 +21,7 @@ In this lesson, we will be focusing on different ways to explore your search res
 
 ### Setting Up Your Environment
 
-When you go to [SciX](https://scixplorer.org/), ensure you can see the homepage.  
+When you go to [SciX](https://scixplorer.org/), ensure you can see the homepage.
 
 ![Science Explorer Main Search Page](fig/scix-homepage.png){alt="Screenshot of the SciX homepage"}
 
@@ -33,11 +33,11 @@ Ask learners: "Can everyone see the SciX homepage on their browser?"
 
 First we will focus on second-order operators, which are search operations that are performed on the results of a previous query. The second order operators available in SciX are: **similar**, **useful**, **reviews**, and **trending**. Each of these second-order operators benefits from taking different things into consideration for the initial query, so we will discuss individually the three we highlight in this lesson.
 
-::: instructor  
+::: instructor
 You might mention the kinds of topical searches you commonly perform in SciX (e.g., finding articles for your domain or checking citation metrics). The guided examples will be more meaningful if you modify them for your discipline or facility.
 :::
 
-To get started, let's run an example search query on SciX.  You can search for any topic you are interested in, but for my demonstration, I am going to look for papers about volcanoes.
+To get started, let's run an example search query on SciX. You can search for any topic you are interested in, but for my demonstration, I am going to look for papers about volcanoes.
 
 
 Start by entering your terms into the main search bar and executing the search.
@@ -52,13 +52,13 @@ Next, click on the Explore button menu to see all of the options, which are cate
 
 First, let's look at the `Similar()` operator.
 
-Results from this second-operator query exclude the results from the original query, so it is best to focus on creating a narrow set of results, or even a single relevant paper, to build off in the `Similar()` search, so look through the results and select the one to three papers most relevant for your topic.  I'll select just the first article using the checkbox and click on ```Similar``` under the Explore menu.
+Results from this second-operator query exclude the results from the original query, so it is best to focus on creating a narrow set of results, or even a single relevant paper, to build off in the `Similar()` search, so look through the results and select the one to three papers most relevant for your topic. I'll select just the first article using the checkbox and click on `Similar` under the Explore menu.
 
-It may take a little while for the results from the second-order operator to load.  In the background, Science Explorer is combining the abstracts from articles in the original selection and then ranking all abstracts in SciX based on their textual similarity to the combined abstracts.  The articles returned are the most similar to those from the original selection as determined by text analysis.
+It may take a little while for the results from the second-order operator to load. In the background, Science Explorer is combining the abstracts from articles in the original selection and then ranking all abstracts in SciX based on their textual similarity to the combined abstracts. The articles returned are the most similar to those from the original selection as determined by text analysis.
 
 ![SciX Results view of the output of `Similar()` acting on the most relevant paper returned by an unfielded search for 'volcanoes'](fig/scix-similar.png){alt="Screenshot of results that are similar to the top result from the original 'volcanoes' search results."}
 
-In addition to lists of papers, `Similar()` accepts any text as input.  The format is
+In addition to lists of papers, `Similar()` accepts any text as input. The format is
 
 ```
 similar("any text for comparison goes here",input)
@@ -84,15 +84,15 @@ to get over 68,000 results.
 
 #### Useful
 
-The second-order operator `Useful()` examines the references included in papers identified by the original query. It combines them into a list sorted by how often a given paper is referenced in the original set.  The documents returned are the ones cited the most often, by the authors of the chosen papers on the topic, which can include foundational papers, datasets, and software. This query can also expose papers in different, but related fields, such as papers that describe software that other researchers found useful when exploring the topic.
+The second-order operator `Useful()` examines the references included in papers identified by the original query. It combines them into a list sorted by how often a given paper is referenced in the original set. The documents returned are the ones cited the most often, by the authors of the chosen papers on the topic, which can include foundational papers, datasets, and software. This query can also expose papers in different, but related fields, such as papers that describe software that other researchers found useful when exploring the topic.
 
 :::: challenge
 ## Discover Useful Papers
-Submit a query to determine what papers are useful to volcanologists.  
+Submit a query to determine what papers are useful to volcanologists.
 
 ::: solution
 ![Screenshot of SciX results about volcanoes that are useful.](fig/scix-useful.png){alt="Screenshot of SciX results about volcanoes that are useful."}
-Using an unfielded search for volcanoes as input, `Useful()` returned over 4,000 results when this example was run as you can see in the upper left; because SciX adds new material on daily and weekly cycles you may see a different count.
+Using an unfielded search for volcanoes as input, `Useful()` returned over 4,000 results when this example was run, as you can see in the upper left; because SciX adds new material on daily and weekly cycles you may see a different count.
 
 The top three papers shown contain significant data sets and fundamental software functions.
 :::
@@ -107,7 +107,7 @@ The last second-order operator we will cover today is `Reviews()`. This operator
 Submit a query to take a higher-level look at volcanoes, perhaps place it within physical geology more broadly using `Reviews()`. 
 
 ::: solution 
-![SciX Results view of the output of 'Results'](fig/scix-reviews.png){alt="Screenshot of SciX results that are reviews of literature about volcanoes."}
+![SciX Results view of the output of `Reviews()`](fig/scix-reviews.png){alt="Screenshot of SciX results that are reviews of literature about volcanoes."}
 Using an unfielded search for volcanoes as input, `Reviews()` returned over 127,000 results when this example was run as you can see in the upper left; because SciX adds new material on daily and weekly cycles you may see a different count.
 
 The top three papers shown appear to be about tectonic systems.
@@ -131,7 +131,7 @@ Alternatively, if I click on the full name of the journal, I will get more techn
 ::: discussion
 ### Reflection and Discussion on Second-Order Operators
 
-Spend 2-3 minutes working with second-order operators looking for research trends in a topic of your choice.  Then, discuss what you did and what you learned with a friend. Was something difficult for you? Did something surprise you?
+Spend 2-3 minutes working with second-order operators looking for research trends in a topic of your choice. Then, discuss what you did and what you learned with a friend. Was something difficult for you? Did something surprise you?
 
 Which operator are you most likely to use: `Similar()`, `Useful()`, or `Reviews()`?
 :::
@@ -142,7 +142,7 @@ If time permits, ask one or two learners to describe their experience. If they r
 
 #### Summary of Second-Order Operators
 
-To review, SciX second-order operators can provide deeper insights and more information about the topic you are researching.  Each of them accept sets of papers, or the results of a previous query, as their input. The graphic below to can help describe the similarities and differences among these operations.
+To review, SciX second-order operators can provide deeper insights and more information about the topic you are researching. Each of them accept sets of papers, or the results of a previous query, as their input. The graphic below can help describe the similarities and differences among these operations.
 
 ![SciX Second-Order Operations](fig/scix-second-operators.png){alt="Graphic summarizing the four second order operators of SciX."}
 
@@ -153,30 +153,30 @@ For more information, we recommend
 
 ### Connections & Collaborations
 
-Now, let's turn to examining SciX visualizations, and we are going to focus on the paper network and the author network because these two visualizations offer new ways to explore search results.  More traditional graphs of [metrics](https://scixplorer.org/scixhelp/actions-scix/analyze) and [results](https://scixplorer.org/scixhelp/actions-scix/visualize) are also available as is a [concept cloud](https://scixplorer.org/scixhelp/actions-scix/visualize). 
+Now, let's turn to examining SciX visualizations, and we are going to focus on the paper network and the author network because these two visualizations offer new ways to explore search results. More traditional graphs of [metrics](https://scixplorer.org/scixhelp/actions-scix/analyze) and [results](https://scixplorer.org/scixhelp/actions-scix/visualize) are also available as is a [concept cloud](https://scixplorer.org/scixhelp/actions-scix/visualize). 
 
 ![SciX Results list with Explore Menu open](fig/scix-explore-menu2.png){alt="Screenshot of SciX search results on volcanoes with the Explore menu extended and paper network in the visualization section highlighted."}
 
 #### Paper Network
 
-This visualization creates groups of papers by looking at the references from each paper and grouping them based on how many are shared.  Because the papers in these groups cite a similar set of other papers, we can expect the papers in the group to be about the same topics. By default, this visualization only uses data from the first 400 papers in your search results, but you can adjust that; the maximum papers analyzed are 1000 papers.  
+This visualization creates groups of papers by looking at the references from each paper and grouping them based on how many are shared. Because the papers in these groups cite a similar set of other papers, we can expect the papers in the group to be about the same topics. By default, this visualization only uses data from the first 400 papers in your search results, but you can adjust that; the maximum papers analyzed are 1000 papers.
 
 ![SciX Paper Network for 400 papers about volcanoes](fig/scix-paper-network.png){alt="Screenshot of SciX paper network visualization, showing the main subtopic groups for papers in the original volcanoes set."}
 
-Each group is named by extracting shared, unique words from the titles of the set of articles in the group.  These title words can help provide a general overview of the main topics of your original search results.  Clicking on any specific group will display a list of the most cited papers from that group.
+Each group is named by extracting shared, unique words from the titles of the set of articles in the group. These title words can help provide a general overview of the main topics of your original search results. Clicking on any specific group will display a list of the most cited papers from that group.
 
-You can download a text file in comma-separated-value format (CSV) of the data that underlies the graphic.  The cvs file will provide identifiers for each paper and indicate which other papers are in its same group, along with some other metadata such as citation counts and downloads.
+You can download a text file in comma-separated-value format (CSV) of the data that underlies the graphic. The CSV file will provide identifiers for each paper and indicate which other papers are in its same group, along with some other metadata such as citation counts and downloads.
 
 Reviewing a paper network can help you drill down into a topic or help you expand your literature search by identifying papers you may have otherwise missed.
 
 #### Author Network
 
-This visualization is created by looking at authors that frequently appear together and creating groups based on the frequencies of those collaborations.  Each of these groups contain authors that often work with each other, though not every author in each group will have worked with every other author in their group.  You may find it helpful when looking for new opportunities, when trying to eliminate possible conflicts of interest, or when surveying the research landscape. 
+This visualization is created by looking at authors that frequently appear together and creating groups based on the frequencies of those collaborations. Each of these groups contain authors that often work with each other, though not every author in each group will have worked with every other author in their group. You may find it helpful when looking for new opportunities, when trying to eliminate possible conflicts of interest, or when surveying the research landscape. 
 
 :::: challenge
 ## Visualize an Author Network
 
-Create a visualization of the Author Network using your search results. Like the Paper Network, this visualization will default to the first 400 papers but you can chance the number used.
+Create a visualization of the Author Network using your search results. Like the Paper Network, this visualization will default to the first 400 papers but you can change the number used.
 
 ::: solution
 ![SciX Author Network for 400 papers about volcanoes](fig/scix-author-network.png){alt="Screenshot of SciX author network visualization, showing the main groups of authors for papers in the original volcanoes results set."}
@@ -185,7 +185,7 @@ Using the top 400 documents returned by unfielded search for volcanoes for input
 :::
 ::::
 
-Clicking into the section group, the inside edge of the donut, will bring up the list of papers in that group.  Clicking on a specific name, or their specific section of the donut, will instead show all papers by that particular author.
+Clicking into the section group, the inside edge of the donut, will bring up the list of papers in that group. Clicking on a specific name, or their specific section of the donut, will instead show all papers by that particular author.
 
 Clicking on the "View link overlay?" will show connections among individuals in different groups.
 
@@ -194,19 +194,19 @@ Like the Paper Network, the Author Network also has an option to download the un
 ::: discussion
 ### Reflection and Discussion on Visualizations
 
-Spend 2-3 minutes individually looking at these visualizations for a topic of your choice.  Then, discuss what you did and what you learned with a friend. Was anything difficult? Did anything surprise you?
+Spend 2-3 minutes individually looking at these visualizations for a topic of your choice. Then, discuss what you did and what you learned with a friend. Was anything difficult? Did anything surprise you?
 How could you use either the paper network or author network in your own work?
 :::
 
 ::: instructor
-If time permits, ask one or two learners to describe their experience.  If they ran into problems with the visualizations, be prepared to provide basic support and suggestions.
+If time permits, ask one or two learners to describe their experience. If they ran into problems with the visualizations, be prepared to provide basic support and suggestions.
 :::
 
 ### Summary of Visualizations
-SciX visualizations provide additional ways of analyzing your search results.  Each takes the results of a query and highlights connections among the documents:  topics through references for the Paper Network, collaborations through authors for the Author Network, influence through citations for metrics and results, and relative frequency of concepts through abstract text for the Concept Cloud. These tools are helpful in building a substantive literature review and in positioning your work to your best advantage.  
+SciX visualizations provide additional ways of analyzing your search results. Each takes the results of a query and highlights connections among the documents: topics through references for the Paper Network, collaborations through authors for the Author Network, influence through citations for metrics and results, and relative frequency of concepts through abstract text for the Concept Cloud. These tools are helpful in building a substantive literature review and in positioning your work to your best advantage.
 
 For more details about these two graphs and information about the other SciX graphics, we recommend 
-- [SciX Help page on Visualizations](https://scixplorer.org/help/actions/visualize)
+- [SciX Help page on Visualizations](https://scixplorer.org/scixhelp/actions-scix/visualize)
 - [Exploring SciX Visualizations](https://ads.harvard.edu/handouts/SciX_visualizations_handout.pdf) handout 
 - [2020 paper by Michael Kurtz et al on second-order operations](https://doi.org/10.3847/25c2cfeb.8d12c399) (Paper Network only)
 
@@ -216,10 +216,10 @@ Using search results from a query of interest to you, try one of the Explore men
 ::::
 
 ::: keypoints
-- SciX offers powerful tools that operate on sets of documents to assist you in analyzing the literature.   
-- `Similar()` identifies items that are textually similar:  find more like ....  
-- `Useful()` analyzes reference lists:  what will help me with ....  
-- `Reviews()` analyzes citation lists: what has this contributed to ...   
-- The Paper Network groups papers topically through their references:  how could I narrow my topic? what am I missing?  
-- The Author Network identifies groups through co-authorship:  what collaborations are working in this field? what is that lab producing?  
+- SciX offers powerful tools that operate on sets of documents to assist you in analyzing the literature. 
+- `Similar()` identifies items that are textually similar: find more like ....
+- `Useful()` analyzes reference lists: what will help me with ....
+- `Reviews()` analyzes citation lists: what has this contributed to ...
+- The Paper Network groups papers topically through their references: how could I narrow my topic? what am I missing?
+- The Author Network identifies groups through co-authorship: what collaborations are working in this field? what is that lab producing?
 :::
