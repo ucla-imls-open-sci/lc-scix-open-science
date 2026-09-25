@@ -110,7 +110,7 @@ Submit a query to take a higher-level look at volcanoes, perhaps place it within
 ![SciX Results view of the output of 'Results'](fig/scix-reviews.png){alt="Screenshot of SciX results that are reviews of literature about volcanoes."}
 Using an unfielded search for volcanoes as input, `Reviews()` returned over 127,000 results when this example was run as you can see in the upper left; because SciX adds new material on daily and weekly cycles you may see a different count.
 
-The top three papers shown appeard to be about tectonic systems.
+The top three papers shown appear to be about tectonic systems.
 :::
 ::::
 
