@@ -65,7 +65,7 @@ However, SciX also lets you claim papers for your ORCiD, which is especially use
 In order to claim a paper for your ORCiD in SciX, you need to connect to your ORCiD account using the ORCiD menu option at the top of the screen. It will bring up the ORCiD logon screen. Then, you can sign in with your usual ORCiD credentials. 
 
 ::: instructor 
-For your information:  Learners transitioning from ADS or who have had some previous SciX experience may have ADS or SciX accounts; the two are interchangeable.  If so, they may have enterend ORCiD information into their ADS or SciX account. They may also have been encouraged to log into both their ADS or SciX account and their ORCiD account. While that procedure is not wrong, it is also not necessary. In the interest of simplicity, the module only demonstrates loging into the ORCiD account, which is sufficient for all ORCiD-related tasks. If a learner asks about ORCiD and SciX accounts, you can find out more about using them together on the SciX "Claiming papers in ORCID" Help page [https://scixplorer.org/scixhelp/orcid-scix/claiming-papers](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers). 
+For your information:  Learners transitioning from ADS or who have had some previous SciX experience may have ADS or SciX accounts; the two are interchangeable.  If so, they may have entered ORCiD information into their ADS or SciX account. They may also have been encouraged to log into both their ADS or SciX account and their ORCiD account. While that procedure is not wrong, it is also not necessary. In the interest of simplicity, the module only demonstrates logging into the ORCiD account, which is sufficient for all ORCiD-related tasks. If a learner asks about ORCiD and SciX accounts, you can find out more about using them together on the SciX "Claiming papers in ORCID" Help page [https://scixplorer.org/scixhelp/orcid-scix/claiming-papers](https://scixplorer.org/scixhelp/orcid-scix/claiming-papers). 
 :::
 
 ![](fig/scix-orcid-signon.png){alt="Screenshot of the ORCiD sign in option in SciX."}
@@ -102,7 +102,7 @@ Ask by show of hands whether learners will be able to assist others at their ins
 
 ### Summary
 
-ORCiDs provide a prowerful tool for uniquely identifying individual authors, many of whom may have similar names.  SciX provides tools to search for papers using ORCiDs, where those are known, as well as assistance to authors in ensuring all their papers are properly ORCiD tagged.
+ORCiDs provide a powerful tool for uniquely identifying individual authors, many of whom may have similar names.  SciX provides tools to search for papers using ORCiDs, where those are known, as well as assistance to authors in ensuring all their papers are properly ORCiD tagged.
 
 For more information about using ORCiD in SciX, we recommend
 - [Searching for papers in ORCID](https://scixplorer.org/scixhelp/orcid-scix/orcid-search) SciX help page
