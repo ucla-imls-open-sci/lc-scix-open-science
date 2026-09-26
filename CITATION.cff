@@ -11,8 +11,8 @@ abstract: 'The module begins by describing how the Science Explorer (SciX) fits 
   order operators to explore research trends and reviews, along with methods of finding
   similar papers and papers others studying the same topic have found useful. Lastly,
   you will learn how authors can claim papers within SciX with their ORCiD.'
-version: 0.2.0
-date-released: '2026-09-18'
+version: 0.2.1
+date-released: '2026-09-25'
 license: CC-BY-4.0
 repository-code: https://github.com/ucla-imls-open-sci/lc-scix-open-science
 url: http://ucla-imls-open-sci.info/lc-scix-open-science/
